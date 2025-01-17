@@ -1,0 +1,2 @@
+Invoking command in '/home/developer/SPWAR_ws/build/spot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/developer/SPWAR_ws/src/spot_description -DCMAKE_INSTALL_PREFIX=/home/developer/SPWAR_ws/install/spot_description
+Invoked command in '/home/developer/SPWAR_ws/build/spot_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/developer/SPWAR_ws/src/spot_description -DCMAKE_INSTALL_PREFIX=/home/developer/SPWAR_ws/install/spot_description
