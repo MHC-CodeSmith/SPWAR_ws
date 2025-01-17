@@ -139,13 +139,3 @@ chmod +x ./ros_run.sh
 
 4. **Editar e desenvolver**:
    - Edite os arquivos no workspace `/home/developer/SPWAR_ws` e use `colcon build` para recompilar.
-
-## Próximos passos
-
-- Adicionar a integração com `ros_control`.
-- Implementar a cinemática direta e inversa.
-- Testar controladores no ambiente simulado do Gazebo.
-
----
-
-Sinta-se à vontade para contribuir ou abrir issues caso tenha dúvidas!
