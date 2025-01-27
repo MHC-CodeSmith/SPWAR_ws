@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000584] (-) JobUnselected: {'identifier': 'spot_description'}
+[0.000907] (-) JobUnselected: {'identifier': 'spot_moveit_config'}
+[0.001307] (-) EventReactorShutdown: {}

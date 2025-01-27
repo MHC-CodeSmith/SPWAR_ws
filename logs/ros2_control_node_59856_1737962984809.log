@@ -1,0 +1,29 @@
+[WARN] [1737962984.825530856] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+[INFO] [1737962984.825827907] [resource_manager]: Loading hardware 'FakeSystem' 
+[INFO] [1737962984.826258539] [resource_manager]: Initialize hardware 'FakeSystem' 
+[INFO] [1737962984.826326998] [resource_manager]: Successful initialization of hardware 'FakeSystem'
+[INFO] [1737962984.826395959] [resource_manager]: 'configure' hardware 'FakeSystem' 
+[INFO] [1737962984.826406549] [resource_manager]: Successful 'configure' of hardware 'FakeSystem'
+[INFO] [1737962984.826413051] [resource_manager]: 'activate' hardware 'FakeSystem' 
+[INFO] [1737962984.826418020] [resource_manager]: Successful 'activate' of hardware 'FakeSystem'
+[INFO] [1737962984.831132546] [controller_manager]: update rate is 100 Hz
+[INFO] [1737962984.831176078] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[WARN] [1737962984.831443883] [controller_manager]: No real-time kernel detected on this system. See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[INFO] [1737962985.046743730] [controller_manager]: Loading controller 'spot_arm_controller'
+[ERROR] [1737962985.055773528] [controller_manager]: Could not initialize the controller named 'spot_arm_controller'
+[INFO] [1737962985.058789378] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[INFO] [1737962985.072035531] [controller_manager]: Loading controller 'spot_gripper_controller'
+[ERROR] [1737962985.072109721] [controller_manager]: Loader for controller 'spot_gripper_controller' (type 'position_controllers/GripperActionController') not found.
+[INFO] [1737962985.072119380] [controller_manager]: Available classes:
+[INFO] [1737962985.072127916] [controller_manager]:   controller_manager/test_controller
+[INFO] [1737962985.072132785] [controller_manager]:   controller_manager/test_controller_failed_init
+[INFO] [1737962985.072137584] [controller_manager]:   controller_manager/test_controller_with_interfaces
+[INFO] [1737962985.072142433] [controller_manager]:   forward_command_controller/ForwardCommandController
+[INFO] [1737962985.072147503] [controller_manager]:   forward_command_controller/MultiInterfaceForwardCommandController
+[INFO] [1737962985.072152222] [controller_manager]:   joint_state_broadcaster/JointStateBroadcaster
+[INFO] [1737962985.072156920] [controller_manager]:   joint_trajectory_controller/JointTrajectoryController
+[INFO] [1737962985.072161569] [controller_manager]:   position_controllers/JointGroupPositionController
+[INFO] [1737962985.072166368] [controller_manager]:   controller_manager/test_chainable_controller
+[INFO] [1737962985.095367535] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[INFO] [1737962985.095620562] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[INFO] [1737962997.939426289] [rclcpp]: signal_handler(signum=2)

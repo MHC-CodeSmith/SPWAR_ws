@@ -1,0 +1,6 @@
+[INFO] [1737350651.939756310] [spawn_entity]: Spawn Entity started
+[INFO] [1737350651.940118931] [spawn_entity]: Loading entity XML from file install/spot_description/share/spot_description/urdf/spot_with_arm.urdf
+[INFO] [1737350651.940986770] [spawn_entity]: Waiting for service /spawn_entity, timeout = 30
+[INFO] [1737350651.941284809] [spawn_entity]: Waiting for service /spawn_entity
+[INFO] [1737350651.948651688] [spawn_entity]: Calling service /spawn_entity
+[INFO] [1737350652.218157468] [spawn_entity]: Spawn status: SpawnEntity: Successfully spawned entity [spot]

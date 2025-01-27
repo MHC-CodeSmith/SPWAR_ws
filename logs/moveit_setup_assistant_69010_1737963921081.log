@@ -1,0 +1,110 @@
+[INFO] [1737963930.854399972] [moveit_setup_assistant.urdf]: Loaded spot robot model.
+[INFO] [1737963930.854515240] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1737963930.854523305] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1737963930.892007672] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963930.892048429] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963930.892058297] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963930.892067214] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[INFO] [1737963932.514797256] [moveit_setup_assistant.urdf]: Loaded spot robot model.
+[INFO] [1737963932.514829958] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1737963932.514835578] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1737963932.552334934] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963932.552367495] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963932.552377293] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963932.552385539] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[INFO] [1737963932.884108028] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.00124688 seconds
+[INFO] [1737963932.884129318] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1737963932.884134428] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1737963932.919808500] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963932.919838817] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963932.919847183] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963932.919854988] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[INFO] [1737963932.974920698] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.00111799 seconds
+[INFO] [1737963932.974940235] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1737963932.974944693] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1737963933.011050720] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963933.011133627] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963933.011154326] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963933.011168853] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[INFO] [1737963933.034943229] [moveit_setup_assistant.Start Screen]: Loading Setup Assistant Complete
+[INFO] [1737963937.341926573] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1737963937.341960387] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1737963937.379147272] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963937.379191405] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963937.379203338] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963937.379214108] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[INFO] [1737963952.980585273] [collision_updater]: -------------------------------------------------------------------------------
+[INFO] [1737963952.980659583] [collision_updater]: Statistics:
+[INFO] [1737963952.980668800] [collision_updater]: Total Links : 20
+[INFO] [1737963952.980685402] [collision_updater]: Total possible collisions : 190.000000
+[INFO] [1737963952.980688958] [collision_updater]: Always in collision : 0
+[INFO] [1737963952.980692315] [collision_updater]: Never in collision : 21
+[INFO] [1737963952.980695381] [collision_updater]: Default in collision : 0
+[INFO] [1737963952.980699088] [collision_updater]: Adjacent links disabled : 15
+[INFO] [1737963952.980701953] [collision_updater]: Sometimes in collision : 154
+[INFO] [1737963952.980704618] [collision_updater]: TOTAL DISABLED : 36
+[INFO] [1737963952.980794337] [moveit_setup_assistant.Self-Collisions]: Thread complete 120
+[INFO] [1737963956.582368932] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1737963956.582395713] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1737963956.617675631] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963956.617706139] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963956.617715597] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963956.617725034] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[INFO] [1737964005.622943066] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1737964005.623009401] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1737964005.659454647] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964005.659486888] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964005.659496506] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964005.659505583] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964005.659558263] [moveit_robot_model.robot_model]: Group 'spot_arm' must have at least one valid joint
+[WARN] [1737964005.659563352] [moveit_robot_model.robot_model]: Failed to add group 'spot_arm'
+[INFO] [1737964030.642976004] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1737964030.643006842] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1737964030.676161161] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964030.676196638] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964030.676206396] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964030.676215804] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[INFO] [1737964098.232572419] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1737964098.232598477] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1737964098.269528111] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964098.269573965] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964098.269585066] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964098.269593622] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964098.269654694] [moveit_robot_model.robot_model]: Group 'spot_gripper' must have at least one valid joint
+[WARN] [1737964098.269659362] [moveit_robot_model.robot_model]: Failed to add group 'spot_gripper'
+[INFO] [1737964117.803901252] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1737964117.803937959] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1737964117.840546557] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964117.840646601] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964117.840658944] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964117.840671337] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[INFO] [1737964146.107120529] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1737964146.107168057] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1737964146.147041683] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964146.147115288] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964146.147127641] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964146.147141256] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[INFO] [1737964156.926600714] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1737964156.926654674] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1737964156.964294789] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964156.964338029] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964156.964357335] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964156.964368144] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[INFO] [1737964165.862614804] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1737964165.862679633] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1737964165.900262857] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964165.900292943] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964165.900303212] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964165.900312028] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[INFO] [1737964268.747965560] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1737964268.747993111] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1737964268.786455788] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964268.786504027] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964268.786519185] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964268.786534994] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[INFO] [1737964268.786944422] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1737964268.786955843] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1737964268.820743615] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964268.820790682] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964268.820804498] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737964268.820818935] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.

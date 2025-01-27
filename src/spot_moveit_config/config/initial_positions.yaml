@@ -1,0 +1,10 @@
+# Default initial positions for spot's ros2_control fake system
+
+initial_positions:
+  arm0.el0: 0
+  arm0.el1: 0
+  arm0.f1x: 0
+  arm0.sh0: 0
+  arm0.sh1: 0
+  arm0.wr0: 0
+  arm0.wr1: 0

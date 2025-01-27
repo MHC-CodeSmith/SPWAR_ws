@@ -1,0 +1,2 @@
+[INFO] [1737960753.000505438] [spawner_joint_state_broadcaster]: [94mLoaded [1mjoint_state_broadcaster[0m
+[WARN] [1737960763.003244234] [spawner_joint_state_broadcaster]: Failed getting a result from calling /controller_manager/configure_controller in 10.0. (Attempt 1 of 3.)

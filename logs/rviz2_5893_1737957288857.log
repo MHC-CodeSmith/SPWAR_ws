@@ -1,0 +1,45 @@
+[INFO] [1737957289.312844394] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1737957289.312962736] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1737957289.363204658] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1737957307.202997056] [rviz2]: Could not load resource [/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_el0.stl]: Unable to open file "/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_el0.stl".
+[ERROR] [1737957307.207169312] [rviz2]: Could not load resource [/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_el0.stl]: Unable to open file "/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_el0.stl".
+[ERROR] [1737957307.208287362] [rviz2]: Could not load resource [/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_el1.stl]: Unable to open file "/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_el1.stl".
+[ERROR] [1737957307.208355850] [rviz2]: Could not load resource [/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_el1.stl]: Unable to open file "/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_el1.stl".
+[ERROR] [1737957307.208495202] [rviz2]: Could not load resource [/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_fngr.stl]: Unable to open file "/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_fngr.stl".
+[ERROR] [1737957307.208584139] [rviz2]: Could not load resource [/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_fngr.stl]: Unable to open file "/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_fngr.stl".
+[ERROR] [1737957307.208695929] [rviz2]: Could not load resource [/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_sh0.stl]: Unable to open file "/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_sh0.stl".
+[ERROR] [1737957307.208772884] [rviz2]: Could not load resource [/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_sh0.stl]: Unable to open file "/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_sh0.stl".
+[ERROR] [1737957307.208879905] [rviz2]: Could not load resource [/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_sh1.stl]: Unable to open file "/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_sh1.stl".
+[ERROR] [1737957307.208957450] [rviz2]: Could not load resource [/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_hr0.stl]: Unable to open file "/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_hr0.stl".
+[ERROR] [1737957307.209280347] [rviz2]: Could not load resource [/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_sh1.stl]: Unable to open file "/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_sh1.stl".
+[ERROR] [1737957307.209401164] [rviz2]: Could not load resource [/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_wr0.stl]: Unable to open file "/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_wr0.stl".
+[ERROR] [1737957307.209469532] [rviz2]: Could not load resource [/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_wr0.stl]: Unable to open file "/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_wr0.stl".
+[ERROR] [1737957307.209590179] [rviz2]: Could not load resource [/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_wr1.stl]: Unable to open file "/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_wr1.stl".
+[ERROR] [1737957307.209646905] [rviz2]: Could not load resource [/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_wr1.stl]: Unable to open file "/home/developer/SPWAR_ws/src/spot_description/meshes/arm0.link_wr1.stl".
+[ERROR] [1737957307.209755569] [rviz2]: Error retrieving file [/home/developer/SPWAR_ws/src/spot_description/meshes/base_link_0_geom_visual_mesh.stl]: 
+[ERROR] [1737957307.209801636] [rviz2]: Error retrieving file [/home/developer/SPWAR_ws/src/spot_description/meshes/base_link_0_geom_visual_mesh.stl]: 
+[ERROR] [1737957307.209939094] [rviz2]: Error retrieving file [/home/developer/SPWAR_ws/src/spot_description/meshes/fl_hip_0_geom_visual_mesh.stl]: 
+[ERROR] [1737957307.210022851] [rviz2]: Error retrieving file [/home/developer/SPWAR_ws/src/spot_description/meshes/fl_hip_0_geom_visual_mesh.stl]: 
+[ERROR] [1737957307.210127688] [rviz2]: Error retrieving file [/home/developer/SPWAR_ws/src/spot_description/meshes/lleg_0_geom_visual_mesh.stl]: 
+[ERROR] [1737957307.210167753] [rviz2]: Error retrieving file [/home/developer/SPWAR_ws/src/spot_description/meshes/lleg_0_geom_visual_mesh.stl]: 
+[ERROR] [1737957307.210282960] [rviz2]: Error retrieving file [/home/developer/SPWAR_ws/src/spot_description/meshes/l_uleg_0_geom_visual_mesh.stl]: 
+[ERROR] [1737957307.210322494] [rviz2]: Error retrieving file [/home/developer/SPWAR_ws/src/spot_description/meshes/l_uleg_0_geom_visual_mesh.stl]: 
+[ERROR] [1737957307.210433442] [rviz2]: Error retrieving file [/home/developer/SPWAR_ws/src/spot_description/meshes/fr_hip_0_geom_visual_mesh.stl]: 
+[ERROR] [1737957307.210473648] [rviz2]: Error retrieving file [/home/developer/SPWAR_ws/src/spot_description/meshes/fr_hip_0_geom_visual_mesh.stl]: 
+[ERROR] [1737957307.210583905] [rviz2]: Error retrieving file [/home/developer/SPWAR_ws/src/spot_description/meshes/lleg_0_geom_visual_mesh.stl]: 
+[ERROR] [1737957307.210625192] [rviz2]: Error retrieving file [/home/developer/SPWAR_ws/src/spot_description/meshes/lleg_0_geom_visual_mesh.stl]: 
+[ERROR] [1737957307.210740449] [rviz2]: Error retrieving file [/home/developer/SPWAR_ws/src/spot_description/meshes/r_uleg_0_geom_visual_mesh.stl]: 
+[ERROR] [1737957307.210780444] [rviz2]: Error retrieving file [/home/developer/SPWAR_ws/src/spot_description/meshes/r_uleg_0_geom_visual_mesh.stl]: 
+[ERROR] [1737957307.210884399] [rviz2]: Error retrieving file [/home/developer/SPWAR_ws/src/spot_description/meshes/hl_hip_0_geom_visual_mesh.stl]: 
+[ERROR] [1737957307.210923533] [rviz2]: Error retrieving file [/home/developer/SPWAR_ws/src/spot_description/meshes/hl_hip_0_geom_visual_mesh.stl]: 
+[ERROR] [1737957307.211022849] [rviz2]: Error retrieving file [/home/developer/SPWAR_ws/src/spot_description/meshes/lleg_0_geom_visual_mesh.stl]: 
+[ERROR] [1737957307.211061051] [rviz2]: Error retrieving file [/home/developer/SPWAR_ws/src/spot_description/meshes/lleg_0_geom_visual_mesh.stl]: 
+[ERROR] [1737957307.211175075] [rviz2]: Error retrieving file [/home/developer/SPWAR_ws/src/spot_description/meshes/l_uleg_0_geom_visual_mesh.stl]: 
+[ERROR] [1737957307.211221021] [rviz2]: Error retrieving file [/home/developer/SPWAR_ws/src/spot_description/meshes/l_uleg_0_geom_visual_mesh.stl]: 
+[ERROR] [1737957307.211330497] [rviz2]: Error retrieving file [/home/developer/SPWAR_ws/src/spot_description/meshes/hr_hip_0_geom_visual_mesh.stl]: 
+[ERROR] [1737957307.211369651] [rviz2]: Error retrieving file [/home/developer/SPWAR_ws/src/spot_description/meshes/hr_hip_0_geom_visual_mesh.stl]: 
+[ERROR] [1737957307.211476411] [rviz2]: Error retrieving file [/home/developer/SPWAR_ws/src/spot_description/meshes/lleg_0_geom_visual_mesh.stl]: 
+[ERROR] [1737957307.211515444] [rviz2]: Error retrieving file [/home/developer/SPWAR_ws/src/spot_description/meshes/lleg_0_geom_visual_mesh.stl]: 
+[ERROR] [1737957307.211636422] [rviz2]: Error retrieving file [/home/developer/SPWAR_ws/src/spot_description/meshes/r_uleg_0_geom_visual_mesh.stl]: 
+[ERROR] [1737957307.211675575] [rviz2]: Error retrieving file [/home/developer/SPWAR_ws/src/spot_description/meshes/r_uleg_0_geom_visual_mesh.stl]: 
+[INFO] [1737957353.978430175] [rclcpp]: signal_handler(signum=2)

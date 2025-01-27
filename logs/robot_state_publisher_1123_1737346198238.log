@@ -1,0 +1,2 @@
+[INFO] [1737346198.306312563] [robot_state_publisher]: got segment base_link
+[INFO] [1737346235.089810393] [rclcpp]: signal_handler(signum=2)

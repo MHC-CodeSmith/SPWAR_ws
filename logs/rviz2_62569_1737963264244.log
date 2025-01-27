@@ -1,0 +1,36 @@
+[INFO] [1737963264.720022042] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1737963264.720116820] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1737963264.740185191] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1737963267.843166594] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [1737963267.856204632] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[INFO] [1737963267.947773403] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.055716 seconds
+[INFO] [1737963267.947834508] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1737963267.947848484] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1737963267.982567604] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963267.982639470] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963267.982654358] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963267.982670248] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963267.982905371] [moveit_robot_model.robot_model]: Could not identify parent group for end-effector 'spot_gripper'
+[WARN] [1737963267.988611897] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[INFO] [1737963268.084042424] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1737963268.084496119] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[INFO] [1737963268.151256067] [interactive_marker_display_104563388645968]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[WARN] [1737963268.156320100] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[WARN] [1737963268.156462699] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[INFO] [1737963268.160648055] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+[INFO] [1737963268.160677862] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'spot_arm' in namespace ''
+[INFO] [1737963268.166035379] [move_group_interface]: Ready to take commands for planning group spot_arm.
+[INFO] [1737963268.166860906] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+[INFO] [1737963268.168734361] [interactive_marker_display_104563388645968]: Sending request for interactive markers
+[INFO] [1737963268.199906810] [interactive_marker_display_104563388645968]: Service response received for initialization
+[INFO] [1737963272.090588194] [move_group_interface]: MoveGroup action client/server ready
+[INFO] [1737963272.091469807] [move_group_interface]: Planning request accepted
+[INFO] [1737963272.115897622] [move_group_interface]: Planning request complete!
+[INFO] [1737963272.116247853] [move_group_interface]: time taken to generate plan: 0.0154346 seconds
+[INFO] [1737963274.119539424] [move_group_interface]: Execute request accepted
+[INFO] [1737963274.129693781] [move_group_interface]: Execute request aborted
+[ERROR] [1737963274.129789772] [move_group_interface]: MoveGroupInterface::execute() failed or timeout reached
+[INFO] [1737963277.059024641] [move_group_interface]: Plan and Execute request accepted
+[INFO] [1737963277.099578158] [move_group_interface]: Plan and Execute request aborted
+[ERROR] [1737963277.099845833] [move_group_interface]: MoveGroupInterface::move() failed or timeout reached
+[INFO] [1737963293.127398941] [rclcpp]: signal_handler(signum=2)

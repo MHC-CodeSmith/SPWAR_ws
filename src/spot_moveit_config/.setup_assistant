@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: spot_description
+    relative_path: urdf/spot_with_arm.urdf
+  srdf:
+    relative_path: config/spot.srdf
+  package_settings:
+    author_name: MHC
+    author_email: carvalho.matheush@usp.br
+    generated_timestamp: 1737964424
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

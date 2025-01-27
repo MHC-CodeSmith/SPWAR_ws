@@ -1,0 +1,118 @@
+[INFO] [1737962837.440380150] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0289117 seconds
+[INFO] [1737962837.440447918] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1737962837.440456233] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1737962837.481848984] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737962837.481895712] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737962837.481905550] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737962837.481914447] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737962837.482009657] [moveit_robot_model.robot_model]: Could not identify parent group for end-effector 'spot_gripper'
+[WARN] [1737962837.487434354] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[INFO] [1737962837.610676047] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[INFO] [1737962837.610929205] [moveit.ros_planning_interface.moveit_cpp]: Listening to 'joint_states' for joint states
+[INFO] [1737962837.611684540] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[INFO] [1737962837.612410520] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[INFO] [1737962837.612433704] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1737962837.612839810] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/planning_scene'
+[INFO] [1737962837.612858956] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[INFO] [1737962837.613192025] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'
+[INFO] [1737962837.613569177] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[WARN] [1737962837.613745700] [moveit.ros.occupancy_map_monitor.middleware_handle]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[ERROR] [1737962837.613828175] [moveit.ros.occupancy_map_monitor.middleware_handle]: Exception while loading octomap updater 'occupancy_map_monitor/PointCloudOctomapUpdater': According to the loaded plugin descriptions the class occupancy_map_monitor/PointCloudOctomapUpdater with base class type occupancy_map_monitor::OccupancyMapUpdater does not exist. Declared types are 
+
+[ERROR] [1737962837.613858823] [moveit.ros.occupancy_map_monitor]: Failed to load sensor: `kinect_pointcloud` of type: `occupancy_map_monitor/PointCloudOctomapUpdater`
+[ERROR] [1737962837.613879112] [moveit.ros.occupancy_map_monitor.middleware_handle]: Exception while loading octomap updater 'occupancy_map_monitor/DepthImageOctomapUpdater': According to the loaded plugin descriptions the class occupancy_map_monitor/DepthImageOctomapUpdater with base class type occupancy_map_monitor::OccupancyMapUpdater does not exist. Declared types are 
+
+[ERROR] [1737962837.613888209] [moveit.ros.occupancy_map_monitor]: Failed to load sensor: `kinect_depthimage` of type: `occupancy_map_monitor/DepthImageOctomapUpdater`
+[INFO] [1737962837.652451439] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'pilz_industrial_motion_planner'
+[INFO] [1737962837.655015197] [moveit.pilz_industrial_motion_planner.joint_limits_aggregator]: Reading limits from namespace robot_description_planning
+[INFO] [1737962837.666147695] [moveit.pilz_industrial_motion_planner]: Available plugins: pilz_industrial_motion_planner/PlanningContextLoaderCIRC pilz_industrial_motion_planner/PlanningContextLoaderLIN pilz_industrial_motion_planner/PlanningContextLoaderPTP 
+[INFO] [1737962837.666172272] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderCIRC
+[INFO] [1737962837.667503674] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [CIRC]
+[INFO] [1737962837.667524072] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderLIN
+[INFO] [1737962837.668347386] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [LIN]
+[INFO] [1737962837.668366532] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderPTP
+[INFO] [1737962837.669105256] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [PTP]
+[INFO] [1737962837.669126216] [moveit.ros_planning.planning_pipeline]: Using planning interface 'Pilz Industrial Motion Planner'
+[INFO] [1737962837.671185361] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'chomp'
+[ERROR] [1737962837.672017983] [moveit.ros_planning.planning_pipeline]: Exception while loading planner 'chomp_interface/CHOMPPlanner': According to the loaded plugin descriptions the class chomp_interface/CHOMPPlanner with base class type planning_interface::PlannerManager does not exist. Declared types are  ompl_interface/OMPLPlanner pilz_industrial_motion_planner/CommandPlannerAvailable plugins: ompl_interface/OMPLPlanner, pilz_industrial_motion_planner/CommandPlanner
+[INFO] [1737962837.673671222] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.path_tolerance' was not set. Using default value: 0.100000
+[INFO] [1737962837.673690288] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.resample_dt' was not set. Using default value: 0.100000
+[INFO] [1737962837.673696059] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.min_angle_change' was not set. Using default value: 0.001000
+[INFO] [1737962837.673725034] [moveit_ros.fix_workspace_bounds]: Param 'chomp.default_workspace_bounds' was not set. Using default value: 10.000000
+[INFO] [1737962837.673743238] [moveit_ros.fix_start_state_bounds]: Param 'chomp.start_state_max_bounds_error' was set to 0.100000
+[INFO] [1737962837.673749280] [moveit_ros.fix_start_state_bounds]: Param 'chomp.start_state_max_dt' was not set. Using default value: 0.500000
+[INFO] [1737962837.673762094] [moveit_ros.fix_start_state_collision]: Param 'chomp.start_state_max_dt' was not set. Using default value: 0.500000
+[INFO] [1737962837.673768927] [moveit_ros.fix_start_state_collision]: Param 'chomp.jiggle_fraction' was set to 0.050000
+[INFO] [1737962837.673775920] [moveit_ros.fix_start_state_collision]: Param 'chomp.max_sampling_attempts' was not set. Using default value: 100
+[INFO] [1737962837.673790177] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[INFO] [1737962837.673796018] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[INFO] [1737962837.673800005] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[INFO] [1737962837.673804143] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[INFO] [1737962837.673807940] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[INFO] [1737962837.673811688] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[ERROR] [1737962837.674411710] [moveit.ros_planning_interface.moveit_cpp]: Failed to initialize planning pipeline 'chomp'.
+[INFO] [1737962837.675640559] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'ompl'
+[INFO] [1737962837.686174096] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[INFO] [1737962837.688126029] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000
+[INFO] [1737962837.688141138] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000
+[INFO] [1737962837.688145286] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000
+[INFO] [1737962837.688161847] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000
+[INFO] [1737962837.688175944] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000
+[INFO] [1737962837.688180582] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[INFO] [1737962837.688189139] [moveit_ros.fix_start_state_collision]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[INFO] [1737962837.688194058] [moveit_ros.fix_start_state_collision]: Param 'ompl.jiggle_fraction' was set to 0.050000
+[INFO] [1737962837.688198156] [moveit_ros.fix_start_state_collision]: Param 'ompl.max_sampling_attempts' was not set. Using default value: 100
+[INFO] [1737962837.688206471] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[INFO] [1737962837.688209938] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[INFO] [1737962837.688212683] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[INFO] [1737962837.688215508] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[INFO] [1737962837.688218073] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[INFO] [1737962837.688220598] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[INFO] [1737962837.719114717] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for spot_arm_controller
+[INFO] [1737962837.719190590] [moveit.plugins.moveit_simple_controller_manager]: Max effort set to 0.0
+[INFO] [1737962837.721125381] [moveit.plugins.moveit_simple_controller_manager]: Added GripperCommand controller for spot_gripper_controller
+[INFO] [1737962837.721323926] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1737962837.721350626] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1737962837.721618061] [moveit_ros.trajectory_execution_manager]: Trajectory execution is managing controllers
+[INFO] [1737962837.721635914] [move_group.move_group]: MoveGroup debug mode is ON
+[INFO] [1737962837.732222071] [move_group.move_group]: 
+
+********************************************************
+* MoveGroup using: 
+*     - ApplyPlanningSceneService
+*     - ClearOctomapService
+*     - CartesianPathService
+*     - ExecuteTrajectoryAction
+*     - GetPlanningSceneService
+*     - KinematicsService
+*     - MoveAction
+*     - MotionPlanService
+*     - QueryPlannersService
+*     - StateValidationService
+********************************************************
+
+[INFO] [1737962837.732292243] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context using planning plugin ompl_interface/OMPLPlanner
+[INFO] [1737962837.732303384] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context initialization complete
+[INFO] [1737962857.218710405] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1737962857.219056498] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[INFO] [1737962857.223032691] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[INFO] [1737962857.223096221] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[INFO] [1737962857.223921759] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'spot_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1737962857.243989477] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was computed successfully.
+[INFO] [1737962859.502547580] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[INFO] [1737962859.502713563] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[INFO] [1737962859.502762967] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1737962859.502794045] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1737962859.502908331] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[INFO] [1737962859.512803734] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[INFO] [1737962859.512877002] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1737962859.512908511] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1737962859.513034539] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to spot_arm_controller
+[INFO] [1737962859.513664157] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: spot_arm_controller started execution
+[INFO] [1737962859.513696989] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[WARN] [1737962859.542851274] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing fl.hx, fl.hy, fl.kn, fr.hx, fr.hy, fr.kn, hl.hx, hl.hy, hl.kn, hr.hx, hr.hy, hr.kn
+[WARN] [1737962860.572970075] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing fl.hx, fl.hy, fl.kn, fr.hx, fr.hy, fr.kn, hl.hx, hl.hy, hl.kn, hr.hx, hr.hy, hr.kn
+[INFO] [1737962861.064077974] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'spot_arm_controller' successfully finished
+[INFO] [1737962861.092948312] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[INFO] [1737962861.093045015] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[INFO] [1737962867.313816102] [rclcpp]: signal_handler(signum=2)

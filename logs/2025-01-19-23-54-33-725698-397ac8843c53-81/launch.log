@@ -1,0 +1,13 @@
+1737341673.7264740 [INFO] [launch]: All log files can be found below /home/developer/SPWAR_ws/logs/2025-01-19-23-54-33-725698-397ac8843c53-81
+1737341673.7265925 [INFO] [launch]: Default logging verbosity is set to INFO
+1737341674.5569046 [INFO] [robot_state_publisher-1]: process started with pid [82]
+1737341674.5570581 [INFO] [joint_state_publisher-2]: process started with pid [84]
+1737341674.5571373 [INFO] [gzserver-3]: process started with pid [86]
+1737341674.5572143 [INFO] [gzclient-4]: process started with pid [88]
+1737341674.5572944 [INFO] [spawn_entity.py-5]: process started with pid [90]
+1737341675.0878592 [ERROR] [gzserver-3]: process has died [pid 86, exit code -6, cmd 'gzserver -slibgazebo_ros_init.so -slibgazebo_ros_factory.so -slibgazebo_ros_force_system.so'].
+1737341675.1117568 [ERROR] [gzclient-4]: process has died [pid 88, exit code -6, cmd 'gzclient'].
+1737341697.2029960 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1737341697.2430301 [ERROR] [spawn_entity.py-5]: process has died [pid 90, exit code -2, cmd '/opt/ros/humble/lib/gazebo_ros/spawn_entity.py -entity spot -topic robot_description --ros-args'].
+1737341697.3112254 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 82]
+1737341697.3482866 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 84]

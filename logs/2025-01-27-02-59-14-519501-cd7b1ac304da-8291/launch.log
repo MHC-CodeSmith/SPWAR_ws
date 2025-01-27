@@ -1,0 +1,9 @@
+1737957554.5209100 [INFO] [launch]: All log files can be found below /home/developer/SPWAR_ws/logs/2025-01-27-02-59-14-519501-cd7b1ac304da-8291
+1737957554.5211236 [INFO] [launch]: Default logging verbosity is set to INFO
+1737957554.7880263 [INFO] [robot_state_publisher-1]: process started with pid [8300]
+1737957554.7883084 [INFO] [joint_state_publisher_gui-2]: process started with pid [8302]
+1737957554.7885215 [INFO] [rviz2-3]: process started with pid [8304]
+1737957751.5800345 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1737957751.5953369 [ERROR] [joint_state_publisher_gui-2]: process has died [pid 8302, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1737957751.6914854 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 8300]
+1737957751.8392658 [INFO] [rviz2-3]: process has finished cleanly [pid 8304]

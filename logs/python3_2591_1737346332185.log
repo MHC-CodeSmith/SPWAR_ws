@@ -1,0 +1,6 @@
+[INFO] [1737346332.224822739] [spawn_entity]: Spawn Entity started
+[INFO] [1737346332.225261505] [spawn_entity]: Loading entity XML from file install/spot_description/share/spot_description/urdf/simple_robot.urdf
+[INFO] [1737346332.225830308] [spawn_entity]: Waiting for service /spawn_entity, timeout = 30
+[INFO] [1737346332.226180519] [spawn_entity]: Waiting for service /spawn_entity
+[ERROR] [1737346362.274854505] [spawn_entity]: Service %s/spawn_entity unavailable. Was Gazebo started with GazeboRosFactory?
+[ERROR] [1737346362.275213570] [spawn_entity]: Spawn service failed. Exiting.

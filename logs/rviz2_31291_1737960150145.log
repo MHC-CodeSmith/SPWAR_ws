@@ -1,0 +1,6 @@
+[INFO] [1737960150.818116336] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1737960150.818231157] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1737960150.855118498] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1737960153.996810538] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [1737960154.034221756] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[INFO] [1737960155.211492824] [rclcpp]: signal_handler(signum=2)

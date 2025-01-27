@@ -1,0 +1,9 @@
+[INFO] [1737964472.546349660] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1737964472.546438315] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1737964472.563930116] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1737964475.652395291] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [1737964475.669589309] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[ERROR] [1737964485.759570035] [rviz]: Could not find parameter robot_description_semantic and did not receive robot_description_semantic via std_msgs::msg::String subscription within 10.000000 seconds.
+[ERROR] [1737964485.779884388] [moveit_rdf_loader.rdf_loader]: Unable to parse SRDF
+[ERROR] [1737964485.794576285] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Robot model not loaded
+[INFO] [1737964521.911511051] [rclcpp]: signal_handler(signum=2)

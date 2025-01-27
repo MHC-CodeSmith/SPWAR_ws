@@ -1,0 +1,6 @@
+1737964661.0531795 [INFO] [launch]: All log files can be found below /home/developer/SPWAR_ws/logs/2025-01-27-04-57-41-052346-cd7b1ac304da-76050
+1737964661.0533068 [INFO] [launch]: Default logging verbosity is set to INFO
+1737964661.1099029 [INFO] [moveit_setup_assistant-1]: process started with pid [76051]
+1737964661.1954076 [moveit_setup_assistant-1] QStandardPaths: wrong permissions on runtime directory /run/user/1000, 0755 instead of 0700
+1737964667.2784452 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1737964667.4080341 [INFO] [moveit_setup_assistant-1]: process has finished cleanly [pid 76051]

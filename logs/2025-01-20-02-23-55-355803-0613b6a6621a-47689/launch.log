@@ -1,0 +1,7 @@
+1737350635.3565121 [INFO] [launch]: All log files can be found below /home/developer/SPWAR_ws/logs/2025-01-20-02-23-55-355803-0613b6a6621a-47689
+1737350635.3566298 [INFO] [launch]: Default logging verbosity is set to INFO
+1737350635.9439430 [INFO] [gzserver-1]: process started with pid [47705]
+1737350635.9440968 [INFO] [gzclient-2]: process started with pid [47707]
+1737350675.3929687 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1737350675.5771182 [INFO] [gzclient-2]: process has finished cleanly [pid 47707]
+1737350675.6137233 [INFO] [gzserver-1]: process has finished cleanly [pid 47705]

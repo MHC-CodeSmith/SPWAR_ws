@@ -1,0 +1,15 @@
+1737345881.7215662 [INFO] [launch]: All log files can be found below /home/developer/SPWAR_ws/logs/2025-01-20-01-04-41-720866-e2c2a517fb71-920
+1737345881.7217433 [INFO] [launch]: Default logging verbosity is set to INFO
+1737345882.5212924 [INFO] [robot_state_publisher-1]: process started with pid [935]
+1737345882.5214875 [INFO] [joint_state_publisher-2]: process started with pid [937]
+1737345882.5215697 [INFO] [gzserver-3]: process started with pid [939]
+1737345882.5216641 [INFO] [gzclient-4]: process started with pid [941]
+1737345882.5217838 [INFO] [spawn_entity.py-5]: process started with pid [943]
+1737345884.3411715 [INFO] [spawn_entity.py-5]: process has finished cleanly [pid 943]
+1737345926.4704463 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1737345926.5788121 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 935]
+1737345926.6182475 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 937]
+1737345926.7225041 [INFO] [gzserver-3]: process has finished cleanly [pid 939]
+1737345931.4781258 [ERROR] [gzclient-4]: process[gzclient-4] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1737345931.4787169 [INFO] [gzclient-4]: sending signal 'SIGTERM' to process[gzclient-4]
+1737345931.5119767 [ERROR] [gzclient-4]: process has died [pid 941, exit code -15, cmd 'gzclient'].

@@ -1,0 +1,71 @@
+1737960024.1543224 [INFO] [launch]: All log files can be found below /home/developer/SPWAR_ws/logs/2025-01-27-03-40-24-152617-cd7b1ac304da-30061
+1737960024.1545765 [INFO] [launch]: Default logging verbosity is set to INFO
+1737960025.8213322 [INFO] [static_transform_publisher-1]: process started with pid [30079]
+1737960025.8217962 [INFO] [robot_state_publisher-2]: process started with pid [30081]
+1737960025.8220112 [INFO] [move_group-3]: process started with pid [30083]
+1737960025.8222909 [INFO] [rviz2-4]: process started with pid [30085]
+1737960025.8224642 [INFO] [ros2_control_node-5]: process started with pid [30087]
+1737960025.8226626 [INFO] [spawner-6]: process started with pid [30089]
+1737960025.8229115 [INFO] [spawner-7]: process started with pid [30091]
+1737960025.8230741 [INFO] [spawner-8]: process started with pid [30093]
+1737960025.8594928 [static_transform_publisher-1] [INFO] [1737960025.858924955] [static_transform_publisher0]: Spinning until stopped - publishing transform
+1737960025.8597958 [static_transform_publisher-1] translation: ('0.000000', '0.000000', '0.000000')
+1737960025.8599896 [static_transform_publisher-1] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+1737960025.8601296 [static_transform_publisher-1] from 'world' to 'base'
+1737960025.8654361 [ros2_control_node-5] [WARN] [1737960025.865073222] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+1737960025.8660991 [ros2_control_node-5] [INFO] [1737960025.865492205] [resource_manager]: Loading hardware 'FakeSystem' 
+1737960025.8666582 [ros2_control_node-5] [INFO] [1737960025.866180609] [resource_manager]: Initialize hardware 'FakeSystem' 
+1737960025.8668163 [ros2_control_node-5] [INFO] [1737960025.866262809] [resource_manager]: Successful initialization of hardware 'FakeSystem'
+1737960025.8672464 [ros2_control_node-5] [INFO] [1737960025.866352051] [resource_manager]: 'configure' hardware 'FakeSystem' 
+1737960025.8673742 [ros2_control_node-5] [INFO] [1737960025.866367359] [resource_manager]: Successful 'configure' of hardware 'FakeSystem'
+1737960025.8674862 [ros2_control_node-5] [INFO] [1737960025.866382737] [resource_manager]: 'activate' hardware 'FakeSystem' 
+1737960025.8676054 [ros2_control_node-5] [INFO] [1737960025.866390792] [resource_manager]: Successful 'activate' of hardware 'FakeSystem'
+1737960025.8738775 [ros2_control_node-5] [INFO] [1737960025.873507693] [controller_manager]: update rate is 100 Hz
+1737960025.8741179 [ros2_control_node-5] [INFO] [1737960025.873577560] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+1737960025.8746500 [ros2_control_node-5] [WARN] [1737960025.873762828] [controller_manager]: No real-time kernel detected on this system. See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+1737960025.8756564 [rviz2-4] QStandardPaths: wrong permissions on runtime directory /run/user/1000, 0755 instead of 0700
+1737960026.1992366 [ros2_control_node-5] [INFO] [1737960026.198833736] [controller_manager]: Loading controller 'spot_gripper_controller'
+1737960026.1996026 [ros2_control_node-5] [ERROR] [1737960026.198934249] [controller_manager]: Loader for controller 'spot_gripper_controller' (type 'position_controllers/GripperActionController') not found.
+1737960026.2002137 [ros2_control_node-5] [INFO] [1737960026.198952102] [controller_manager]: Available classes:
+1737960026.2003675 [ros2_control_node-5] [INFO] [1737960026.198967440] [controller_manager]:   controller_manager/test_controller
+1737960026.2004991 [ros2_control_node-5] [INFO] [1737960026.198980904] [controller_manager]:   controller_manager/test_controller_failed_init
+1737960026.2006328 [ros2_control_node-5] [INFO] [1737960026.198994389] [controller_manager]:   controller_manager/test_controller_with_interfaces
+1737960026.2007387 [ros2_control_node-5] [INFO] [1737960026.199009206] [controller_manager]:   controller_manager/test_chainable_controller
+1737960026.2013047 [ros2_control_node-5] [INFO] [1737960026.200227605] [controller_manager]: Loading controller 'spot_arm_controller'
+1737960026.2014403 [ros2_control_node-5] [ERROR] [1737960026.200292032] [controller_manager]: Loader for controller 'spot_arm_controller' (type 'joint_trajectory_controller/JointTrajectoryController') not found.
+1737960026.2015595 [ros2_control_node-5] [INFO] [1737960026.200309223] [controller_manager]: Available classes:
+1737960026.2017157 [ros2_control_node-5] [INFO] [1737960026.200323289] [controller_manager]:   controller_manager/test_controller
+1737960026.2018194 [ros2_control_node-5] [INFO] [1737960026.200336072] [controller_manager]:   controller_manager/test_controller_failed_init
+1737960026.2019224 [ros2_control_node-5] [INFO] [1737960026.200356990] [controller_manager]:   controller_manager/test_controller_with_interfaces
+1737960026.2020273 [ros2_control_node-5] [INFO] [1737960026.200370866] [controller_manager]:   controller_manager/test_chainable_controller
+1737960026.2163942 [ros2_control_node-5] [INFO] [1737960026.215961892] [controller_manager]: Loading controller 'joint_state_broadcaster'
+1737960026.2166712 [ros2_control_node-5] [ERROR] [1737960026.216028203] [controller_manager]: Loader for controller 'joint_state_broadcaster' (type 'joint_state_broadcaster/JointStateBroadcaster') not found.
+1737960026.2168052 [ros2_control_node-5] [INFO] [1737960026.216039353] [controller_manager]: Available classes:
+1737960026.2169139 [ros2_control_node-5] [INFO] [1737960026.216048610] [controller_manager]:   controller_manager/test_controller
+1737960026.2174094 [ros2_control_node-5] [INFO] [1737960026.216056404] [controller_manager]:   controller_manager/test_controller_failed_init
+1737960026.2175193 [ros2_control_node-5] [INFO] [1737960026.216064569] [controller_manager]:   controller_manager/test_controller_with_interfaces
+1737960026.2176459 [ros2_control_node-5] [INFO] [1737960026.216072173] [controller_manager]:   controller_manager/test_chainable_controller
+1737960026.2214272 [ERROR] [move_group-3]: process has died [pid 30083, exit code -6, cmd '/opt/ros/humble/lib/moveit_ros_move_group/move_group --ros-args --params-file /tmp/launch_params_xx247nkh --params-file /tmp/launch_params_2_7bbhwi'].
+1737960026.4375679 [ERROR] [spawner-6]: process has died [pid 30089, exit code 1, cmd '/opt/ros/humble/lib/controller_manager/spawner spot_arm_controller --ros-args'].
+1737960026.4519660 [ERROR] [spawner-7]: process has died [pid 30091, exit code 1, cmd '/opt/ros/humble/lib/controller_manager/spawner spot_gripper_controller --ros-args'].
+1737960026.4532764 [ERROR] [spawner-8]: process has died [pid 30093, exit code 1, cmd '/opt/ros/humble/lib/controller_manager/spawner joint_state_broadcaster --ros-args'].
+1737960026.5712135 [rviz2-4] [INFO] [1737960026.570610486] [rviz2]: Stereo is NOT SUPPORTED
+1737960026.5716279 [rviz2-4] [INFO] [1737960026.570787719] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+1737960026.6063213 [rviz2-4] [INFO] [1737960026.605905910] [rviz2]: Stereo is NOT SUPPORTED
+1737960026.7128575 [rviz2-4] Warning: class_loader.impl: SEVERE WARNING!!! A namespace collision has occurred with plugin factory for class rviz_default_plugins::displays::InteractiveMarkerDisplay. New factory will OVERWRITE existing one. This situation occurs when libraries containing plugins are directly linked against an executable (the one running right now generating this message). Please separate plugins out into their own library or just don't link against the library and use either class_loader::ClassLoader/MultiLibraryClassLoader to open.
+1737960026.7131441 [rviz2-4]          at line 253 in /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp
+1737960029.7441382 [rviz2-4] [ERROR] [1737960029.743749395] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+1737960029.7630446 [rviz2-4] [INFO] [1737960029.762485176] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+1737960039.8374112 [rviz2-4] [ERROR] [1737960039.837036222] [rviz]: Could not find parameter robot_description_semantic and did not receive robot_description_semantic via std_msgs::msg::String subscription within 10.000000 seconds.
+1737960039.8714015 [rviz2-4] Error:   Could not parse the SRDF XML File. Error=XML_ERROR_EMPTY_DOCUMENT ErrorID=13 (0xd) Line number=0
+1737960039.8717065 [rviz2-4]          at line 732 in ./src/model.cpp
+1737960039.8718684 [rviz2-4] [ERROR] [1737960039.871012378] [moveit_rdf_loader.rdf_loader]: Unable to parse SRDF
+1737960039.8828692 [rviz2-4] [ERROR] [1737960039.882312807] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Robot model not loaded
+1737960078.6431317 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1737960078.6478784 [rviz2-4] [INFO] [1737960078.642739467] [rclcpp]: signal_handler(signum=2)
+1737960078.6488202 [static_transform_publisher-1] [INFO] [1737960078.642762720] [rclcpp]: signal_handler(signum=2)
+1737960078.6491945 [ros2_control_node-5] [INFO] [1737960078.642816488] [rclcpp]: signal_handler(signum=2)
+1737960078.7546000 [INFO] [static_transform_publisher-1]: process has finished cleanly [pid 30079]
+1737960078.7567976 [INFO] [robot_state_publisher-2]: process has finished cleanly [pid 30081]
+1737960078.7592146 [INFO] [ros2_control_node-5]: process has finished cleanly [pid 30087]
+1737960078.9290967 [ERROR] [rviz2-4]: process has died [pid 30085, exit code -11, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/config/moveit.rviz --ros-args --params-file /tmp/launch_params_natbuqv2 --params-file /tmp/launch_params_sxjb2jgq --params-file /tmp/launch_params_zvisbicz'].

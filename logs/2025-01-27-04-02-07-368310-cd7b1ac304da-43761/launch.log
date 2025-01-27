@@ -1,0 +1,3 @@
+1737961327.3697598 [INFO] [launch]: All log files can be found below /home/developer/SPWAR_ws/logs/2025-01-27-04-02-07-368310-cd7b1ac304da-43761
+1737961327.3699470 [INFO] [launch]: Default logging verbosity is set to INFO
+1737961327.4877725 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Unable to parse the value of parameter robot_description as yaml. If the parameter is meant to be a string, try wrapping it in launch_ros.parameter_descriptions.ParameterValue(value, value_type=str)

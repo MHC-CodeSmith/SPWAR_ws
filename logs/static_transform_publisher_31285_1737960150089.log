@@ -1,0 +1,5 @@
+[INFO] [1737960150.114328487] [static_transform_publisher0]: Spinning until stopped - publishing transform
+translation: ('0.000000', '0.000000', '0.000000')
+rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+from 'world' to 'base'
+[INFO] [1737960155.211493595] [rclcpp]: signal_handler(signum=2)

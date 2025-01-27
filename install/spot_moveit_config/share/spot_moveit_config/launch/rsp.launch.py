@@ -1,0 +1,1 @@
+/home/developer/SPWAR_ws/src/spot_moveit_config/launch/rsp.launch.py

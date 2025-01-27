@@ -1,0 +1,29 @@
+[WARN] [1737963264.220911383] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+[INFO] [1737963264.221486018] [resource_manager]: Loading hardware 'FakeSystem' 
+[INFO] [1737963264.222181670] [resource_manager]: Initialize hardware 'FakeSystem' 
+[INFO] [1737963264.222296286] [resource_manager]: Successful initialization of hardware 'FakeSystem'
+[INFO] [1737963264.222383711] [resource_manager]: 'configure' hardware 'FakeSystem' 
+[INFO] [1737963264.222400783] [resource_manager]: Successful 'configure' of hardware 'FakeSystem'
+[INFO] [1737963264.222411854] [resource_manager]: 'activate' hardware 'FakeSystem' 
+[INFO] [1737963264.222419769] [resource_manager]: Successful 'activate' of hardware 'FakeSystem'
+[INFO] [1737963264.227957547] [controller_manager]: update rate is 100 Hz
+[INFO] [1737963264.228005186] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[WARN] [1737963264.228212658] [controller_manager]: No real-time kernel detected on this system. See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[INFO] [1737963264.451570649] [controller_manager]: Loading controller 'spot_gripper_controller'
+[ERROR] [1737963264.451676829] [controller_manager]: Loader for controller 'spot_gripper_controller' (type 'position_controllers/GripperActionController') not found.
+[INFO] [1737963264.451693450] [controller_manager]: Available classes:
+[INFO] [1737963264.451709010] [controller_manager]:   controller_manager/test_controller
+[INFO] [1737963264.451719159] [controller_manager]:   controller_manager/test_controller_failed_init
+[INFO] [1737963264.451727685] [controller_manager]:   controller_manager/test_controller_with_interfaces
+[INFO] [1737963264.451736251] [controller_manager]:   forward_command_controller/ForwardCommandController
+[INFO] [1737963264.451743735] [controller_manager]:   forward_command_controller/MultiInterfaceForwardCommandController
+[INFO] [1737963264.451752422] [controller_manager]:   joint_state_broadcaster/JointStateBroadcaster
+[INFO] [1737963264.451760627] [controller_manager]:   joint_trajectory_controller/JointTrajectoryController
+[INFO] [1737963264.451767931] [controller_manager]:   position_controllers/JointGroupPositionController
+[INFO] [1737963264.451775806] [controller_manager]:   controller_manager/test_chainable_controller
+[INFO] [1737963264.464962924] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[INFO] [1737963264.480036672] [controller_manager]: Loading controller 'spot_arm_controller'
+[ERROR] [1737963264.488922195] [controller_manager]: Could not initialize the controller named 'spot_arm_controller'
+[INFO] [1737963264.503055729] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[INFO] [1737963264.503247852] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[INFO] [1737963293.127378503] [rclcpp]: signal_handler(signum=2)

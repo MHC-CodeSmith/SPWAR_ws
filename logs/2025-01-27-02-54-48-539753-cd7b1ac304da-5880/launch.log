@@ -1,0 +1,9 @@
+1737957288.5409951 [INFO] [launch]: All log files can be found below /home/developer/SPWAR_ws/logs/2025-01-27-02-54-48-539753-cd7b1ac304da-5880
+1737957288.5411463 [INFO] [launch]: Default logging verbosity is set to INFO
+1737957288.7047982 [INFO] [robot_state_publisher-1]: process started with pid [5889]
+1737957288.7049556 [INFO] [joint_state_publisher_gui-2]: process started with pid [5891]
+1737957288.7050440 [INFO] [rviz2-3]: process started with pid [5893]
+1737957353.9788470 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1737957353.9889562 [ERROR] [joint_state_publisher_gui-2]: process has died [pid 5891, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1737957354.0858905 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 5889]
+1737957354.2129416 [INFO] [rviz2-3]: process has finished cleanly [pid 5893]

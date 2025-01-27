@@ -1,0 +1,5 @@
+1737963381.0887971 [INFO] [launch]: All log files can be found below /home/developer/SPWAR_ws/logs/2025-01-27-04-36-21-087910-cd7b1ac304da-64110
+1737963381.0889387 [INFO] [launch]: Default logging verbosity is set to INFO
+1737963381.1347449 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+ - TypeError: argument of type 'NoneType' is not iterable
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown

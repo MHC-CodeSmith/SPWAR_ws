@@ -1,0 +1,6 @@
+[INFO] [1737350257.278311091] [spawn_entity]: Spawn Entity started
+[INFO] [1737350257.278729626] [spawn_entity]: Loading entity XML from file install/spot_description/share/spot_description/urdf/simple_robot.urdf
+[INFO] [1737350257.279419669] [spawn_entity]: Waiting for service /spawn_entity, timeout = 30
+[INFO] [1737350257.279753274] [spawn_entity]: Waiting for service /spawn_entity
+[INFO] [1737350257.283284640] [spawn_entity]: Calling service /spawn_entity
+[INFO] [1737350257.359545605] [spawn_entity]: Spawn status: SpawnEntity: Successfully spawned entity [simple]

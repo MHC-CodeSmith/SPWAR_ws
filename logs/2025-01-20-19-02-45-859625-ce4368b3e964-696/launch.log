@@ -1,0 +1,13 @@
+1737410565.8606718 [INFO] [launch]: All log files can be found below /home/developer/SPWAR_ws/logs/2025-01-20-19-02-45-859625-ce4368b3e964-696
+1737410565.8608122 [INFO] [launch]: Default logging verbosity is set to INFO
+1737410566.5586774 [INFO] [robot_state_publisher-1]: process started with pid [697]
+1737410566.5589015 [INFO] [joint_state_publisher-2]: process started with pid [699]
+1737410566.5589786 [INFO] [gzserver-3]: process started with pid [701]
+1737410566.5590398 [INFO] [gzclient-4]: process started with pid [703]
+1737410566.5591023 [INFO] [spawn_entity.py-5]: process started with pid [705]
+1737410567.9573836 [INFO] [spawn_entity.py-5]: process has finished cleanly [pid 705]
+1737410630.9327750 [ERROR] [gzclient-4]: process has died [pid 703, exit code -6, cmd 'gzclient'].
+1737410633.6146140 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1737410633.7220392 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 697]
+1737410633.7574167 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 699]
+1737410633.8905070 [INFO] [gzserver-3]: process has finished cleanly [pid 701]

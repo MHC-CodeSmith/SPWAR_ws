@@ -1,0 +1,53 @@
+[INFO] [1737963650.798062976] [moveit_setup_assistant.urdf]: Loaded spot robot model.
+[INFO] [1737963650.798334218] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1737963650.798344337] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1737963650.833891853] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963650.833945163] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963650.833956064] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963650.833965612] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963650.834060541] [moveit_robot_model.robot_model]: Could not identify parent group for end-effector 'spot_gripper'
+[INFO] [1737963650.834083554] [moveit_setup_assistant.srdf]: Robot semantic model successfully loaded.
+[INFO] [1737963652.332856333] [moveit_setup_assistant.urdf]: Loaded spot robot model.
+[INFO] [1737963652.333033638] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1737963652.333042264] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1737963652.367909597] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963652.367938221] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963652.367946146] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963652.367953780] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963652.368014485] [moveit_robot_model.robot_model]: Could not identify parent group for end-effector 'spot_gripper'
+[INFO] [1737963652.368105446] [moveit_setup_assistant.srdf]: Robot semantic model successfully loaded.
+[INFO] [1737963652.693478492] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.00148224 seconds
+[INFO] [1737963652.693502748] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1737963652.693507988] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1737963652.729142728] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963652.729185449] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963652.729200257] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963652.729214213] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963652.729324281] [moveit_robot_model.robot_model]: Could not identify parent group for end-effector 'spot_gripper'
+[INFO] [1737963652.783348401] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.00170937 seconds
+[INFO] [1737963652.783372887] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1737963652.783378528] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1737963652.821072372] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963652.821101507] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963652.821110314] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963652.821119020] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963652.821177531] [moveit_robot_model.robot_model]: Could not identify parent group for end-effector 'spot_gripper'
+[INFO] [1737963652.824437380] [moveit_setup_assistant.Start Screen]: Loading Setup Assistant Complete
+[INFO] [1737963663.618193518] [collision_updater]: -------------------------------------------------------------------------------
+[INFO] [1737963663.618222583] [collision_updater]: Statistics:
+[INFO] [1737963663.618231941] [collision_updater]: Total Links : 20
+[INFO] [1737963663.618243092] [collision_updater]: Total possible collisions : 190.000000
+[INFO] [1737963663.618247179] [collision_updater]: Always in collision : 0
+[INFO] [1737963663.618250916] [collision_updater]: Never in collision : 23
+[INFO] [1737963663.618254243] [collision_updater]: Default in collision : 0
+[INFO] [1737963663.618257789] [collision_updater]: Adjacent links disabled : 15
+[INFO] [1737963663.618261116] [collision_updater]: Sometimes in collision : 152
+[INFO] [1737963663.618264382] [collision_updater]: TOTAL DISABLED : 38
+[INFO] [1737963663.618310328] [moveit_setup_assistant.Self-Collisions]: Thread complete 120
+[INFO] [1737963665.302767681] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1737963665.302797047] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1737963665.337925051] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963665.337967311] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963665.337977420] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963665.337986928] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1737963665.338056068] [moveit_robot_model.robot_model]: Could not identify parent group for end-effector 'spot_gripper'
