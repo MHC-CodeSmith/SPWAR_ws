@@ -26,21 +26,54 @@ RUN apt-get update && apt-get install -y \
     sudo \
     git \
     vim \
+    build-essential \
     python3-colcon-common-extensions \
+    python3-colcon-mixin \
+    python3-rosdep \
+    python3-vcstool \
+    ros-humble-moveit \
     ros-humble-rviz2 \
     ros-humble-xacro \
     ros-humble-robot-state-publisher \
     ros-humble-joint-state-publisher-gui \
+    ros-humble-tf2 \
     ros-humble-tf2-ros \
     ros-humble-gazebo-ros-pkgs \
+    ros-humble-gazebo-ros2-control \
+    ros-humble-joint-trajectory-controller \
+    ros-humble-moveit-chomp-optimizer-adapter \
+    ros-humble-moveit-ros-visualization \
+    ros-humble-moveit-visual-tools \
+    ros-humble-position-controllers \
+    ros-humble-ros2-control \
+    ros-humble-ros2-controllers \
+    ros-humble-rviz-visual-tools \
     && rm -rf /var/lib/apt/lists/*
+    
+# Instalar e configurar ALSA e PulseAudio
+RUN apt-get update && apt-get install -y \
+    pulseaudio \
+    libasound2-plugins \
+    alsa-utils && \
+    echo -e "pcm.default pulse\nctl.default pulse" > /root/.asoundrc && \
+    chmod 644 /root/.asoundrc && \
+    echo 'export PULSE_SERVER=unix:/run/user/$(id -u)/pulse/native' >> /root/.bashrc && \
+    pulseaudio --start && \
+    echo "PulseAudio configurado com sucesso!"
 
 # Configuração do workspace
 RUN mkdir -p /home/developer/SPWAR_ws/src
 WORKDIR /home/developer/SPWAR_ws
 
-# Clona o repositório do GitHub, se necessário
-RUN [ ! -d "/home/developer/SPWAR_ws/.git" ] && git clone https://github.com/MHC-CodeSmith/SPWAR_ws.git /home/developer/SPWAR_ws || echo "Repositório já clonado."
+# Clona o repositório do GitHub do Spot, se necessário
+RUN [ ! -d "/home/developer/SPWAR_ws/src/spot_description" ] && \
+    git clone https://github.com/MHC-CodeSmith/SPWAR_ws.git /home/developer/SPWAR_ws/src || echo "Repositório já clonado."
+
+# Instala dependências e constrói o workspace (usando Bash)
+RUN bash -c "source /opt/ros/humble/setup.bash && \
+    rosdep update && \
+    rosdep install --from-paths src --ignore-src -r -y && \
+    colcon build --symlink-install"
 
 # Configuração do ambiente
 ENV ROS_DISTRO=humble
@@ -50,14 +83,9 @@ ENV LIBGL_ALWAYS_INDIRECT=0
 # Troca o shell padrão para bash
 SHELL ["/bin/bash", "-c"]
 
-# Constrói o workspace e verifica pacotes
-RUN . /opt/ros/${ROS_DISTRO}/setup.bash && \
-    colcon build && \
-    dpkg -l | grep gazebo-ros && \
-    echo "Verificação concluída com sucesso!"
-
 # Comando padrão
 CMD ["/bin/bash"]
+
 ```
 
 ## Script `ros_run.sh`
