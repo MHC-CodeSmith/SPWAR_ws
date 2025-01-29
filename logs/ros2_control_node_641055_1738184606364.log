@@ -1,0 +1,13 @@
+[WARN] [1738184606.465133217] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+[INFO] [1738184606.465540791] [resource_manager]: Loading hardware 'FakeSystem' 
+[INFO] [1738184606.466675405] [resource_manager]: Initialize hardware 'FakeSystem' 
+[INFO] [1738184606.466744807] [resource_manager]: Successful initialization of hardware 'FakeSystem'
+[INFO] [1738184606.466798098] [resource_manager]: 'configure' hardware 'FakeSystem' 
+[INFO] [1738184606.466806324] [resource_manager]: Successful 'configure' of hardware 'FakeSystem'
+[INFO] [1738184606.466814019] [resource_manager]: 'activate' hardware 'FakeSystem' 
+[INFO] [1738184606.466821824] [resource_manager]: Successful 'activate' of hardware 'FakeSystem'
+[INFO] [1738184606.472123070] [controller_manager]: update rate is 100 Hz
+[INFO] [1738184606.472153217] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[WARN] [1738184606.472308472] [controller_manager]: No real-time kernel detected on this system. See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[INFO] [1738184606.670064305] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[INFO] [1738184656.676360288] [rclcpp]: signal_handler(signum=2)

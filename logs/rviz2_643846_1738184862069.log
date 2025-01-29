@@ -1,0 +1,35 @@
+[INFO] [1738184862.819123492] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1738184862.819242678] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1738184862.847219042] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1738184865.977454435] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [1738184865.991582968] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[ERROR] [1738184865.996646939] [rviz2]: PluginlibFactory: The plugin for class 'moveit_visual_tools/RvizVisualToolsGui' failed to load. Error: According to the loaded plugin descriptions the class moveit_visual_tools/RvizVisualToolsGui with base class type rviz_common::Panel does not exist. Declared types are  rviz_visual_tools/RvizVisualToolsGui
+[INFO] [1738184866.080124461] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0524149 seconds
+[INFO] [1738184866.080173734] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1738184866.080184304] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[INFO] [1738184866.260948474] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1738184866.261657520] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[INFO] [1738184866.330527179] [interactive_marker_display_94555171772912]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[INFO] [1738184866.343055605] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+[INFO] [1738184866.343090451] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'spot_arm' in namespace ''
+[INFO] [1738184866.349580608] [move_group_interface]: Ready to take commands for planning group spot_arm.
+[INFO] [1738184866.350602858] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+[INFO] [1738184866.353292693] [interactive_marker_display_94555171772912]: Sending request for interactive markers
+[INFO] [1738184866.385200647] [interactive_marker_display_94555171772912]: Service response received for initialization
+[WARN] [1738184901.649003753] [tf2_buffer]: Detected time source change. Clearing TF buffer.
+[WARN] [1738184901.649142296] [rviz2]: Detected time source change. Resetting RViz.
+[INFO] [1738184901.653170640] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[WARN] [1738184901.659285274] [tf2_buffer]: Detected time source change. Clearing TF buffer.
+[INFO] [1738184901.666840481] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopping planning scene monitor
+[WARN] [1738184901.680824979] [interactive_marker_display_94555171772912]: Server not available while running, resetting
+[INFO] [1738184901.728495000] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0 seconds
+[INFO] [1738184901.728521381] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1738184901.728527172] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[INFO] [1738184901.905224313] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1738184901.905713351] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[INFO] [1738184901.919166461] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+[INFO] [1738184901.919190066] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'spot_arm' in namespace ''
+[INFO] [1738184901.924620921] [move_group_interface]: Ready to take commands for planning group spot_arm.
+[INFO] [1738184901.936596968] [interactive_marker_display_94555171772912]: Sending request for interactive markers
+[INFO] [1738184901.969027140] [interactive_marker_display_94555171772912]: Service response received for initialization
+[INFO] [1738185036.463522953] [rclcpp]: signal_handler(signum=2)

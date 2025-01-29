@@ -1,0 +1,2 @@
+[INFO] [1738185220.237733867] [spawner_joint_state_broadcaster]: [94mLoaded [1mjoint_state_broadcaster[0m
+[ERROR] [1738185220.402262381] [spawner_joint_state_broadcaster]: [91mFailed to activate controller : joint_state_broadcaster[0m

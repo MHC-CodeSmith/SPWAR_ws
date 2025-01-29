@@ -1,0 +1,26 @@
+[0.029s] Invoking command in '/home/developer/SPWAR_ws/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/developer/SPWAR_ws/build/hello_moveit -- -j16 -l16
+[0.224s] [35m[1mConsolidate compiler generated dependencies of target hello_moveit[0m
+[0.426s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[14.477s] [100%] [32m[1mLinking CXX executable hello_moveit[0m
+[15.329s] [100%] Built target hello_moveit
+[15.350s] Invoked command in '/home/developer/SPWAR_ws/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/developer/SPWAR_ws/build/hello_moveit -- -j16 -l16
+[15.388s] Invoking command in '/home/developer/SPWAR_ws/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/developer/SPWAR_ws/build/hello_moveit
+[15.397s] -- Install configuration: ""
+[15.398s] -- Execute custom install script
+[15.399s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/lib/hello_moveit/hello_moveit
+[15.399s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit
+[15.399s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit
+[15.400s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh
+[15.400s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv
+[15.400s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/share/hello_moveit/environment/path.sh
+[15.401s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/share/hello_moveit/environment/path.dsv
+[15.401s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/share/hello_moveit/local_setup.bash
+[15.401s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/share/hello_moveit/local_setup.sh
+[15.401s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/share/hello_moveit/local_setup.zsh
+[15.402s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/share/hello_moveit/local_setup.dsv
+[15.402s] -- Symlinking: /home/developer/SPWAR_ws/install/hello_moveit/share/hello_moveit/package.dsv
+[15.412s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit
+[15.412s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake
+[15.412s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake
+[15.413s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/share/hello_moveit/package.xml
+[15.416s] Invoked command in '/home/developer/SPWAR_ws/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/developer/SPWAR_ws/build/hello_moveit

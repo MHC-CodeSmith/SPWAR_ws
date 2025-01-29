@@ -8,9 +8,11 @@
 
 class MoveItNode : public rclcpp::Node {
 public:
-    MoveItNode() : Node("hello_moveit") {
-        // O construtor agora está vazio, evitando chamadas a shared_from_this()
-    }
+
+    MoveItNode() : Node("hello_moveit", rclcpp::NodeOptions().parameter_overrides({
+        {"use_sim_time", true}
+    })) {}
+
 
     void initialize(std::shared_ptr<MoveItNode> node_shared) {
         // Inicializa a interface do MoveIt para o grupo "spot_arm"
@@ -28,12 +30,12 @@ public:
         planning_scene_monitor_->startSceneMonitor();
         planning_scene_monitor_->startStateMonitor();
         planning_scene_monitor_->startWorldGeometryMonitor();
-
+      
         // Inicia a monitoração do estado do robô no MoveGroup
         move_group_->startStateMonitor();
 
-        // Aguarda a sincronização do estado do robô
-        rclcpp::sleep_for(std::chrono::milliseconds(500));
+        RCLCPP_INFO(this->get_logger(), "Aguardando sincronização dos estados das juntas...");
+        rclcpp::sleep_for(std::chrono::seconds(5)); // Aguarda 5 segundos
 
         // Verifica se o estado do robô foi atualizado
         auto robot_state = move_group_->getCurrentState(10.0);

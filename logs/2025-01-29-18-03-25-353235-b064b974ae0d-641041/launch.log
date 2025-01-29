@@ -1,0 +1,94 @@
+1738184605.3544779 [INFO] [launch]: All log files can be found below /home/developer/SPWAR_ws/logs/2025-01-29-18-03-25-353235-b064b974ae0d-641041
+1738184605.3546770 [INFO] [launch]: Default logging verbosity is set to INFO
+1738184606.3772423 [INFO] [robot_state_publisher-1]: process started with pid [641049]
+1738184606.3775403 [INFO] [move_group-2]: process started with pid [641051]
+1738184606.3776376 [INFO] [rviz2-3]: process started with pid [641053]
+1738184606.3777387 [INFO] [ros2_control_node-4]: process started with pid [641055]
+1738184606.3778422 [INFO] [spawner-5]: process started with pid [641057]
+1738184606.3779528 [INFO] [spawner-6]: process started with pid [641059]
+1738184606.3780382 [INFO] [spawner-7]: process started with pid [641061]
+1738184606.4655557 [ros2_control_node-4] [WARN] [1738184606.465133217] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+1738184606.4659843 [ros2_control_node-4] [INFO] [1738184606.465540791] [resource_manager]: Loading hardware 'FakeSystem' 
+1738184606.4668391 [ros2_control_node-4] [INFO] [1738184606.466675405] [resource_manager]: Initialize hardware 'FakeSystem' 
+1738184606.4671690 [ros2_control_node-4] [INFO] [1738184606.466744807] [resource_manager]: Successful initialization of hardware 'FakeSystem'
+1738184606.4672618 [ros2_control_node-4] [INFO] [1738184606.466798098] [resource_manager]: 'configure' hardware 'FakeSystem' 
+1738184606.4673445 [ros2_control_node-4] [INFO] [1738184606.466806324] [resource_manager]: Successful 'configure' of hardware 'FakeSystem'
+1738184606.4674091 [ros2_control_node-4] [INFO] [1738184606.466814019] [resource_manager]: 'activate' hardware 'FakeSystem' 
+1738184606.4674680 [ros2_control_node-4] [INFO] [1738184606.466821824] [resource_manager]: Successful 'activate' of hardware 'FakeSystem'
+1738184606.4723587 [ros2_control_node-4] [INFO] [1738184606.472123070] [controller_manager]: update rate is 100 Hz
+1738184606.4725447 [ros2_control_node-4] [INFO] [1738184606.472153217] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+1738184606.4729609 [ros2_control_node-4] [WARN] [1738184606.472308472] [controller_manager]: No real-time kernel detected on this system. See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+1738184606.6707251 [ros2_control_node-4] [INFO] [1738184606.670064305] [controller_manager]: Loading controller 'joint_state_broadcaster'
+1738184607.0850081 [rviz2-3] [INFO] [1738184607.084555712] [rviz2]: Stereo is NOT SUPPORTED
+1738184607.0851986 [rviz2-3] [INFO] [1738184607.084670139] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+1738184607.1097553 [rviz2-3] [INFO] [1738184607.109466004] [rviz2]: Stereo is NOT SUPPORTED
+1738184607.2096109 [rviz2-3] Warning: class_loader.impl: SEVERE WARNING!!! A namespace collision has occurred with plugin factory for class rviz_default_plugins::displays::InteractiveMarkerDisplay. New factory will OVERWRITE existing one. This situation occurs when libraries containing plugins are directly linked against an executable (the one running right now generating this message). Please separate plugins out into their own library or just don't link against the library and use either class_loader::ClassLoader/MultiLibraryClassLoader to open.
+1738184607.2098255 [rviz2-3]          at line 253 in /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp
+1738184610.2340975 [rviz2-3] [ERROR] [1738184610.233394174] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+1738184610.2489147 [rviz2-3] [INFO] [1738184610.248395129] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+1738184610.2541187 [rviz2-3] [ERROR] [1738184610.253840420] [rviz2]: PluginlibFactory: The plugin for class 'moveit_visual_tools/RvizVisualToolsGui' failed to load. Error: According to the loaded plugin descriptions the class moveit_visual_tools/RvizVisualToolsGui with base class type rviz_common::Panel does not exist. Declared types are  rviz_visual_tools/RvizVisualToolsGui
+1738184610.3423023 [rviz2-3] [INFO] [1738184610.341921767] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0560688 seconds
+1738184610.3425145 [rviz2-3] [INFO] [1738184610.341966572] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+1738184610.3425863 [rviz2-3] [INFO] [1738184610.341978184] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1738184610.5093057 [rviz2-3] [INFO] [1738184610.508881607] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+1738184610.5099912 [rviz2-3] [INFO] [1738184610.509615491] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+1738184610.5785563 [rviz2-3] [INFO] [1738184610.578187633] [interactive_marker_display_110835469448352]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+1738184610.5923343 [rviz2-3] [INFO] [1738184610.591890092] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+1738184610.5925581 [rviz2-3] [INFO] [1738184610.591976226] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'spot_arm' in namespace ''
+1738184610.5995047 [rviz2-3] [INFO] [1738184610.599172621] [move_group_interface]: Ready to take commands for planning group spot_arm.
+1738184610.6003876 [rviz2-3] [INFO] [1738184610.600150157] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+1738184610.6032147 [rviz2-3] [INFO] [1738184610.603025537] [interactive_marker_display_110835469448352]: Sending request for interactive markers
+1738184610.6350164 [rviz2-3] [INFO] [1738184610.634703330] [interactive_marker_display_110835469448352]: Service response received for initialization
+1738184636.8786306 [ERROR] [spawner-5]: process has died [pid 641057, exit code 1, cmd '/opt/ros/humble/lib/controller_manager/spawner spot_arm_controller --ros-args'].
+1738184636.8790305 [ERROR] [spawner-6]: process has died [pid 641059, exit code 1, cmd '/opt/ros/humble/lib/controller_manager/spawner spot_gripper_controller --ros-args'].
+1738184636.8794632 [ERROR] [spawner-7]: process has died [pid 641061, exit code 1, cmd '/opt/ros/humble/lib/controller_manager/spawner joint_state_broadcaster --ros-args'].
+1738184645.8883452 [rviz2-3] [INFO] [1738184645.887472092] [move_group_interface]: Plan and Execute request accepted
+1738184647.9153411 [rviz2-3] [INFO] [1738184647.915107332] [move_group_interface]: Plan and Execute request aborted
+1738184647.9161844 [rviz2-3] [ERROR] [1738184647.916067475] [move_group_interface]: MoveGroupInterface::move() failed or timeout reached
+1738184656.6768868 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1738184656.6801574 [rviz2-3] [INFO] [1738184656.676359807] [rclcpp]: signal_handler(signum=2)
+1738184656.6803815 [ros2_control_node-4] [INFO] [1738184656.676360288] [rclcpp]: signal_handler(signum=2)
+1738184656.6806788 [ros2_control_node-4] terminate called after throwing an instance of 'std::runtime_error'
+1738184656.6807485 [ros2_control_node-4]   what():  rclcpp interrupted
+1738184656.6808178 [ros2_control_node-4] Stack trace (most recent call last) in thread 641100:
+1738184656.6810348 [ros2_control_node-4] #21   Object "", at 0xffffffffffffffff, in 
+1738184656.6817582 [ros2_control_node-4] #20   Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7a5352f7e84f, in 
+1738184656.6819665 [ros2_control_node-4] #19   Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7a5352eecac2, in 
+1738184656.6824629 [ros2_control_node-4] #18   Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7a535317d252, in 
+1738184656.6828749 [ros2_control_node-4] #17   Object "/opt/ros/humble/lib/librclcpp.so", at 0x7a53533dd349, in rclcpp::executors::MultiThreadedExecutor::run(unsigned long)
+1738184656.6831021 [ros2_control_node-4] #16   Object "/opt/ros/humble/lib/librclcpp.so", at 0x7a53533d60c5, in rclcpp::Executor::execute_any_executable(rclcpp::AnyExecutable&)
+1738184656.6831732 [ros2_control_node-4] #15   Object "/opt/ros/humble/lib/librclcpp.so", at 0x7a53533d5d59, in rclcpp::Executor::execute_service(std::shared_ptr<rclcpp::ServiceBase>)
+1738184656.6833580 [ros2_control_node-4] #14   Object "/opt/ros/humble/lib/librclcpp.so", at 0x7a53533d8375, in 
+1738184656.6835406 [ros2_control_node-4] #13   Object "/opt/ros/humble/lib/libcontroller_manager.so", at 0x7a53535ff98a, in 
+1738184656.6837246 [ros2_control_node-4] #12   Object "/opt/ros/humble/lib/libcontroller_manager.so", at 0x7a53535d072b, in std::_Function_handler<void (std::shared_ptr<controller_manager_msgs::srv::LoadController_Request_<std::allocator<void> > >, std::shared_ptr<controller_manager_msgs::srv::LoadController_Response_<std::allocator<void> > >), std::_Bind<void (controller_manager::ControllerManager::*(controller_manager::ControllerManager*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_ptr<controller_manager_msgs::srv::LoadController_Request_<std::allocator<void> > >, std::shared_ptr<controller_manager_msgs::srv::LoadController_Response_<std::allocator<void> > >)> >::_M_invoke(std::_Any_data const&, std::shared_ptr<controller_manager_msgs::srv::LoadController_Request_<std::allocator<void> > >&&, std::shared_ptr<controller_manager_msgs::srv::LoadController_Response_<std::allocator<void> > >&&)
+1738184656.6838927 [ros2_control_node-4] #11   Object "/opt/ros/humble/lib/libcontroller_manager.so", at 0x7a53535ad9d8, in controller_manager::ControllerManager::load_controller_service_cb(std::shared_ptr<controller_manager_msgs::srv::LoadController_Request_<std::allocator<void> > >, std::shared_ptr<controller_manager_msgs::srv::LoadController_Response_<std::allocator<void> > >)
+1738184656.6839504 [ros2_control_node-4] #10   Object "/opt/ros/humble/lib/libcontroller_manager.so", at 0x7a53535a24e0, in controller_manager::ControllerManager::load_controller(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+1738184656.6841052 [ros2_control_node-4] #9    Object "/opt/ros/humble/lib/libcontroller_manager.so", at 0x7a53535a08f9, in controller_manager::ControllerManager::load_controller(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+1738184656.6841619 [ros2_control_node-4] #8    Object "/opt/ros/humble/lib/libcontroller_manager.so", at 0x7a53535aa216, in controller_manager::ControllerManager::add_controller_impl(controller_manager::ControllerSpec const&)
+1738184656.6842651 [ros2_control_node-4] #7    Object "/opt/ros/humble/lib/libcontroller_manager.so", at 0x7a5353584c89, in 
+1738184656.6845210 [ros2_control_node-4] #6    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7a535314f4d7, in __cxa_throw
+1738184656.6845973 [ros2_control_node-4] #5    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7a535314f276, in std::terminate()
+1738184656.6846654 [ros2_control_node-4] #4    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7a535314f20b, in 
+1738184656.6849525 [ros2_control_node-4] #3    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7a5353143b9d, in 
+1738184656.6850286 [ros2_control_node-4] #2    Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7a5352e807f2, in abort
+1738184656.6850901 [ros2_control_node-4] #1    Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7a5352e9a475, in raise
+1738184656.6852999 [rviz2-3] [WARN] [1738184656.684628687] [interactive_marker_display_110835469448352]: Server not available while running, resetting
+1738184656.6855574 [ros2_control_node-4] #0    Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7a5352eee9fc, in pthread_kill
+1738184656.6856449 [ros2_control_node-4] Aborted (Signal sent by tkill() 641055 0)
+1738184656.7359145 [rviz2-3] 
+1738184656.7363098 [rviz2-3] >>> [rcutils|error_handling.c:108] rcutils_set_error_state()
+1738184656.7364020 [rviz2-3] This error state is being overwritten:
+1738184656.7364805 [rviz2-3] 
+1738184656.7365417 [rviz2-3]   'rcl node's context is invalid, at ./src/rcl/node.c:428'
+1738184656.7366016 [rviz2-3] 
+1738184656.7366595 [rviz2-3] with this new error message:
+1738184656.7367163 [rviz2-3] 
+1738184656.7367702 [rviz2-3]   'publisher's context is invalid, at ./src/rcl/publisher.c:389'
+1738184656.7368252 [rviz2-3] 
+1738184656.7368791 [rviz2-3] rcutils_reset_error() should be called after error handling to avoid this.
+1738184656.7369349 [rviz2-3] <<<
+1738184656.7376366 [rviz2-3] [INFO] [1738184656.737424758] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopping planning scene monitor
+1738184656.7860019 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 641049]
+1738184656.9540737 [ERROR] [rviz2-3]: process has died [pid 641053, exit code -11, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/config/moveit.rviz --ros-args --params-file /tmp/launch_params_iz5ulil4 --params-file /tmp/launch_params_0n9xjicb --params-file /tmp/launch_params_p_ec899a'].
+1738184656.9588330 [ERROR] [ros2_control_node-4]: process has died [pid 641055, exit code -6, cmd '/opt/ros/humble/lib/controller_manager/ros2_control_node --ros-args --params-file /tmp/launch_params_fgrdwp38 --params-file /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/config/ros2_controllers.yaml'].
+1738184656.9827640 [ERROR] [move_group-2]: process has died [pid 641051, exit code -11, cmd '/opt/ros/humble/lib/moveit_ros_move_group/move_group --ros-args --params-file /tmp/launch_params_amzlhto5 --params-file /tmp/launch_params_mc2hqyfa'].

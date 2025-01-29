@@ -57,7 +57,7 @@ RUN apt-get update && apt-get install -y \
     alsa-utils && \
     echo -e "pcm.default pulse\nctl.default pulse" > /root/.asoundrc && \
     chmod 644 /root/.asoundrc && \
-    echo 'export PULSE_SERVER=unix:/run/user/$(id -u)/pulse/native' >> /root/.bashrc && \
+    echo 'export PULSE_SERVER=unix:$(sed "s/unix://g" <<< "$PULSE_SERVER")' >> /root/.bashrc && \
     pulseaudio --start && \
     echo "PulseAudio configurado com sucesso!"
 
@@ -65,15 +65,8 @@ RUN apt-get update && apt-get install -y \
 RUN mkdir -p /home/developer/SPWAR_ws/src
 WORKDIR /home/developer/SPWAR_ws
 
-# Clona o repositório do GitHub do Spot, se necessário
-RUN [ ! -d "/home/developer/SPWAR_ws/src/spot_description" ] && \
-    git clone https://github.com/MHC-CodeSmith/SPWAR_ws.git /home/developer/SPWAR_ws/src || echo "Repositório já clonado."
-
-# Instala dependências e constrói o workspace (usando Bash)
-RUN bash -c "source /opt/ros/humble/setup.bash && \
-    rosdep update && \
-    rosdep install --from-paths src --ignore-src -r -y && \
-    colcon build --symlink-install"
+# Clona o repositório do GitHub, se necessário
+RUN [ ! -d "/home/developer/SPWAR_ws/.git" ] && git clone https://github.com/MHC-CodeSmith/SPWAR_ws.git /home/developer/SPWAR_ws || echo "Repositório já clonado."
 
 # Configuração do ambiente
 ENV ROS_DISTRO=humble
@@ -83,8 +76,15 @@ ENV LIBGL_ALWAYS_INDIRECT=0
 # Troca o shell padrão para bash
 SHELL ["/bin/bash", "-c"]
 
+# Constrói o workspace e verifica a instalação
+RUN . /opt/ros/${ROS_DISTRO}/setup.bash && \
+    colcon build && \
+    dpkg -l | grep gazebo-ros && \
+    echo "Verificação concluída com sucesso!"
+
 # Comando padrão
 CMD ["/bin/bash"]
+
 
 ```
 

@@ -1,0 +1,2 @@
+[0.016s] Invoking command in '/home/developer/SPWAR_ws/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/developer/SPWAR_ws/build/hello_moveit -- -j16 -l16
+[0.325s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m

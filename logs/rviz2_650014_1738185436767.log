@@ -1,0 +1,43 @@
+[INFO] [1738185444.135205105] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1738185444.147544618] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1738185444.351470929] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1738185449.075343959] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [1738185449.264346016] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[ERROR] [1738185449.301638812] [rviz2]: PluginlibFactory: The plugin for class 'moveit_visual_tools/RvizVisualToolsGui' failed to load. Error: According to the loaded plugin descriptions the class moveit_visual_tools/RvizVisualToolsGui with base class type rviz_common::Panel does not exist. Declared types are  rviz_visual_tools/RvizVisualToolsGui
+[INFO] [1738185449.469058408] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.118393 seconds
+[INFO] [1738185449.469354582] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1738185449.469688253] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[INFO] [1738185449.707936594] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1738185449.709196174] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[INFO] [1738185449.801349735] [interactive_marker_display_100181702160656]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[INFO] [1738185449.826612116] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+[INFO] [1738185449.826649884] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'spot_arm' in namespace ''
+[INFO] [1738185449.833963621] [interactive_marker_display_100181702160656]: Sending request for interactive markers
+[INFO] [1738185449.845147549] [move_group_interface]: Ready to take commands for planning group spot_arm.
+[INFO] [1738185449.854458317] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+[INFO] [1738185449.865952780] [interactive_marker_display_100181702160656]: Service response received for initialization
+[WARN] [1738185514.924730016] [tf2_buffer]: Detected time source change. Clearing TF buffer.
+[WARN] [1738185514.925334299] [rviz2]: Detected time source change. Resetting RViz.
+[INFO] [1738185514.932047608] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[WARN] [1738185514.938912164] [tf2_buffer]: Detected time source change. Clearing TF buffer.
+[INFO] [1738185514.956199190] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopping planning scene monitor
+[WARN] [1738185514.974653499] [interactive_marker_display_100181702160656]: Server not available while running, resetting
+[INFO] [1738185515.033277911] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0 seconds
+[INFO] [1738185515.033314797] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1738185515.033320247] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[INFO] [1738185515.211760761] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1738185515.212379582] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[INFO] [1738185515.227446865] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+[INFO] [1738185515.227468023] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'spot_arm' in namespace ''
+[INFO] [1738185515.234717489] [move_group_interface]: Ready to take commands for planning group spot_arm.
+[INFO] [1738185515.243815103] [interactive_marker_display_100181702160656]: Sending request for interactive markers
+[INFO] [1738185515.275936525] [interactive_marker_display_100181702160656]: Service response received for initialization
+[INFO] [1738185696.020115260] [move_group_interface]: Plan and Execute request accepted
+[ERROR] [1738185696.020387931] [rviz.rclcpp_action]: unknown goal response, ignoring...
+[INFO] [1738185696.030472919] [move_group_interface]: Plan and Execute request complete!
+[ERROR] [1738185696.030510694] [rviz.rclcpp_action]: unknown result response, ignoring...
+[INFO] [1738185696.951967694] [move_group_interface]: Plan and Execute request accepted
+[ERROR] [1738185696.952048013] [rviz.rclcpp_action]: unknown goal response, ignoring...
+[INFO] [1738185696.952236517] [move_group_interface]: Plan and Execute request complete!
+[ERROR] [1738185696.952264864] [rviz.rclcpp_action]: unknown result response, ignoring...
+[INFO] [1738185738.358053267] [rclcpp]: signal_handler(signum=2)

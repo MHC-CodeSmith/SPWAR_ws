@@ -1,0 +1,5 @@
+1738184177.7814219 [INFO] [launch]: All log files can be found below /home/developer/SPWAR_ws/logs/2025-01-29-17-56-17-780576-b064b974ae0d-636932
+1738184177.7815518 [INFO] [launch]: Default logging verbosity is set to INFO
+1738184177.8797088 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+ - TypeError: generate_demo_launch() got an unexpected keyword argument 'additional_arguments'
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown

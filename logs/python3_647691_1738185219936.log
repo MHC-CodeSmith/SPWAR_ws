@@ -1,0 +1,2 @@
+[WARN] [1738185220.264452727] [spawner_joint_state_broadcaster]: [93mController already loaded, skipping load_controller[0m
+[INFO] [1738185220.300182342] [spawner_joint_state_broadcaster]: [92mConfigured and activated [1mjoint_state_broadcaster[0m

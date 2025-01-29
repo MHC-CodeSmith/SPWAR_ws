@@ -1,0 +1,283 @@
+[0.000000] (-) TimerEvent: {}
+[0.000279] (hello_moveit) JobQueued: {'identifier': 'hello_moveit', 'dependencies': OrderedDict()}
+[0.000346] (spot_description) JobQueued: {'identifier': 'spot_description', 'dependencies': OrderedDict()}
+[0.000462] (spot_moveit_config) JobQueued: {'identifier': 'spot_moveit_config', 'dependencies': OrderedDict([('spot_description', '/home/developer/SPWAR_ws/install/spot_description')])}
+[0.000533] (spot_description) JobStarted: {'identifier': 'spot_description'}
+[0.035328] (hello_moveit) JobStarted: {'identifier': 'hello_moveit'}
+[0.048461] (spot_description) JobProgress: {'identifier': 'spot_description', 'progress': 'cmake'}
+[0.050496] (spot_description) JobProgress: {'identifier': 'spot_description', 'progress': 'build'}
+[0.051794] (spot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/developer/SPWAR_ws/build/spot_description', '--', '-j16', '-l16'], 'cwd': '/home/developer/SPWAR_ws/build/spot_description', 'env': OrderedDict([('HOSTNAME', 'b064b974ae0d'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/developer/SPWAR_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/home/developer/SPWAR_ws/logs'), ('COLCON_PREFIX_PATH', '/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/src/install:/home/developer/SPWAR_ws/src/spot_moveit_config/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/0/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install/hello_moveit:/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/developer/SPWAR_ws/build/spot_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install/hello_moveit:/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble')]), 'shell': False}
+[0.059997] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'cmake'}
+[0.061603] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'build'}
+[0.063183] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/developer/SPWAR_ws/build/hello_moveit', '--', '-j16', '-l16'], 'cwd': '/home/developer/SPWAR_ws/build/hello_moveit', 'env': OrderedDict([('HOSTNAME', 'b064b974ae0d'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/developer/SPWAR_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/home/developer/SPWAR_ws/logs'), ('COLCON_PREFIX_PATH', '/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/src/install:/home/developer/SPWAR_ws/src/spot_moveit_config/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/0/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install/hello_moveit:/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/developer/SPWAR_ws/build/hello_moveit'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install/hello_moveit:/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble')]), 'shell': False}
+[0.098507] (-) TimerEvent: {}
+[0.198948] (-) TimerEvent: {}
+[0.241665] (spot_description) CommandEnded: {'returncode': 0}
+[0.260165] (hello_moveit) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hello_moveit\x1b[0m\n'}
+[0.289298] (spot_description) JobProgress: {'identifier': 'spot_description', 'progress': 'install'}
+[0.299118] (-) TimerEvent: {}
+[0.307525] (spot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/developer/SPWAR_ws/build/spot_description'], 'cwd': '/home/developer/SPWAR_ws/build/spot_description', 'env': OrderedDict([('HOSTNAME', 'b064b974ae0d'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/developer/SPWAR_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/home/developer/SPWAR_ws/logs'), ('COLCON_PREFIX_PATH', '/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/src/install:/home/developer/SPWAR_ws/src/spot_moveit_config/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/0/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install/hello_moveit:/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/developer/SPWAR_ws/build/spot_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install/hello_moveit:/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble')]), 'shell': False}
+[0.322180] (spot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.323980] (spot_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.325823] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/urdf/simple_robot.urdf\n'}
+[0.326261] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/urdf/spot_with_arm.urdf\n'}
+[0.327598] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/arm0.link_el0.stl\n'}
+[0.328068] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/arm0.link_el1.stl\n'}
+[0.328484] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/arm0.link_fngr.stl\n'}
+[0.328998] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/arm0.link_hr0.stl\n'}
+[0.329806] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/arm0.link_sh0.stl\n'}
+[0.330344] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/arm0.link_sh1.stl\n'}
+[0.330979] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/arm0.link_wr0.stl\n'}
+[0.331411] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/arm0.link_wr1.stl\n'}
+[0.331729] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/base_link_0_geom_visual_mesh.stl\n'}
+[0.332115] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/fl_hip_0_geom_visual_mesh.stl\n'}
+[0.333143] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/fr_hip_0_geom_visual_mesh.stl\n'}
+[0.333529] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/hl_hip_0_geom_visual_mesh.stl\n'}
+[0.333864] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/hr_hip_0_geom_visual_mesh.stl\n'}
+[0.334263] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/l_uleg_0_geom_visual_mesh.stl\n'}
+[0.334859] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/lleg_0_geom_visual_mesh.stl\n'}
+[0.335212] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/r_uleg_0_geom_visual_mesh.stl\n'}
+[0.335987] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/launch/display.launch.py\n'}
+[0.336332] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/launch/gazebo.launch.py\n'}
+[0.336590] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/launch/spot_moveit_rviz.launch.py\n'}
+[0.337106] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/ament_index/resource_index/package_run_dependencies/spot_description\n'}
+[0.337736] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/ament_index/resource_index/parent_prefix_path/spot_description\n'}
+[0.338295] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/environment/ament_prefix_path.sh\n'}
+[0.338772] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/environment/ament_prefix_path.dsv\n'}
+[0.339326] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/environment/path.sh\n'}
+[0.339919] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/environment/path.dsv\n'}
+[0.340426] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/local_setup.bash\n'}
+[0.340925] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/local_setup.sh\n'}
+[0.341398] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/local_setup.zsh\n'}
+[0.342041] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/local_setup.dsv\n'}
+[0.342307] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/package.dsv\n'}
+[0.362158] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/ament_index/resource_index/packages/spot_description\n'}
+[0.362734] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/cmake/spot_descriptionConfig.cmake\n'}
+[0.363097] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/cmake/spot_descriptionConfig-version.cmake\n'}
+[0.363420] (spot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/package.xml\n'}
+[0.367935] (spot_description) CommandEnded: {'returncode': 0}
+[0.399245] (-) TimerEvent: {}
+[0.456991] (spot_description) JobEnded: {'identifier': 'spot_description', 'rc': 0}
+[0.459030] (spot_moveit_config) JobStarted: {'identifier': 'spot_moveit_config'}
+[0.462223] (hello_moveit) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o\x1b[0m\n'}
+[0.473972] (spot_moveit_config) JobProgress: {'identifier': 'spot_moveit_config', 'progress': 'cmake'}
+[0.475317] (spot_moveit_config) JobProgress: {'identifier': 'spot_moveit_config', 'progress': 'build'}
+[0.476938] (spot_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/developer/SPWAR_ws/build/spot_moveit_config', '--', '-j16', '-l16'], 'cwd': '/home/developer/SPWAR_ws/build/spot_moveit_config', 'env': OrderedDict([('HOSTNAME', 'b064b974ae0d'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/developer/SPWAR_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/home/developer/SPWAR_ws/logs'), ('COLCON_PREFIX_PATH', '/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/src/install:/home/developer/SPWAR_ws/src/spot_moveit_config/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/0/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install/hello_moveit:/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/developer/SPWAR_ws/build/spot_moveit_config'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/developer/SPWAR_ws/install/spot_description:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install/hello_moveit:/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/opt/ros/humble')]), 'shell': False}
+[0.499430] (-) TimerEvent: {}
+[0.564102] (spot_moveit_config) CommandEnded: {'returncode': 0}
+[0.599582] (-) TimerEvent: {}
+[0.609128] (spot_moveit_config) JobProgress: {'identifier': 'spot_moveit_config', 'progress': 'install'}
+[0.610189] (spot_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/developer/SPWAR_ws/build/spot_moveit_config'], 'cwd': '/home/developer/SPWAR_ws/build/spot_moveit_config', 'env': OrderedDict([('HOSTNAME', 'b064b974ae0d'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/developer/SPWAR_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/home/developer/SPWAR_ws/logs'), ('COLCON_PREFIX_PATH', '/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/src/install:/home/developer/SPWAR_ws/src/spot_moveit_config/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/0/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install/hello_moveit:/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/developer/SPWAR_ws/build/spot_moveit_config'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/developer/SPWAR_ws/install/spot_description:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install/hello_moveit:/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/opt/ros/humble')]), 'shell': False}
+[0.624635] (spot_moveit_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.625491] (spot_moveit_config) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.626581] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/launch/demo.launch.py\n'}
+[0.626827] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/launch/move_group.launch.py\n'}
+[0.627136] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/launch/moveit_rviz.launch.py\n'}
+[0.627497] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/launch/rsp.launch.py\n'}
+[0.627856] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/launch/setup_assistant.launch.py\n'}
+[0.628150] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/launch/spawn_controllers.launch.py\n'}
+[0.628569] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/launch/static_virtual_joint_tfs.launch.py\n'}
+[0.628830] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/launch/warehouse_db.launch.py\n'}
+[0.629634] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/config/initial_positions.yaml\n'}
+[0.629950] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/config/joint_limits.yaml\n'}
+[0.630230] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/config/kinematics.yaml\n'}
+[0.630670] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/config/moveit.rviz\n'}
+[0.631109] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/config/moveit_controllers.yaml\n'}
+[0.631544] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/config/pilz_cartesian_limits.yaml\n'}
+[0.631863] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/config/ros2_controllers.yaml\n'}
+[0.632206] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/config/sensors_3d.yaml\n'}
+[0.632608] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/config/spot.ros2_control.xacro\n'}
+[0.633023] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/config/spot.srdf\n'}
+[0.633331] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/config/spot.urdf.xacro\n'}
+[0.633918] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/.setup_assistant\n'}
+[0.634464] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/ament_index/resource_index/package_run_dependencies/spot_moveit_config\n'}
+[0.634996] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/ament_index/resource_index/parent_prefix_path/spot_moveit_config\n'}
+[0.635454] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/environment/ament_prefix_path.sh\n'}
+[0.635933] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/environment/ament_prefix_path.dsv\n'}
+[0.636609] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/environment/path.sh\n'}
+[0.637110] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/environment/path.dsv\n'}
+[0.637594] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/local_setup.bash\n'}
+[0.637934] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/local_setup.sh\n'}
+[0.638363] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/local_setup.zsh\n'}
+[0.638731] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/local_setup.dsv\n'}
+[0.639006] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/package.dsv\n'}
+[0.657107] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/ament_index/resource_index/packages/spot_moveit_config\n'}
+[0.657659] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/cmake/spot_moveit_configConfig.cmake\n'}
+[0.658127] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/cmake/spot_moveit_configConfig-version.cmake\n'}
+[0.658446] (spot_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_moveit_config/share/spot_moveit_config/package.xml\n'}
+[0.662346] (spot_moveit_config) CommandEnded: {'returncode': 0}
+[0.699693] (-) TimerEvent: {}
+[0.730408] (spot_moveit_config) JobEnded: {'identifier': 'spot_moveit_config', 'rc': 0}
+[0.799848] (-) TimerEvent: {}
+[0.900281] (-) TimerEvent: {}
+[1.000725] (-) TimerEvent: {}
+[1.101257] (-) TimerEvent: {}
+[1.201706] (-) TimerEvent: {}
+[1.302134] (-) TimerEvent: {}
+[1.402622] (-) TimerEvent: {}
+[1.503018] (-) TimerEvent: {}
+[1.603582] (-) TimerEvent: {}
+[1.704023] (-) TimerEvent: {}
+[1.804533] (-) TimerEvent: {}
+[1.904986] (-) TimerEvent: {}
+[2.005402] (-) TimerEvent: {}
+[2.105865] (-) TimerEvent: {}
+[2.206342] (-) TimerEvent: {}
+[2.306873] (-) TimerEvent: {}
+[2.407272] (-) TimerEvent: {}
+[2.507782] (-) TimerEvent: {}
+[2.608201] (-) TimerEvent: {}
+[2.708675] (-) TimerEvent: {}
+[2.809095] (-) TimerEvent: {}
+[2.909498] (-) TimerEvent: {}
+[3.009901] (-) TimerEvent: {}
+[3.110458] (-) TimerEvent: {}
+[3.211162] (-) TimerEvent: {}
+[3.311767] (-) TimerEvent: {}
+[3.412235] (-) TimerEvent: {}
+[3.512636] (-) TimerEvent: {}
+[3.613080] (-) TimerEvent: {}
+[3.713552] (-) TimerEvent: {}
+[3.813932] (-) TimerEvent: {}
+[3.914331] (-) TimerEvent: {}
+[4.014791] (-) TimerEvent: {}
+[4.115297] (-) TimerEvent: {}
+[4.215787] (-) TimerEvent: {}
+[4.316227] (-) TimerEvent: {}
+[4.416700] (-) TimerEvent: {}
+[4.517109] (-) TimerEvent: {}
+[4.617651] (-) TimerEvent: {}
+[4.718105] (-) TimerEvent: {}
+[4.818566] (-) TimerEvent: {}
+[4.919069] (-) TimerEvent: {}
+[5.019589] (-) TimerEvent: {}
+[5.120102] (-) TimerEvent: {}
+[5.220579] (-) TimerEvent: {}
+[5.321073] (-) TimerEvent: {}
+[5.421555] (-) TimerEvent: {}
+[5.522086] (-) TimerEvent: {}
+[5.622546] (-) TimerEvent: {}
+[5.722999] (-) TimerEvent: {}
+[5.823481] (-) TimerEvent: {}
+[5.924090] (-) TimerEvent: {}
+[6.024688] (-) TimerEvent: {}
+[6.125185] (-) TimerEvent: {}
+[6.225847] (-) TimerEvent: {}
+[6.326603] (-) TimerEvent: {}
+[6.427136] (-) TimerEvent: {}
+[6.527618] (-) TimerEvent: {}
+[6.628187] (-) TimerEvent: {}
+[6.728558] (-) TimerEvent: {}
+[6.829025] (-) TimerEvent: {}
+[6.929477] (-) TimerEvent: {}
+[7.029968] (-) TimerEvent: {}
+[7.130484] (-) TimerEvent: {}
+[7.230996] (-) TimerEvent: {}
+[7.331487] (-) TimerEvent: {}
+[7.432024] (-) TimerEvent: {}
+[7.532538] (-) TimerEvent: {}
+[7.633267] (-) TimerEvent: {}
+[7.733932] (-) TimerEvent: {}
+[7.834339] (-) TimerEvent: {}
+[7.934795] (-) TimerEvent: {}
+[8.035350] (-) TimerEvent: {}
+[8.135873] (-) TimerEvent: {}
+[8.236480] (-) TimerEvent: {}
+[8.336842] (-) TimerEvent: {}
+[8.437183] (-) TimerEvent: {}
+[8.537517] (-) TimerEvent: {}
+[8.637908] (-) TimerEvent: {}
+[8.738431] (-) TimerEvent: {}
+[8.838751] (-) TimerEvent: {}
+[8.939161] (-) TimerEvent: {}
+[9.039693] (-) TimerEvent: {}
+[9.140115] (-) TimerEvent: {}
+[9.240415] (-) TimerEvent: {}
+[9.340725] (-) TimerEvent: {}
+[9.441085] (-) TimerEvent: {}
+[9.541419] (-) TimerEvent: {}
+[9.641771] (-) TimerEvent: {}
+[9.742067] (-) TimerEvent: {}
+[9.842377] (-) TimerEvent: {}
+[9.942737] (-) TimerEvent: {}
+[10.043051] (-) TimerEvent: {}
+[10.143397] (-) TimerEvent: {}
+[10.243811] (-) TimerEvent: {}
+[10.344276] (-) TimerEvent: {}
+[10.444664] (-) TimerEvent: {}
+[10.545047] (-) TimerEvent: {}
+[10.645382] (-) TimerEvent: {}
+[10.745746] (-) TimerEvent: {}
+[10.846136] (-) TimerEvent: {}
+[10.946438] (-) TimerEvent: {}
+[11.046753] (-) TimerEvent: {}
+[11.147157] (-) TimerEvent: {}
+[11.247540] (-) TimerEvent: {}
+[11.348116] (-) TimerEvent: {}
+[11.448446] (-) TimerEvent: {}
+[11.548752] (-) TimerEvent: {}
+[11.649050] (-) TimerEvent: {}
+[11.749517] (-) TimerEvent: {}
+[11.850043] (-) TimerEvent: {}
+[11.950475] (-) TimerEvent: {}
+[12.050979] (-) TimerEvent: {}
+[12.151306] (-) TimerEvent: {}
+[12.251644] (-) TimerEvent: {}
+[12.352014] (-) TimerEvent: {}
+[12.452387] (-) TimerEvent: {}
+[12.552726] (-) TimerEvent: {}
+[12.653133] (-) TimerEvent: {}
+[12.753672] (-) TimerEvent: {}
+[12.853968] (-) TimerEvent: {}
+[12.954274] (-) TimerEvent: {}
+[13.054643] (-) TimerEvent: {}
+[13.154973] (-) TimerEvent: {}
+[13.255248] (-) TimerEvent: {}
+[13.355586] (-) TimerEvent: {}
+[13.455973] (-) TimerEvent: {}
+[13.556403] (-) TimerEvent: {}
+[13.656791] (-) TimerEvent: {}
+[13.757109] (-) TimerEvent: {}
+[13.857442] (-) TimerEvent: {}
+[13.957778] (-) TimerEvent: {}
+[14.058089] (-) TimerEvent: {}
+[14.158441] (-) TimerEvent: {}
+[14.258794] (-) TimerEvent: {}
+[14.359098] (-) TimerEvent: {}
+[14.459421] (-) TimerEvent: {}
+[14.513655] (hello_moveit) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hello_moveit\x1b[0m\n'}
+[14.559528] (-) TimerEvent: {}
+[14.659857] (-) TimerEvent: {}
+[14.760297] (-) TimerEvent: {}
+[14.860695] (-) TimerEvent: {}
+[14.961201] (-) TimerEvent: {}
+[15.061633] (-) TimerEvent: {}
+[15.162109] (-) TimerEvent: {}
+[15.262741] (-) TimerEvent: {}
+[15.363292] (-) TimerEvent: {}
+[15.365835] (hello_moveit) StdoutLine: {'line': b'[100%] Built target hello_moveit\n'}
+[15.386481] (hello_moveit) CommandEnded: {'returncode': 0}
+[15.422465] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'install'}
+[15.423388] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/developer/SPWAR_ws/build/hello_moveit'], 'cwd': '/home/developer/SPWAR_ws/build/hello_moveit', 'env': OrderedDict([('HOSTNAME', 'b064b974ae0d'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/developer/SPWAR_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/home/developer/SPWAR_ws/logs'), ('COLCON_PREFIX_PATH', '/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/src/install:/home/developer/SPWAR_ws/src/spot_moveit_config/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/0/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install/hello_moveit:/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/developer/SPWAR_ws/build/hello_moveit'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/install/hello_moveit:/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble')]), 'shell': False}
+[15.433516] (hello_moveit) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.434764] (hello_moveit) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[15.435130] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/lib/hello_moveit/hello_moveit\n'}
+[15.435436] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit\n'}
+[15.435746] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit\n'}
+[15.436128] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh\n'}
+[15.436441] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv\n'}
+[15.436803] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/share/hello_moveit/environment/path.sh\n'}
+[15.437233] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/share/hello_moveit/environment/path.dsv\n'}
+[15.437452] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/share/hello_moveit/local_setup.bash\n'}
+[15.437735] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/share/hello_moveit/local_setup.sh\n'}
+[15.437975] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/share/hello_moveit/local_setup.zsh\n'}
+[15.438259] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/share/hello_moveit/local_setup.dsv\n'}
+[15.438380] (hello_moveit) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/install/hello_moveit/share/hello_moveit/package.dsv\n'}
+[15.448613] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit\n'}
+[15.448858] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake\n'}
+[15.448986] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake\n'}
+[15.449220] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/developer/SPWAR_ws/install/hello_moveit/share/hello_moveit/package.xml\n'}
+[15.451640] (hello_moveit) CommandEnded: {'returncode': 0}
+[15.463351] (-) TimerEvent: {}
+[15.498916] (hello_moveit) JobEnded: {'identifier': 'hello_moveit', 'rc': 0}
+[15.499834] (-) EventReactorShutdown: {}
