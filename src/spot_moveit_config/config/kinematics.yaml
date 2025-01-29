@@ -1,4 +1,5 @@
 spot_arm:
   kinematics_solver: kdl_kinematics_plugin/KDLKinematicsPlugin
-  kinematics_solver_search_resolution: 0.0050000000000000001
-  kinematics_solver_timeout: 0.0050000000000000001
+  kinematics_solver_search_resolution: 0.005
+  kinematics_solver_timeout: 0.1  # Aumentado para 0.1s
+  kinematics_solver_attempts: 5   # Tentar resolver a cinemática até 5 vezes

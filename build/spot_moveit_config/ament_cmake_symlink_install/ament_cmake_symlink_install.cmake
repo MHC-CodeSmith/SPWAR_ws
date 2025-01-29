@@ -310,6 +310,15 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
+# install(DIRECTORY "launch" "DESTINATION" "share/spot_moveit_config" "PATTERN_EXCLUDE" "setup_assistant.launch")
+ament_cmake_symlink_install_directory("/home/developer/SPWAR_ws/src/spot_moveit_config" DIRECTORY "launch" "DESTINATION" "share/spot_moveit_config" "PATTERN_EXCLUDE" "setup_assistant.launch")
+
+# install(DIRECTORY "config" "DESTINATION" "share/spot_moveit_config")
+ament_cmake_symlink_install_directory("/home/developer/SPWAR_ws/src/spot_moveit_config" DIRECTORY "config" "DESTINATION" "share/spot_moveit_config")
+
+# install(FILES ".setup_assistant" "DESTINATION" "share/spot_moveit_config")
+ament_cmake_symlink_install_files("/home/developer/SPWAR_ws/src/spot_moveit_config" FILES ".setup_assistant" "DESTINATION" "share/spot_moveit_config")
+
 # install(FILES "/home/developer/SPWAR_ws/build/spot_moveit_config/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/spot_moveit_config" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/developer/SPWAR_ws/src/spot_moveit_config" FILES "/home/developer/SPWAR_ws/build/spot_moveit_config/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/spot_moveit_config" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
@@ -351,12 +360,3 @@ ament_cmake_symlink_install_files("/home/developer/SPWAR_ws/src/spot_moveit_conf
 
 # install(FILES "/home/developer/SPWAR_ws/src/spot_moveit_config/package.xml" "DESTINATION" "share/spot_moveit_config")
 ament_cmake_symlink_install_files("/home/developer/SPWAR_ws/src/spot_moveit_config" FILES "/home/developer/SPWAR_ws/src/spot_moveit_config/package.xml" "DESTINATION" "share/spot_moveit_config")
-
-# install(DIRECTORY "launch" "DESTINATION" "share/spot_moveit_config" "PATTERN_EXCLUDE" "setup_assistant.launch")
-ament_cmake_symlink_install_directory("/home/developer/SPWAR_ws/src/spot_moveit_config" DIRECTORY "launch" "DESTINATION" "share/spot_moveit_config" "PATTERN_EXCLUDE" "setup_assistant.launch")
-
-# install(DIRECTORY "config" "DESTINATION" "share/spot_moveit_config")
-ament_cmake_symlink_install_directory("/home/developer/SPWAR_ws/src/spot_moveit_config" DIRECTORY "config" "DESTINATION" "share/spot_moveit_config")
-
-# install(FILES ".setup_assistant" "DESTINATION" "share/spot_moveit_config")
-ament_cmake_symlink_install_files("/home/developer/SPWAR_ws/src/spot_moveit_config" FILES ".setup_assistant" "DESTINATION" "share/spot_moveit_config")

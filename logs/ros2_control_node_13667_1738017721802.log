@@ -1,0 +1,20 @@
+[WARN] [1738017721.830902098] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+[INFO] [1738017721.831578277] [resource_manager]: Loading hardware 'FakeSystem' 
+[INFO] [1738017721.832349892] [resource_manager]: Initialize hardware 'FakeSystem' 
+[INFO] [1738017721.832447282] [resource_manager]: Successful initialization of hardware 'FakeSystem'
+[INFO] [1738017721.832546706] [resource_manager]: 'configure' hardware 'FakeSystem' 
+[INFO] [1738017721.832567565] [resource_manager]: Successful 'configure' of hardware 'FakeSystem'
+[INFO] [1738017721.832583795] [resource_manager]: 'activate' hardware 'FakeSystem' 
+[INFO] [1738017721.832591148] [resource_manager]: Successful 'activate' of hardware 'FakeSystem'
+[INFO] [1738017721.838054490] [controller_manager]: update rate is 100 Hz
+[INFO] [1738017721.838128838] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[WARN] [1738017721.838361147] [controller_manager]: No real-time kernel detected on this system. See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[INFO] [1738017722.163393348] [controller_manager]: Loading controller 'spot_gripper_controller'
+[INFO] [1738017722.182074682] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[INFO] [1738017722.198865214] [controller_manager]: Loading controller 'spot_arm_controller'
+[ERROR] [1738017722.211445416] [controller_manager]: Could not initialize the controller named 'spot_arm_controller'
+[INFO] [1738017722.219413919] [controller_manager]: Configuring controller 'spot_gripper_controller'
+[INFO] [1738017722.219596606] [spot_gripper_controller]: Action status changes will be monitored at 20Hz.
+[INFO] [1738017722.258931540] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[INFO] [1738017722.259070246] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[INFO] [1738017744.213217213] [rclcpp]: signal_handler(signum=2)

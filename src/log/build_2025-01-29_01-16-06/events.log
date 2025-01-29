@@ -1,0 +1,515 @@
+[0.000000] (-) TimerEvent: {}
+[0.000212] (hello_moveit) JobQueued: {'identifier': 'hello_moveit', 'dependencies': OrderedDict()}
+[0.000253] (spot_description) JobQueued: {'identifier': 'spot_description', 'dependencies': OrderedDict()}
+[0.000281] (spot_moveit_config) JobQueued: {'identifier': 'spot_moveit_config', 'dependencies': OrderedDict([('spot_description', '/home/developer/SPWAR_ws/src/install/spot_description')])}
+[0.000339] (spot_description) JobStarted: {'identifier': 'spot_description'}
+[0.015734] (hello_moveit) JobStarted: {'identifier': 'hello_moveit'}
+[0.027603] (spot_description) JobProgress: {'identifier': 'spot_description', 'progress': 'cmake'}
+[0.028281] (spot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/developer/SPWAR_ws/src/spot_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/developer/SPWAR_ws/src/install/spot_description'], 'cwd': '/home/developer/SPWAR_ws/src/build/spot_description', 'env': OrderedDict([('HOSTNAME', 'b064b974ae0d'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/developer/SPWAR_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/home/developer/SPWAR_ws/logs'), ('COLCON_PREFIX_PATH', '/home/developer/SPWAR_ws/src/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/src/spot_moveit_config/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/0/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/developer/SPWAR_ws/src/build/spot_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble')]), 'shell': False}
+[0.033828] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'cmake'}
+[0.035214] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '/home/developer/SPWAR_ws/src/hello_moveit', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/developer/SPWAR_ws/src/install/hello_moveit'], 'cwd': '/home/developer/SPWAR_ws/src/build/hello_moveit', 'env': OrderedDict([('HOSTNAME', 'b064b974ae0d'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/developer/SPWAR_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/home/developer/SPWAR_ws/logs'), ('COLCON_PREFIX_PATH', '/home/developer/SPWAR_ws/src/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/src/spot_moveit_config/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/0/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/developer/SPWAR_ws/src/build/hello_moveit'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble')]), 'shell': False}
+[0.098823] (-) TimerEvent: {}
+[0.179144] (spot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.180166] (hello_moveit) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.198961] (-) TimerEvent: {}
+[0.292449] (spot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.293062] (hello_moveit) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.299058] (-) TimerEvent: {}
+[0.306700] (spot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.307011] (hello_moveit) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399230] (-) TimerEvent: {}
+[0.432508] (spot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.434202] (hello_moveit) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.442870] (spot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.443506] (spot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.444568] (spot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.445069] (hello_moveit) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.445510] (hello_moveit) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.446216] (hello_moveit) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.449479] (spot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.451376] (hello_moveit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.499358] (-) TimerEvent: {}
+[0.588577] (spot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.588900] (hello_moveit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.599457] (-) TimerEvent: {}
+[0.599768] (spot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.600247] (spot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.600493] (hello_moveit) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.600707] (spot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.600934] (hello_moveit) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.601903] (hello_moveit) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.618781] (hello_moveit) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.619049] (spot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.699579] (-) TimerEvent: {}
+[0.800063] (-) TimerEvent: {}
+[0.887755] (spot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.888125] (hello_moveit) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.900166] (-) TimerEvent: {}
+[0.989309] (spot_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.989625] (hello_moveit) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.000318] (-) TimerEvent: {}
+[1.084995] (hello_moveit) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.7 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[1.085400] (spot_description) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[1.100465] (-) TimerEvent: {}
+[1.200978] (-) TimerEvent: {}
+[1.218609] (spot_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.235930] (spot_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.259011] (spot_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.291777] (spot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.301123] (-) TimerEvent: {}
+[1.335089] (spot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.401246] (-) TimerEvent: {}
+[1.438446] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[1.456020] (spot_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.465491] (spot_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.501414] (-) TimerEvent: {}
+[1.546459] (hello_moveit) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.560362] (hello_moveit) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.581936] (hello_moveit) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.601636] (-) TimerEvent: {}
+[1.610137] (hello_moveit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.646482] (hello_moveit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.676122] (spot_description) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.701732] (-) TimerEvent: {}
+[1.741766] (spot_description) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.802009] (-) TimerEvent: {}
+[1.847463] (spot_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.877052] (spot_description) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.902086] (-) TimerEvent: {}
+[2.002483] (-) TimerEvent: {}
+[2.016772] (spot_description) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.017192] (spot_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.078545] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[2.102642] (-) TimerEvent: {}
+[2.160673] (spot_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.162516] (spot_description) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.202776] (-) TimerEvent: {}
+[2.211672] (hello_moveit) StdoutLine: {'line': b'-- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[2.288722] (spot_description) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[2.290608] (spot_description) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[2.302890] (-) TimerEvent: {}
+[2.309669] (hello_moveit) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.319582] (hello_moveit) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.324181] (spot_description) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[2.403035] (-) TimerEvent: {}
+[2.503428] (-) TimerEvent: {}
+[2.527433] (hello_moveit) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.584022] (hello_moveit) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.586268] (spot_description) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[2.603584] (-) TimerEvent: {}
+[2.695618] (hello_moveit) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.701360] (spot_description) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[2.703703] (-) TimerEvent: {}
+[2.722055] (hello_moveit) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.747384] (spot_description) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[2.803823] (-) TimerEvent: {}
+[2.812676] (hello_moveit) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.816602] (spot_description) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[2.820715] (hello_moveit) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[2.840816] (spot_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[2.858701] (spot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.874355] (spot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[2.875526] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[2.877827] (spot_description) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[2.878547] (spot_description) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[2.888122] (spot_description) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[2.903984] (-) TimerEvent: {}
+[2.916168] (spot_description) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[2.992053] (spot_description) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[3.002567] (spot_description) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[3.004145] (-) TimerEvent: {}
+[3.019491] (spot_description) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[3.028288] (spot_description) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[3.028723] (spot_description) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[3.037073] (spot_description) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[3.037400] (spot_description) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[3.047474] (spot_description) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[3.047999] (spot_description) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[3.055546] (spot_description) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[3.055837] (spot_description) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[3.064718] (spot_description) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[3.065017] (spot_description) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[3.073482] (spot_description) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[3.104294] (-) TimerEvent: {}
+[3.107751] (hello_moveit) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[3.181102] (hello_moveit) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[3.204434] (-) TimerEvent: {}
+[3.259240] (spot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.268544] (spot_description) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[3.269705] (spot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[3.304584] (-) TimerEvent: {}
+[3.316384] (spot_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[3.349616] (spot_description) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[3.359260] (spot_description) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[3.389236] (spot_description) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[3.404718] (-) TimerEvent: {}
+[3.472382] (spot_description) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[3.484349] (spot_description) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[3.504855] (-) TimerEvent: {}
+[3.513176] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[3.513649] (spot_description) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[3.578696] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[3.589653] (spot_description) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[3.598376] (spot_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.599209] (spot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[3.604961] (-) TimerEvent: {}
+[3.628629] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[3.648728] (spot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.658520] (spot_description) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[3.688833] (hello_moveit) StdoutLine: {'line': b'-- Found moveit_visual_tools: 4.1.1 (/opt/ros/humble/share/moveit_visual_tools/cmake)\n'}
+[3.690608] (spot_description) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[3.705083] (-) TimerEvent: {}
+[3.769776] (spot_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.779554] (spot_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[3.780363] (spot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[3.781653] (spot_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[3.782999] (spot_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[3.785255] (spot_description) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[3.805218] (-) TimerEvent: {}
+[3.810045] (spot_description) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[3.811217] (spot_description) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[3.819319] (spot_description) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[3.820099] (spot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[3.820738] (spot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.825893] (hello_moveit) StdoutLine: {'line': b"-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'\n"}
+[3.829633] (spot_description) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[3.830464] (spot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[3.848839] (hello_moveit) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[3.852351] (hello_moveit) StdoutLine: {'line': b'-- Found OGRE\n'}
+[3.852647] (hello_moveit) StdoutLine: {'line': b'--   static     : OFF\n'}
+[3.852740] (hello_moveit) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[3.852826] (hello_moveit) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[3.853127] (hello_moveit) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[3.853280] (hello_moveit) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[3.853433] (hello_moveit) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[3.853560] (hello_moveit) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[3.853693] (hello_moveit) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[3.853771] (hello_moveit) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[3.853852] (hello_moveit) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[3.853969] (hello_moveit) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[3.854042] (hello_moveit) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[3.883682] (hello_moveit) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[3.891331] (hello_moveit) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[3.905318] (-) TimerEvent: {}
+[3.999908] (spot_description) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[4.005437] (-) TimerEvent: {}
+[4.019395] (spot_description) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[4.046570] (spot_description) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[4.066063] (hello_moveit) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[4.066832] (hello_moveit) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[4.105598] (-) TimerEvent: {}
+[4.119768] (spot_description) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[4.132011] (spot_description) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[4.161453] (spot_description) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[4.205728] (-) TimerEvent: {}
+[4.212021] (hello_moveit) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[4.212389] (hello_moveit) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[4.236372] (spot_description) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[4.237072] (spot_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[4.237740] (spot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.238407] (spot_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[4.248575] (spot_description) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[4.249174] (spot_description) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[4.276819] (spot_description) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[4.305893] (-) TimerEvent: {}
+[4.335893] (hello_moveit) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[4.336246] (hello_moveit) StdoutLine: {'line': b'-- Looking for connect\n'}
+[4.356898] (spot_description) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[4.405995] (-) TimerEvent: {}
+[4.464531] (hello_moveit) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[4.464924] (hello_moveit) StdoutLine: {'line': b'-- Looking for remove\n'}
+[4.470556] (spot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.482286] (spot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[4.485640] (spot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/developer/SPWAR_ws/src/build/spot_description\n'}
+[4.501982] (spot_description) CommandEnded: {'returncode': 0}
+[4.503091] (spot_description) JobProgress: {'identifier': 'spot_description', 'progress': 'build'}
+[4.505257] (spot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/developer/SPWAR_ws/src/build/spot_description', '--', '-j16', '-l16'], 'cwd': '/home/developer/SPWAR_ws/src/build/spot_description', 'env': OrderedDict([('HOSTNAME', 'b064b974ae0d'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/developer/SPWAR_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/home/developer/SPWAR_ws/logs'), ('COLCON_PREFIX_PATH', '/home/developer/SPWAR_ws/src/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/src/spot_moveit_config/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/0/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/developer/SPWAR_ws/src/build/spot_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble')]), 'shell': False}
+[4.506125] (-) TimerEvent: {}
+[4.583419] (spot_description) CommandEnded: {'returncode': 0}
+[4.589271] (hello_moveit) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[4.589603] (hello_moveit) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[4.606252] (-) TimerEvent: {}
+[4.631439] (spot_description) JobProgress: {'identifier': 'spot_description', 'progress': 'install'}
+[4.650590] (spot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/developer/SPWAR_ws/src/build/spot_description'], 'cwd': '/home/developer/SPWAR_ws/src/build/spot_description', 'env': OrderedDict([('HOSTNAME', 'b064b974ae0d'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/developer/SPWAR_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/home/developer/SPWAR_ws/logs'), ('COLCON_PREFIX_PATH', '/home/developer/SPWAR_ws/src/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/src/spot_moveit_config/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/0/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/developer/SPWAR_ws/src/build/spot_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble')]), 'shell': False}
+[4.667622] (spot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.668449] (spot_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.669685] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/urdf/simple_robot.urdf\n'}
+[4.690530] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/urdf/spot_with_arm.urdf\n'}
+[4.706420] (-) TimerEvent: {}
+[4.709371] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/meshes/arm0.link_el0.stl\n'}
+[4.727006] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/meshes/arm0.link_el1.stl\n'}
+[4.730537] (hello_moveit) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[4.730933] (hello_moveit) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[4.744472] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/meshes/arm0.link_fngr.stl\n'}
+[4.761283] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/meshes/arm0.link_hr0.stl\n'}
+[4.778333] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/meshes/arm0.link_sh0.stl\n'}
+[4.795940] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/meshes/arm0.link_sh1.stl\n'}
+[4.806511] (-) TimerEvent: {}
+[4.812827] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/meshes/arm0.link_wr0.stl\n'}
+[4.829995] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/meshes/arm0.link_wr1.stl\n'}
+[4.847510] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/meshes/base_link_0_geom_visual_mesh.stl\n'}
+[4.861293] (hello_moveit) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[4.864853] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/meshes/fl_hip_0_geom_visual_mesh.stl\n'}
+[4.883463] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/meshes/fr_hip_0_geom_visual_mesh.stl\n'}
+[4.899049] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/meshes/hl_hip_0_geom_visual_mesh.stl\n'}
+[4.906684] (-) TimerEvent: {}
+[4.918070] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/meshes/hr_hip_0_geom_visual_mesh.stl\n'}
+[4.935546] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/meshes/l_uleg_0_geom_visual_mesh.stl\n'}
+[4.953544] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/meshes/lleg_0_geom_visual_mesh.stl\n'}
+[4.970082] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/meshes/r_uleg_0_geom_visual_mesh.stl\n'}
+[4.987358] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/launch/display.launch.py\n'}
+[5.006215] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/launch/gazebo.launch.py\n'}
+[5.006743] (-) TimerEvent: {}
+[5.024074] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/launch/spot_moveit_rviz.launch.py\n'}
+[5.041543] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/ament_index/resource_index/package_run_dependencies/spot_description\n'}
+[5.058146] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/ament_index/resource_index/parent_prefix_path/spot_description\n'}
+[5.060766] (hello_moveit) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.074574] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/environment/ament_prefix_path.sh\n'}
+[5.091801] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/environment/ament_prefix_path.dsv\n'}
+[5.106867] (-) TimerEvent: {}
+[5.108936] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/environment/path.sh\n'}
+[5.126799] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/environment/path.dsv\n'}
+[5.145530] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/local_setup.bash\n'}
+[5.161659] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/local_setup.sh\n'}
+[5.178913] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/local_setup.zsh\n'}
+[5.195305] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/local_setup.dsv\n'}
+[5.207031] (-) TimerEvent: {}
+[5.213124] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/package.dsv\n'}
+[5.222267] (hello_moveit) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.222711] (hello_moveit) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/developer/SPWAR_ws/src/hello_moveit/include>\n'}
+[5.222933] (hello_moveit) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.224104] (hello_moveit) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.226332] (hello_moveit) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.226503] (hello_moveit) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.227562] (hello_moveit) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.229985] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/ament_index/resource_index/packages/spot_description\n'}
+[5.231086] (hello_moveit) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.247987] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/cmake/spot_descriptionConfig.cmake\n'}
+[5.264078] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/cmake/spot_descriptionConfig-version.cmake\n'}
+[5.279896] (spot_description) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_description/share/spot_description/package.xml\n'}
+[5.300618] (spot_description) CommandEnded: {'returncode': 0}
+[5.305693] (hello_moveit) StdoutLine: {'line': b'-- Generating done\n'}
+[5.307132] (-) TimerEvent: {}
+[5.312517] (hello_moveit) StdoutLine: {'line': b'-- Build files have been written to: /home/developer/SPWAR_ws/src/build/hello_moveit\n'}
+[5.336359] (hello_moveit) CommandEnded: {'returncode': 0}
+[5.337395] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'build'}
+[5.339069] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/developer/SPWAR_ws/src/build/hello_moveit', '--', '-j16', '-l16'], 'cwd': '/home/developer/SPWAR_ws/src/build/hello_moveit', 'env': OrderedDict([('HOSTNAME', 'b064b974ae0d'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/developer/SPWAR_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/home/developer/SPWAR_ws/logs'), ('COLCON_PREFIX_PATH', '/home/developer/SPWAR_ws/src/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/src/spot_moveit_config/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/0/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/developer/SPWAR_ws/src/build/hello_moveit'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble')]), 'shell': False}
+[5.378064] (spot_description) JobEnded: {'identifier': 'spot_description', 'rc': 0}
+[5.378888] (spot_moveit_config) JobStarted: {'identifier': 'spot_moveit_config'}
+[5.393557] (spot_moveit_config) JobProgress: {'identifier': 'spot_moveit_config', 'progress': 'cmake'}
+[5.394013] (spot_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '/home/developer/SPWAR_ws/src/spot_moveit_config', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/developer/SPWAR_ws/src/install/spot_moveit_config'], 'cwd': '/home/developer/SPWAR_ws/src/build/spot_moveit_config', 'env': OrderedDict([('HOSTNAME', 'b064b974ae0d'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/developer/SPWAR_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/home/developer/SPWAR_ws/logs'), ('COLCON_PREFIX_PATH', '/home/developer/SPWAR_ws/src/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/src/spot_moveit_config/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/0/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/developer/SPWAR_ws/src/build/spot_moveit_config'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble')]), 'shell': False}
+[5.407290] (-) TimerEvent: {}
+[5.448626] (hello_moveit) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o\x1b[0m\n'}
+[5.492928] (spot_moveit_config) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[5.507424] (-) TimerEvent: {}
+[5.591000] (spot_moveit_config) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[5.604805] (spot_moveit_config) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.607516] (-) TimerEvent: {}
+[5.707866] (-) TimerEvent: {}
+[5.732379] (spot_moveit_config) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.743854] (spot_moveit_config) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.744331] (spot_moveit_config) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.745093] (spot_moveit_config) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.751388] (spot_moveit_config) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.808027] (-) TimerEvent: {}
+[5.899024] (spot_moveit_config) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.908133] (-) TimerEvent: {}
+[5.909952] (spot_moveit_config) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.910497] (spot_moveit_config) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.911220] (spot_moveit_config) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.919372] (spot_moveit_config) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.008353] (-) TimerEvent: {}
+[6.108951] (-) TimerEvent: {}
+[6.174562] (spot_moveit_config) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.209106] (-) TimerEvent: {}
+[6.272258] (spot_moveit_config) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[6.309266] (-) TimerEvent: {}
+[6.409694] (-) TimerEvent: {}
+[6.465267] (spot_moveit_config) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.470650] (spot_moveit_config) StdoutLine: {'line': b'-- Generating done\n'}
+[6.472170] (spot_moveit_config) StdoutLine: {'line': b'-- Build files have been written to: /home/developer/SPWAR_ws/src/build/spot_moveit_config\n'}
+[6.479570] (spot_moveit_config) CommandEnded: {'returncode': 0}
+[6.480500] (spot_moveit_config) JobProgress: {'identifier': 'spot_moveit_config', 'progress': 'build'}
+[6.482060] (spot_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/developer/SPWAR_ws/src/build/spot_moveit_config', '--', '-j16', '-l16'], 'cwd': '/home/developer/SPWAR_ws/src/build/spot_moveit_config', 'env': OrderedDict([('HOSTNAME', 'b064b974ae0d'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/developer/SPWAR_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/home/developer/SPWAR_ws/logs'), ('COLCON_PREFIX_PATH', '/home/developer/SPWAR_ws/src/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/src/spot_moveit_config/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/0/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/developer/SPWAR_ws/src/build/spot_moveit_config'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble')]), 'shell': False}
+[6.509831] (-) TimerEvent: {}
+[6.560029] (spot_moveit_config) CommandEnded: {'returncode': 0}
+[6.606907] (spot_moveit_config) JobProgress: {'identifier': 'spot_moveit_config', 'progress': 'install'}
+[6.607363] (spot_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/developer/SPWAR_ws/src/build/spot_moveit_config'], 'cwd': '/home/developer/SPWAR_ws/src/build/spot_moveit_config', 'env': OrderedDict([('HOSTNAME', 'b064b974ae0d'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/developer/SPWAR_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/home/developer/SPWAR_ws/logs'), ('COLCON_PREFIX_PATH', '/home/developer/SPWAR_ws/src/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/src/spot_moveit_config/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/0/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/developer/SPWAR_ws/src/build/spot_moveit_config'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble')]), 'shell': False}
+[6.609958] (-) TimerEvent: {}
+[6.625693] (spot_moveit_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.626449] (spot_moveit_config) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.627734] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/launch/demo.launch.py\n'}
+[6.645412] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/launch/move_group.launch.py\n'}
+[6.663619] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/launch/moveit_rviz.launch.py\n'}
+[6.681664] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/launch/rsp.launch.py\n'}
+[6.699620] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/launch/setup_assistant.launch.py\n'}
+[6.710086] (-) TimerEvent: {}
+[6.717072] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/launch/spawn_controllers.launch.py\n'}
+[6.735509] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/launch/static_virtual_joint_tfs.launch.py\n'}
+[6.752609] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/launch/warehouse_db.launch.py\n'}
+[6.769979] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/config/initial_positions.yaml\n'}
+[6.787950] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/config/joint_limits.yaml\n'}
+[6.805114] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/config/kinematics.yaml\n'}
+[6.810190] (-) TimerEvent: {}
+[6.823101] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/config/moveit.rviz\n'}
+[6.840160] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/config/moveit_controllers.yaml\n'}
+[6.857783] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/config/pilz_cartesian_limits.yaml\n'}
+[6.875591] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/config/ros2_controllers.yaml\n'}
+[6.891898] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/config/spot.ros2_control.xacro\n'}
+[6.908543] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/config/spot.srdf\n'}
+[6.910301] (-) TimerEvent: {}
+[6.926662] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/config/spot.urdf.xacro\n'}
+[6.943870] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/.setup_assistant\n'}
+[6.961913] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/ament_index/resource_index/package_run_dependencies/spot_moveit_config\n'}
+[6.978160] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/ament_index/resource_index/parent_prefix_path/spot_moveit_config\n'}
+[6.994328] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/environment/ament_prefix_path.sh\n'}
+[7.010456] (-) TimerEvent: {}
+[7.012116] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/environment/ament_prefix_path.dsv\n'}
+[7.029828] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/environment/path.sh\n'}
+[7.047507] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/environment/path.dsv\n'}
+[7.063448] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/local_setup.bash\n'}
+[7.079223] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/local_setup.sh\n'}
+[7.096638] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/local_setup.zsh\n'}
+[7.110588] (-) TimerEvent: {}
+[7.113324] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/local_setup.dsv\n'}
+[7.132864] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/package.dsv\n'}
+[7.149852] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/ament_index/resource_index/packages/spot_moveit_config\n'}
+[7.167896] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/cmake/spot_moveit_configConfig.cmake\n'}
+[7.185384] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/cmake/spot_moveit_configConfig-version.cmake\n'}
+[7.202189] (spot_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/package.xml\n'}
+[7.210730] (-) TimerEvent: {}
+[7.223802] (spot_moveit_config) CommandEnded: {'returncode': 0}
+[7.283756] (spot_moveit_config) JobEnded: {'identifier': 'spot_moveit_config', 'rc': 0}
+[7.310870] (-) TimerEvent: {}
+[7.411328] (-) TimerEvent: {}
+[7.511856] (-) TimerEvent: {}
+[7.612297] (-) TimerEvent: {}
+[7.712768] (-) TimerEvent: {}
+[7.813196] (-) TimerEvent: {}
+[7.913599] (-) TimerEvent: {}
+[8.014007] (-) TimerEvent: {}
+[8.114464] (-) TimerEvent: {}
+[8.214855] (-) TimerEvent: {}
+[8.315263] (-) TimerEvent: {}
+[8.415618] (-) TimerEvent: {}
+[8.515969] (-) TimerEvent: {}
+[8.616307] (-) TimerEvent: {}
+[8.716626] (-) TimerEvent: {}
+[8.816952] (-) TimerEvent: {}
+[8.917287] (-) TimerEvent: {}
+[9.017622] (-) TimerEvent: {}
+[9.117961] (-) TimerEvent: {}
+[9.218330] (-) TimerEvent: {}
+[9.318662] (-) TimerEvent: {}
+[9.419008] (-) TimerEvent: {}
+[9.519299] (-) TimerEvent: {}
+[9.619612] (-) TimerEvent: {}
+[9.719945] (-) TimerEvent: {}
+[9.820229] (-) TimerEvent: {}
+[9.920512] (-) TimerEvent: {}
+[10.020794] (-) TimerEvent: {}
+[10.121081] (-) TimerEvent: {}
+[10.221470] (-) TimerEvent: {}
+[10.321984] (-) TimerEvent: {}
+[10.422667] (-) TimerEvent: {}
+[10.523225] (-) TimerEvent: {}
+[10.623821] (-) TimerEvent: {}
+[10.724321] (-) TimerEvent: {}
+[10.824597] (-) TimerEvent: {}
+[10.924911] (-) TimerEvent: {}
+[11.025267] (-) TimerEvent: {}
+[11.125584] (-) TimerEvent: {}
+[11.225923] (-) TimerEvent: {}
+[11.326267] (-) TimerEvent: {}
+[11.426558] (-) TimerEvent: {}
+[11.526854] (-) TimerEvent: {}
+[11.627255] (-) TimerEvent: {}
+[11.727559] (-) TimerEvent: {}
+[11.827961] (-) TimerEvent: {}
+[11.928234] (-) TimerEvent: {}
+[12.028522] (-) TimerEvent: {}
+[12.128831] (-) TimerEvent: {}
+[12.229193] (-) TimerEvent: {}
+[12.329504] (-) TimerEvent: {}
+[12.429790] (-) TimerEvent: {}
+[12.530147] (-) TimerEvent: {}
+[12.630446] (-) TimerEvent: {}
+[12.730773] (-) TimerEvent: {}
+[12.831049] (-) TimerEvent: {}
+[12.931348] (-) TimerEvent: {}
+[13.031710] (-) TimerEvent: {}
+[13.132398] (-) TimerEvent: {}
+[13.232831] (-) TimerEvent: {}
+[13.333128] (-) TimerEvent: {}
+[13.433421] (-) TimerEvent: {}
+[13.533719] (-) TimerEvent: {}
+[13.634058] (-) TimerEvent: {}
+[13.734342] (-) TimerEvent: {}
+[13.834616] (-) TimerEvent: {}
+[13.934925] (-) TimerEvent: {}
+[14.035222] (-) TimerEvent: {}
+[14.135497] (-) TimerEvent: {}
+[14.235777] (-) TimerEvent: {}
+[14.336061] (-) TimerEvent: {}
+[14.436365] (-) TimerEvent: {}
+[14.536662] (-) TimerEvent: {}
+[14.636952] (-) TimerEvent: {}
+[14.737480] (-) TimerEvent: {}
+[14.837913] (-) TimerEvent: {}
+[14.938234] (-) TimerEvent: {}
+[15.038533] (-) TimerEvent: {}
+[15.138847] (-) TimerEvent: {}
+[15.239147] (-) TimerEvent: {}
+[15.339439] (-) TimerEvent: {}
+[15.439741] (-) TimerEvent: {}
+[15.540047] (-) TimerEvent: {}
+[15.640360] (-) TimerEvent: {}
+[15.740644] (-) TimerEvent: {}
+[15.840978] (-) TimerEvent: {}
+[15.941278] (-) TimerEvent: {}
+[16.041586] (-) TimerEvent: {}
+[16.141935] (-) TimerEvent: {}
+[16.242207] (-) TimerEvent: {}
+[16.342490] (-) TimerEvent: {}
+[16.442789] (-) TimerEvent: {}
+[16.543068] (-) TimerEvent: {}
+[16.643360] (-) TimerEvent: {}
+[16.743640] (-) TimerEvent: {}
+[16.843914] (-) TimerEvent: {}
+[16.944198] (-) TimerEvent: {}
+[16.950775] (hello_moveit) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hello_moveit\x1b[0m\n'}
+[17.044382] (-) TimerEvent: {}
+[17.144828] (-) TimerEvent: {}
+[17.245157] (-) TimerEvent: {}
+[17.345443] (-) TimerEvent: {}
+[17.445770] (-) TimerEvent: {}
+[17.546082] (-) TimerEvent: {}
+[17.646600] (-) TimerEvent: {}
+[17.746888] (-) TimerEvent: {}
+[17.750332] (hello_moveit) StdoutLine: {'line': b'[100%] Built target hello_moveit\n'}
+[17.763805] (hello_moveit) CommandEnded: {'returncode': 0}
+[17.797507] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'install'}
+[17.798644] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/developer/SPWAR_ws/src/build/hello_moveit'], 'cwd': '/home/developer/SPWAR_ws/src/build/hello_moveit', 'env': OrderedDict([('HOSTNAME', 'b064b974ae0d'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/developer/SPWAR_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/home/developer/SPWAR_ws/logs'), ('COLCON_PREFIX_PATH', '/home/developer/SPWAR_ws/src/install:/home/developer/SPWAR_ws/install:/home/developer/SPWAR_ws/src/spot_moveit_config/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/0/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/developer/SPWAR_ws/src/build/hello_moveit'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble')]), 'shell': False}
+[17.805818] (hello_moveit) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.806340] (hello_moveit) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[17.807056] (hello_moveit) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/hello_moveit/lib/hello_moveit/hello_moveit\n'}
+[17.815824] (hello_moveit) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit\n'}
+[17.824183] (hello_moveit) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit\n'}
+[17.832628] (hello_moveit) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh\n'}
+[17.841960] (hello_moveit) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv\n'}
+[17.846939] (-) TimerEvent: {}
+[17.851794] (hello_moveit) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/hello_moveit/share/hello_moveit/environment/path.sh\n'}
+[17.861073] (hello_moveit) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/hello_moveit/share/hello_moveit/environment/path.dsv\n'}
+[17.870841] (hello_moveit) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/hello_moveit/share/hello_moveit/local_setup.bash\n'}
+[17.880176] (hello_moveit) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/hello_moveit/share/hello_moveit/local_setup.sh\n'}
+[17.888735] (hello_moveit) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/hello_moveit/share/hello_moveit/local_setup.zsh\n'}
+[17.897364] (hello_moveit) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/hello_moveit/share/hello_moveit/local_setup.dsv\n'}
+[17.905271] (hello_moveit) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/hello_moveit/share/hello_moveit/package.dsv\n'}
+[17.914532] (hello_moveit) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit\n'}
+[17.923653] (hello_moveit) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake\n'}
+[17.933659] (hello_moveit) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake\n'}
+[17.942677] (hello_moveit) StdoutLine: {'line': b'-- Symlinking: /home/developer/SPWAR_ws/src/install/hello_moveit/share/hello_moveit/package.xml\n'}
+[17.947012] (-) TimerEvent: {}
+[17.955430] (hello_moveit) CommandEnded: {'returncode': 0}
+[17.995921] (hello_moveit) JobEnded: {'identifier': 'hello_moveit', 'rc': 0}
+[17.996547] (-) EventReactorShutdown: {}

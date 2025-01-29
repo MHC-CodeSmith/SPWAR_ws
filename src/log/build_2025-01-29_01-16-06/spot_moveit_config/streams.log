@@ -1,0 +1,60 @@
+[0.018s] Invoking command in '/home/developer/SPWAR_ws/src/build/spot_moveit_config': CMAKE_PREFIX_PATH=/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble /usr/bin/cmake /home/developer/SPWAR_ws/src/spot_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/developer/SPWAR_ws/src/install/spot_moveit_config
+[0.114s] -- The C compiler identification is GNU 11.4.0
+[0.212s] -- The CXX compiler identification is GNU 11.4.0
+[0.226s] -- Detecting C compiler ABI info
+[0.354s] -- Detecting C compiler ABI info - done
+[0.365s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.366s] -- Detecting C compile features
+[0.366s] -- Detecting C compile features - done
+[0.373s] -- Detecting CXX compiler ABI info
+[0.520s] -- Detecting CXX compiler ABI info - done
+[0.531s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.532s] -- Detecting CXX compile features
+[0.532s] -- Detecting CXX compile features - done
+[0.541s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.796s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.894s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.087s] -- Configuring done
+[1.092s] -- Generating done
+[1.093s] -- Build files have been written to: /home/developer/SPWAR_ws/src/build/spot_moveit_config
+[1.101s] Invoked command in '/home/developer/SPWAR_ws/src/build/spot_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble /usr/bin/cmake /home/developer/SPWAR_ws/src/spot_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/developer/SPWAR_ws/src/install/spot_moveit_config
+[1.103s] Invoking command in '/home/developer/SPWAR_ws/src/build/spot_moveit_config': CMAKE_PREFIX_PATH=/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble /usr/bin/cmake --build /home/developer/SPWAR_ws/src/build/spot_moveit_config -- -j16 -l16
+[1.181s] Invoked command in '/home/developer/SPWAR_ws/src/build/spot_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble /usr/bin/cmake --build /home/developer/SPWAR_ws/src/build/spot_moveit_config -- -j16 -l16
+[1.229s] Invoking command in '/home/developer/SPWAR_ws/src/build/spot_moveit_config': CMAKE_PREFIX_PATH=/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble /usr/bin/cmake --install /home/developer/SPWAR_ws/src/build/spot_moveit_config
+[1.247s] -- Install configuration: ""
+[1.248s] -- Execute custom install script
+[1.249s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/launch/demo.launch.py
+[1.267s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/launch/move_group.launch.py
+[1.285s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/launch/moveit_rviz.launch.py
+[1.303s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/launch/rsp.launch.py
+[1.321s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/launch/setup_assistant.launch.py
+[1.338s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/launch/spawn_controllers.launch.py
+[1.357s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[1.374s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/launch/warehouse_db.launch.py
+[1.391s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/config/initial_positions.yaml
+[1.409s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/config/joint_limits.yaml
+[1.426s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/config/kinematics.yaml
+[1.444s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/config/moveit.rviz
+[1.461s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/config/moveit_controllers.yaml
+[1.479s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/config/pilz_cartesian_limits.yaml
+[1.497s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/config/ros2_controllers.yaml
+[1.513s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/config/spot.ros2_control.xacro
+[1.530s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/config/spot.srdf
+[1.548s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/config/spot.urdf.xacro
+[1.565s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/.setup_assistant
+[1.583s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/ament_index/resource_index/package_run_dependencies/spot_moveit_config
+[1.599s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/ament_index/resource_index/parent_prefix_path/spot_moveit_config
+[1.616s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/environment/ament_prefix_path.sh
+[1.633s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/environment/ament_prefix_path.dsv
+[1.651s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/environment/path.sh
+[1.669s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/environment/path.dsv
+[1.685s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/local_setup.bash
+[1.701s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/local_setup.sh
+[1.718s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/local_setup.zsh
+[1.735s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/local_setup.dsv
+[1.754s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/package.dsv
+[1.771s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/ament_index/resource_index/packages/spot_moveit_config
+[1.789s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/cmake/spot_moveit_configConfig.cmake
+[1.807s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/cmake/spot_moveit_configConfig-version.cmake
+[1.824s] -- Symlinking: /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/package.xml
+[1.845s] Invoked command in '/home/developer/SPWAR_ws/src/build/spot_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/developer/SPWAR_ws/src/install/spot_description:/home/developer/SPWAR_ws/src/install/spot_moveit_config:/home/developer/SPWAR_ws/src/install/hello_moveit:/home/developer/SPWAR_ws/install/spot_moveit_config:/home/developer/SPWAR_ws/install/spot_description:/opt/ros/humble /usr/bin/cmake --install /home/developer/SPWAR_ws/src/build/spot_moveit_config

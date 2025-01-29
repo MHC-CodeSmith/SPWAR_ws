@@ -1,0 +1,26 @@
+[INFO] [1738160020.088709207] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1738160020.088825975] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1738160020.108099406] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1738160023.204972503] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [1738160023.218239283] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[ERROR] [1738160023.222568126] [rviz2]: PluginlibFactory: The plugin for class 'moveit_visual_tools/RvizVisualToolsGui' failed to load. Error: According to the loaded plugin descriptions the class moveit_visual_tools/RvizVisualToolsGui with base class type rviz_common::Panel does not exist. Declared types are  rviz_visual_tools/RvizVisualToolsGui
+[INFO] [1738160023.308664799] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.052301 seconds
+[INFO] [1738160023.308704674] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1738160023.308713991] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1738160023.346334296] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738160023.346389368] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738160023.346399698] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738160023.346407592] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738160023.352095138] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[INFO] [1738160023.479808099] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1738160023.480368784] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[INFO] [1738160023.546409768] [interactive_marker_display_105420117041952]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[WARN] [1738160023.551227993] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[WARN] [1738160023.551316658] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[INFO] [1738160023.560563722] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+[INFO] [1738160023.560589641] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'spot_arm' in namespace ''
+[INFO] [1738160023.564986430] [move_group_interface]: Ready to take commands for planning group spot_arm.
+[INFO] [1738160023.565876530] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+[INFO] [1738160023.570558961] [interactive_marker_display_105420117041952]: Sending request for interactive markers
+[INFO] [1738160023.603733285] [interactive_marker_display_105420117041952]: Service response received for initialization
+[INFO] [1738160048.319055930] [rclcpp]: signal_handler(signum=2)

@@ -1,0 +1,47 @@
+1738162675.5651033 [INFO] [launch]: All log files can be found below /home/developer/SPWAR_ws/logs/2025-01-29-11-57-55-564396-b064b974ae0d-445671
+1738162675.5652623 [INFO] [launch]: Default logging verbosity is set to INFO
+1738162676.4427114 [INFO] [robot_state_publisher-1]: process started with pid [445682]
+1738162676.4429519 [INFO] [move_group-2]: process started with pid [445684]
+1738162676.4430497 [INFO] [rviz2-3]: process started with pid [445686]
+1738162676.4431429 [INFO] [ros2_control_node-4]: process started with pid [445688]
+1738162676.4432397 [INFO] [spawner-5]: process started with pid [445690]
+1738162676.4433291 [INFO] [spawner-6]: process started with pid [445692]
+1738162676.4434211 [INFO] [spawner-7]: process started with pid [445694]
+1738162676.4492676 [ros2_control_node-4] [WARN] [1738162676.448850412] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+1738162676.4497557 [ros2_control_node-4] [INFO] [1738162676.449248808] [resource_manager]: Loading hardware 'FakeSystem' 
+1738162676.4502640 [ros2_control_node-4] [INFO] [1738162676.450117710] [resource_manager]: Initialize hardware 'FakeSystem' 
+1738162676.4505253 [ros2_control_node-4] [INFO] [1738162676.450183668] [resource_manager]: Successful initialization of hardware 'FakeSystem'
+1738162676.4506183 [ros2_control_node-4] [INFO] [1738162676.450226873] [resource_manager]: 'configure' hardware 'FakeSystem' 
+1738162676.4509146 [ros2_control_node-4] [INFO] [1738162676.450498331] [resource_manager]: Successful 'configure' of hardware 'FakeSystem'
+1738162676.4510067 [ros2_control_node-4] [INFO] [1738162676.450509393] [resource_manager]: 'activate' hardware 'FakeSystem' 
+1738162676.4510882 [ros2_control_node-4] [INFO] [1738162676.450514112] [resource_manager]: Successful 'activate' of hardware 'FakeSystem'
+1738162676.4553080 [ros2_control_node-4] [INFO] [1738162676.454967627] [controller_manager]: update rate is 100 Hz
+1738162676.4555464 [ros2_control_node-4] [INFO] [1738162676.455008657] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+1738162676.4559252 [ros2_control_node-4] [WARN] [1738162676.455208747] [controller_manager]: No real-time kernel detected on this system. See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+1738162676.6071784 [ros2_control_node-4] [INFO] [1738162676.606686214] [controller_manager]: Loading controller 'spot_arm_controller'
+1738162676.6162808 [ros2_control_node-4] [WARN] [1738162676.615966922] [spot_arm_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+1738162676.6259360 [ros2_control_node-4] [INFO] [1738162676.625635364] [controller_manager]: Loading controller 'spot_gripper_controller'
+1738162676.6358569 [ros2_control_node-4] [INFO] [1738162676.635559555] [controller_manager]: Loading controller 'joint_state_broadcaster'
+1738162676.6457331 [ros2_control_node-4] [INFO] [1738162676.645505749] [controller_manager]: Configuring controller 'spot_arm_controller'
+1738162676.6462560 [ros2_control_node-4] [INFO] [1738162676.645711159] [spot_arm_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+1738162676.6464894 [ros2_control_node-4] [INFO] [1738162676.645738272] [spot_arm_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+1738162676.6465981 [ros2_control_node-4] [INFO] [1738162676.645758782] [spot_arm_controller]: Using 'splines' interpolation method.
+1738162676.6479249 [ros2_control_node-4] [INFO] [1738162676.647768016] [spot_arm_controller]: Controller state will be published at 50.00 Hz.
+1738162676.6505210 [ros2_control_node-4] [INFO] [1738162676.650318955] [spot_arm_controller]: Action status changes will be monitored at 20.00 Hz.
+1738162676.6558437 [ros2_control_node-4] [INFO] [1738162676.655655740] [controller_manager]: Configuring controller 'spot_gripper_controller'
+1738162676.6564009 [ros2_control_node-4] [INFO] [1738162676.655774401] [spot_gripper_controller]: Action status changes will be monitored at 20Hz.
+1738162676.6858540 [ros2_control_node-4] [INFO] [1738162676.685542656] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+1738162676.6862867 [ros2_control_node-4] [INFO] [1738162676.685621790] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+1738162676.8408973 [INFO] [spawner-5]: process has finished cleanly [pid 445690]
+1738162676.8793664 [rviz2-3] [INFO] [1738162676.879037657] [rviz2]: Stereo is NOT SUPPORTED
+1738162676.8795331 [rviz2-3] [INFO] [1738162676.879127592] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+1738162676.8841584 [INFO] [spawner-6]: process has finished cleanly [pid 445692]
+1738162676.8957672 [INFO] [spawner-7]: process has finished cleanly [pid 445694]
+1738162676.8993170 [rviz2-3] [INFO] [1738162676.899140395] [rviz2]: Stereo is NOT SUPPORTED
+1738162681.2652254 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1738162681.2680461 [ros2_control_node-4] [INFO] [1738162681.264938996] [rclcpp]: signal_handler(signum=2)
+1738162681.2687860 [rviz2-3] [INFO] [1738162681.264948955] [rclcpp]: signal_handler(signum=2)
+1738162681.3750241 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 445682]
+1738162681.3924267 [INFO] [ros2_control_node-4]: process has finished cleanly [pid 445688]
+1738162681.4010360 [ERROR] [move_group-2]: process has died [pid 445684, exit code -11, cmd '/opt/ros/humble/lib/moveit_ros_move_group/move_group --ros-args --params-file /tmp/launch_params_hlu_vr8_ --params-file /tmp/launch_params_nhbwgshw'].
+1738162681.4119966 [INFO] [rviz2-3]: process has finished cleanly [pid 445686]

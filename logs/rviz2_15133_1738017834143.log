@@ -1,0 +1,32 @@
+[INFO] [1738017834.844645080] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1738017834.844799700] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1738017834.879224422] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1738017838.025200826] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [1738017838.044807637] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[INFO] [1738017838.169109073] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0855639 seconds
+[INFO] [1738017838.169228407] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1738017838.169266087] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1738017838.246727382] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738017838.246856654] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738017838.246876802] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738017838.246896519] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738017838.258136695] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[INFO] [1738017838.501706384] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1738017838.502471707] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[INFO] [1738017838.625745900] [interactive_marker_display_109204328552832]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[WARN] [1738017838.636427980] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[WARN] [1738017838.636629788] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[INFO] [1738017838.644768437] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+[INFO] [1738017838.644824141] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'spot_arm' in namespace ''
+[INFO] [1738017838.657142285] [move_group_interface]: Ready to take commands for planning group spot_arm.
+[INFO] [1738017838.658879598] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+[INFO] [1738017838.660598346] [interactive_marker_display_109204328552832]: Sending request for interactive markers
+[INFO] [1738017838.694011848] [interactive_marker_display_109204328552832]: Service response received for initialization
+[INFO] [1738017841.458028755] [move_group_interface]: MoveGroup action client/server ready
+[INFO] [1738017841.459677232] [move_group_interface]: Planning request accepted
+[INFO] [1738017842.495551081] [move_group_interface]: Planning request complete!
+[INFO] [1738017842.496508524] [move_group_interface]: time taken to generate plan: 0.0244365 seconds
+[INFO] [1738017845.574814182] [move_group_interface]: Execute request accepted
+[INFO] [1738017846.576302696] [move_group_interface]: Execute request aborted
+[ERROR] [1738017846.577003319] [move_group_interface]: MoveGroupInterface::execute() failed or timeout reached
+[INFO] [1738017851.181681454] [rclcpp]: signal_handler(signum=2)

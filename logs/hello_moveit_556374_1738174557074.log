@@ -1,0 +1,24 @@
+[INFO] [1738174558.120857978] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 1.02898 seconds
+[INFO] [1738174558.120921095] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1738174558.120932195] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1738174558.172127969] [moveit_ros.robot_model_loader]: No kinematics plugins defined. Fill and load kinematics.yaml!
+[INFO] [1738174558.183317745] [move_group_interface]: Ready to take commands for planning group spot_arm.
+[INFO] [1738174558.223275824] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0342103 seconds
+[INFO] [1738174558.223306341] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1738174558.223313334] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1738174558.271425258] [moveit_ros.robot_model_loader]: No kinematics plugins defined. Fill and load kinematics.yaml!
+[INFO] [1738174558.384850302] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1738174558.385348706] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/planning_scene'
+[INFO] [1738174558.385860716] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[INFO] [1738174558.386091614] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[INFO] [1738174558.386110469] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[INFO] [1738174558.386364881] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'
+[INFO] [1738174558.386593565] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[WARN] [1738174558.386807131] [moveit.ros.occupancy_map_monitor.middleware_handle]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[ERROR] [1738174558.386820657] [moveit.ros.occupancy_map_monitor.middleware_handle]: No 3D sensor plugin(s) defined for octomap updates
+[INFO] [1738174558.423089382] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[INFO] [1738174568.423295529] [moveit_ros.current_state_monitor]: Didn't receive robot state (joint angles) with recent timestamp within 10.000000 seconds. Requested time 1738174558.423148, but latest received state has time 0.000000.
+Check clock synchronization if your are running ROS across multiple machines!
+[ERROR] [1738174568.423419259] [move_group_interface]: Failed to fetch current robot state
+[WARN] [1738174568.423441550] [hello_moveit]: Não foi possível obter o estado atual do robô!
+[ERROR] [1738174568.423656769] [hello_moveit]: Movimento cancelado: Ponto inalcançável!

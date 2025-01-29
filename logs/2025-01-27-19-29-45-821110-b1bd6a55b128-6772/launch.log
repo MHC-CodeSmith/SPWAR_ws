@@ -1,0 +1,91 @@
+1738016985.8226001 [INFO] [launch]: All log files can be found below /home/developer/SPWAR_ws/logs/2025-01-27-19-29-45-821110-b1bd6a55b128-6772
+1738016985.8228135 [INFO] [launch]: Default logging verbosity is set to INFO
+1738016987.5459208 [INFO] [robot_state_publisher-1]: process started with pid [6790]
+1738016987.5462351 [INFO] [move_group-2]: process started with pid [6792]
+1738016987.5464382 [INFO] [rviz2-3]: process started with pid [6794]
+1738016987.5466800 [INFO] [ros2_control_node-4]: process started with pid [6796]
+1738016987.5468559 [INFO] [spawner-5]: process started with pid [6798]
+1738016987.5470159 [INFO] [spawner-6]: process started with pid [6800]
+1738016987.5471544 [INFO] [spawner-7]: process started with pid [6802]
+1738016987.5483949 [ros2_control_node-4] [WARN] [1738016987.543628493] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+1738016987.5485861 [ros2_control_node-4] [INFO] [1738016987.544239755] [resource_manager]: Loading hardware 'FakeSystem' 
+1738016987.5487313 [ros2_control_node-4] [INFO] [1738016987.545066304] [resource_manager]: Initialize hardware 'FakeSystem' 
+1738016987.5488429 [ros2_control_node-4] [INFO] [1738016987.545140748] [resource_manager]: Successful initialization of hardware 'FakeSystem'
+1738016987.5489469 [ros2_control_node-4] [INFO] [1738016987.545209350] [resource_manager]: 'configure' hardware 'FakeSystem' 
+1738016987.5490527 [ros2_control_node-4] [INFO] [1738016987.545221083] [resource_manager]: Successful 'configure' of hardware 'FakeSystem'
+1738016987.5491524 [ros2_control_node-4] [INFO] [1738016987.545235391] [resource_manager]: 'activate' hardware 'FakeSystem' 
+1738016987.5492499 [ros2_control_node-4] [INFO] [1738016987.545242555] [resource_manager]: Successful 'activate' of hardware 'FakeSystem'
+1738016987.5496469 [rviz2-3] QStandardPaths: wrong permissions on runtime directory /run/user/1000, 0755 instead of 0700
+1738016987.5521524 [ros2_control_node-4] [INFO] [1738016987.551858088] [controller_manager]: update rate is 100 Hz
+1738016987.5524595 [ros2_control_node-4] [INFO] [1738016987.551909578] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+1738016987.5530412 [ros2_control_node-4] [WARN] [1738016987.552127950] [controller_manager]: No real-time kernel detected on this system. See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+1738016987.8546875 [ros2_control_node-4] [INFO] [1738016987.854323130] [controller_manager]: Loading controller 'joint_state_broadcaster'
+1738016987.8733130 [ros2_control_node-4] [INFO] [1738016987.872892982] [controller_manager]: Loading controller 'spot_gripper_controller'
+1738016987.8930748 [ros2_control_node-4] [INFO] [1738016987.892659607] [controller_manager]: Loading controller 'spot_arm_controller'
+1738016987.9094162 [ros2_control_node-4] [WARN] [1738016987.909038532] [spot_arm_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+1738016987.9126749 [ros2_control_node-4] [INFO] [1738016987.912439078] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+1738016987.9132602 [ros2_control_node-4] [INFO] [1738016987.912579940] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+1738016987.9431472 [ros2_control_node-4] [INFO] [1738016987.942735627] [controller_manager]: Configuring controller 'spot_gripper_controller'
+1738016987.9438052 [ros2_control_node-4] [INFO] [1738016987.942875447] [spot_gripper_controller]: Action status changes will be monitored at 20Hz.
+1738016987.9527769 [ros2_control_node-4] [INFO] [1738016987.952545277] [controller_manager]: Configuring controller 'spot_arm_controller'
+1738016987.9532366 [ros2_control_node-4] [INFO] [1738016987.952765664] [spot_arm_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+1738016987.9533796 [ros2_control_node-4] [INFO] [1738016987.952792345] [spot_arm_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+1738016987.9534912 [ros2_control_node-4] [INFO] [1738016987.952817494] [spot_arm_controller]: Using 'splines' interpolation method.
+1738016987.9541373 [ros2_control_node-4] [INFO] [1738016987.953951467] [spot_arm_controller]: Controller state will be published at 50.00 Hz.
+1738016987.9560003 [ros2_control_node-4] [INFO] [1738016987.955725227] [spot_arm_controller]: Action status changes will be monitored at 20.00 Hz.
+1738016988.1231816 [INFO] [spawner-7]: process has finished cleanly [pid 6802]
+1738016988.1745989 [INFO] [spawner-6]: process has finished cleanly [pid 6800]
+1738016988.1934791 [INFO] [spawner-5]: process has finished cleanly [pid 6798]
+1738016988.2304957 [rviz2-3] [INFO] [1738016988.229765656] [rviz2]: Stereo is NOT SUPPORTED
+1738016988.2313664 [rviz2-3] [INFO] [1738016988.229960984] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+1738016988.2669604 [rviz2-3] [INFO] [1738016988.266268919] [rviz2]: Stereo is NOT SUPPORTED
+1738016988.3809705 [rviz2-3] Warning: class_loader.impl: SEVERE WARNING!!! A namespace collision has occurred with plugin factory for class rviz_default_plugins::displays::InteractiveMarkerDisplay. New factory will OVERWRITE existing one. This situation occurs when libraries containing plugins are directly linked against an executable (the one running right now generating this message). Please separate plugins out into their own library or just don't link against the library and use either class_loader::ClassLoader/MultiLibraryClassLoader to open.
+1738016988.3812599 [rviz2-3]          at line 253 in /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp
+1738016991.4118767 [rviz2-3] [ERROR] [1738016991.411298077] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+1738016991.4288688 [rviz2-3] [INFO] [1738016991.428385524] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+1738016991.5523367 [rviz2-3] [INFO] [1738016991.551917469] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0825911 seconds
+1738016991.5526505 [rviz2-3] [INFO] [1738016991.551992935] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+1738016991.5527923 [rviz2-3] [INFO] [1738016991.552008324] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1738016991.6262851 [rviz2-3] [WARN] [1738016991.625900168] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1738016991.6266527 [rviz2-3] [WARN] [1738016991.625964272] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1738016991.6268482 [rviz2-3] [WARN] [1738016991.625980373] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1738016991.6270120 [rviz2-3] [WARN] [1738016991.625994620] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1738016991.6380918 [rviz2-3] [WARN] [1738016991.637694858] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+1738016991.8654935 [rviz2-3] [INFO] [1738016991.865063859] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+1738016991.8662195 [rviz2-3] [INFO] [1738016991.865775416] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+1738016991.9854095 [rviz2-3] [INFO] [1738016991.984637299] [interactive_marker_display_100161895535536]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+1738016991.9946651 [rviz2-3] [WARN] [1738016991.993950049] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+1738016991.9954753 [rviz2-3] [WARN] [1738016991.994159274] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+1738016992.0035794 [rviz2-3] [INFO] [1738016992.003033636] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+1738016992.0039070 [rviz2-3] [INFO] [1738016992.003087801] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'spot_arm' in namespace ''
+1738016992.0133169 [rviz2-3] [INFO] [1738016992.012612171] [move_group_interface]: Ready to take commands for planning group spot_arm.
+1738016992.0143485 [rviz2-3] [INFO] [1738016992.013254584] [interactive_marker_display_100161895535536]: Sending request for interactive markers
+1738016992.0148411 [rviz2-3] [INFO] [1738016992.014413876] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+1738016992.0466428 [rviz2-3] [INFO] [1738016992.046047945] [interactive_marker_display_100161895535536]: Service response received for initialization
+1738017007.4285812 [rviz2-3] [INFO] [1738017007.427306277] [move_group_interface]: Plan and Execute request accepted
+1738017007.4640539 [ros2_control_node-4] [INFO] [1738017007.463495550] [spot_arm_controller]: Received new action goal
+1738017007.4642837 [ros2_control_node-4] [INFO] [1738017007.463589862] [spot_arm_controller]: Accepted new action goal
+1738017010.7828805 [ros2_control_node-4] [INFO] [1738017010.782333912] [spot_arm_controller]: Goal reached, success!
+1738017010.8541961 [rviz2-3] [INFO] [1738017010.853902045] [move_group_interface]: Plan and Execute request complete!
+1738017011.8550053 [rviz2-3] [WARN] [1738017011.854231401] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Maybe failed to update robot state, time diff: 0.042s
+1738017020.1800528 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1738017020.1844153 [ros2_control_node-4] [INFO] [1738017020.179536411] [rclcpp]: signal_handler(signum=2)
+1738017020.1854937 [rviz2-3] [INFO] [1738017020.179634080] [rclcpp]: signal_handler(signum=2)
+1738017020.2055676 [rviz2-3] [WARN] [1738017020.204993171] [interactive_marker_display_100161895535536]: Server not available while running, resetting
+1738017020.2415841 [rviz2-3] 
+1738017020.2418649 [rviz2-3] >>> [rcutils|error_handling.c:108] rcutils_set_error_state()
+1738017020.2422428 [rviz2-3] This error state is being overwritten:
+1738017020.2424462 [rviz2-3] 
+1738017020.2425621 [rviz2-3]   'rcl node's context is invalid, at ./src/rcl/node.c:428'
+1738017020.2426617 [rviz2-3] 
+1738017020.2428377 [rviz2-3] with this new error message:
+1738017020.2430243 [rviz2-3] 
+1738017020.2431965 [rviz2-3]   'publisher's context is invalid, at ./src/rcl/publisher.c:389'
+1738017020.2433429 [rviz2-3] 
+1738017020.2434883 [rviz2-3] rcutils_reset_error() should be called after error handling to avoid this.
+1738017020.2435997 [rviz2-3] <<<
+1738017020.2440991 [rviz2-3] [INFO] [1738017020.242938702] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopping planning scene monitor
+1738017020.2928042 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 6790]
+1738017020.3215766 [INFO] [ros2_control_node-4]: process has finished cleanly [pid 6796]
+1738017020.4378018 [ERROR] [move_group-2]: process has died [pid 6792, exit code -11, cmd '/opt/ros/humble/lib/moveit_ros_move_group/move_group --ros-args --params-file /tmp/launch_params_841ooln1 --params-file /tmp/launch_params_ororrt2o'].
+1738017020.4954989 [ERROR] [rviz2-3]: process has died [pid 6794, exit code -11, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/developer/SPWAR_ws/src/install/spot_moveit_config/share/spot_moveit_config/config/moveit.rviz --ros-args --params-file /tmp/launch_params_b9kdepl7 --params-file /tmp/launch_params_4btd6gho --params-file /tmp/launch_params_zhxf41ve'].

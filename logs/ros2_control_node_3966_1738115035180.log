@@ -1,0 +1,20 @@
+[WARN] [1738115035.202807701] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+[INFO] [1738115035.203324387] [resource_manager]: Loading hardware 'FakeSystem' 
+[INFO] [1738115035.203925585] [resource_manager]: Initialize hardware 'FakeSystem' 
+[INFO] [1738115035.204005097] [resource_manager]: Successful initialization of hardware 'FakeSystem'
+[INFO] [1738115035.204088757] [resource_manager]: 'configure' hardware 'FakeSystem' 
+[INFO] [1738115035.204101571] [resource_manager]: Successful 'configure' of hardware 'FakeSystem'
+[INFO] [1738115035.204111280] [resource_manager]: 'activate' hardware 'FakeSystem' 
+[INFO] [1738115035.204117872] [resource_manager]: Successful 'activate' of hardware 'FakeSystem'
+[INFO] [1738115035.208814008] [controller_manager]: update rate is 100 Hz
+[INFO] [1738115035.208888360] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[WARN] [1738115035.209060779] [controller_manager]: No real-time kernel detected on this system. See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[INFO] [1738115035.410066626] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[INFO] [1738115035.419405615] [controller_manager]: Loading controller 'spot_gripper_controller'
+[INFO] [1738115035.431585548] [controller_manager]: Loading controller 'spot_arm_controller'
+[ERROR] [1738115035.438950379] [controller_manager]: Could not initialize the controller named 'spot_arm_controller'
+[INFO] [1738115035.443093599] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[INFO] [1738115035.443258774] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[INFO] [1738115035.469598840] [controller_manager]: Configuring controller 'spot_gripper_controller'
+[INFO] [1738115035.469787310] [spot_gripper_controller]: Action status changes will be monitored at 20Hz.
+[INFO] [1738115055.311691952] [rclcpp]: signal_handler(signum=2)

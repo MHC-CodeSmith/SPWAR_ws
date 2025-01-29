@@ -1,0 +1,73 @@
+[0.024s] Invoking command in '/home/developer/SPWAR_ws/src/spot_moveit_config/build/spot_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/developer/SPWAR_ws/src/spot_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/developer/SPWAR_ws/src/spot_moveit_config/install/spot_moveit_config
+[0.128s] -- The C compiler identification is GNU 11.4.0
+[0.230s] -- The CXX compiler identification is GNU 11.4.0
+[0.242s] -- Detecting C compiler ABI info
+[0.375s] -- Detecting C compiler ABI info - done
+[0.387s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.388s] -- Detecting C compile features
+[0.388s] -- Detecting C compile features - done
+[0.393s] -- Detecting CXX compiler ABI info
+[0.541s] -- Detecting CXX compiler ABI info - done
+[0.552s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.552s] -- Detecting CXX compile features
+[0.553s] -- Detecting CXX compile features - done
+[0.560s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.834s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.955s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.058s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.180s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.195s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.218s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.245s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.283s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.386s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.394s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.607s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.672s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.799s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.824s] -- Looking for pthread.h
+[1.976s] -- Looking for pthread.h - found
+[1.977s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.120s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.122s] -- Found Threads: TRUE  
+[2.234s] -- Found moveit_ros_planning_interface: 2.5.7 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[2.308s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[2.636s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.732s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.760s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.767s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.817s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[3.035s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.099s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.385s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[3.441s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[3.483s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[3.660s] -- Configuring done
+[3.715s] -- Generating done
+[3.720s] -- Build files have been written to: /home/developer/SPWAR_ws/src/spot_moveit_config/build/spot_moveit_config
+[3.746s] Invoked command in '/home/developer/SPWAR_ws/src/spot_moveit_config/build/spot_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/developer/SPWAR_ws/src/spot_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/developer/SPWAR_ws/src/spot_moveit_config/install/spot_moveit_config
+[3.748s] Invoking command in '/home/developer/SPWAR_ws/src/spot_moveit_config/build/spot_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/developer/SPWAR_ws/src/spot_moveit_config/build/spot_moveit_config -- -j16 -l16
+[3.857s] [ 50%] [32mBuilding CXX object CMakeFiles/move_to_target.dir/scripts/move_to_target.cpp.o[0m
+[9.186s] [01m[K/home/developer/SPWAR_ws/src/spot_moveit_config/scripts/move_to_target.cpp:[m[K In constructor ‘[01m[KMoveToTargetNode::MoveToTargetNode()[m[K’:
+[9.187s] [01m[K/home/developer/SPWAR_ws/src/spot_moveit_config/scripts/move_to_target.cpp:15:13:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[Kshared_from_this[m[K’ is ambiguous
+[9.187s]    15 |             [01;31m[Kshared_from_this[m[K(), "manipulator");
+[9.187s]       |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[9.187s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[9.187s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[9.187s]                  from [01m[K/home/developer/SPWAR_ws/src/spot_moveit_config/scripts/move_to_target.cpp:1[m[K:
+[9.187s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:811:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::shared_from_this() const [with _Tp = MoveToTargetNode][m[K’
+[9.187s]   811 |       [01;36m[Kshared_from_this[m[K() const
+[9.187s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[9.187s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:807:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::shared_from_this() [with _Tp = MoveToTargetNode][m[K’
+[9.187s]   807 |       [01;36m[Kshared_from_this[m[K()
+[9.187s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[9.187s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:811:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::shared_from_this() const [with _Tp = rclcpp::Node][m[K’
+[9.187s]   811 |       [01;36m[Kshared_from_this[m[K() const
+[9.187s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[9.187s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:807:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::shared_from_this() [with _Tp = rclcpp::Node][m[K’
+[9.187s]   807 |       [01;36m[Kshared_from_this[m[K()
+[9.188s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[13.428s] gmake[2]: *** [CMakeFiles/move_to_target.dir/build.make:76: CMakeFiles/move_to_target.dir/scripts/move_to_target.cpp.o] Error 1
+[13.428s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_to_target.dir/all] Error 2
+[13.429s] gmake: *** [Makefile:146: all] Error 2
+[13.431s] Invoked command in '/home/developer/SPWAR_ws/src/spot_moveit_config/build/spot_moveit_config' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/developer/SPWAR_ws/src/spot_moveit_config/build/spot_moveit_config -- -j16 -l16

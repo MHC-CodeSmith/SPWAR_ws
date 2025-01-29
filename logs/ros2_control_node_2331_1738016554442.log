@@ -1,0 +1,33 @@
+[WARN] [1738016554.518874798] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+[INFO] [1738016554.519327972] [resource_manager]: Loading hardware 'FakeSystem' 
+[INFO] [1738016554.520570187] [resource_manager]: Initialize hardware 'FakeSystem' 
+[INFO] [1738016554.520677522] [resource_manager]: Successful initialization of hardware 'FakeSystem'
+[INFO] [1738016554.520775579] [resource_manager]: 'configure' hardware 'FakeSystem' 
+[INFO] [1738016554.520794976] [resource_manager]: Successful 'configure' of hardware 'FakeSystem'
+[INFO] [1738016554.520804874] [resource_manager]: 'activate' hardware 'FakeSystem' 
+[INFO] [1738016554.520811707] [resource_manager]: Successful 'activate' of hardware 'FakeSystem'
+[INFO] [1738016554.527314362] [controller_manager]: update rate is 100 Hz
+[INFO] [1738016554.527353908] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[WARN] [1738016554.527461222] [controller_manager]: No real-time kernel detected on this system. See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[INFO] [1738016554.872710044] [controller_manager]: Loading controller 'spot_arm_controller'
+[ERROR] [1738016554.872771481] [controller_manager]: Loader for controller 'spot_arm_controller' (type 'joint_trajectory_controller/JointTrajectoryController') not found.
+[INFO] [1738016554.872778465] [controller_manager]: Available classes:
+[INFO] [1738016554.872784496] [controller_manager]:   controller_manager/test_controller
+[INFO] [1738016554.872789846] [controller_manager]:   controller_manager/test_controller_failed_init
+[INFO] [1738016554.872794165] [controller_manager]:   controller_manager/test_controller_with_interfaces
+[INFO] [1738016554.872799134] [controller_manager]:   controller_manager/test_chainable_controller
+[INFO] [1738016554.872868616] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[ERROR] [1738016554.872906459] [controller_manager]: Loader for controller 'joint_state_broadcaster' (type 'joint_state_broadcaster/JointStateBroadcaster') not found.
+[INFO] [1738016554.872912129] [controller_manager]: Available classes:
+[INFO] [1738016554.872916929] [controller_manager]:   controller_manager/test_controller
+[INFO] [1738016554.872924272] [controller_manager]:   controller_manager/test_controller_failed_init
+[INFO] [1738016554.872928120] [controller_manager]:   controller_manager/test_controller_with_interfaces
+[INFO] [1738016554.872932127] [controller_manager]:   controller_manager/test_chainable_controller
+[INFO] [1738016554.873040293] [controller_manager]: Loading controller 'spot_gripper_controller'
+[ERROR] [1738016554.873065922] [controller_manager]: Loader for controller 'spot_gripper_controller' (type 'position_controllers/GripperActionController') not found.
+[INFO] [1738016554.873073697] [controller_manager]: Available classes:
+[INFO] [1738016554.873081482] [controller_manager]:   controller_manager/test_controller
+[INFO] [1738016554.873087413] [controller_manager]:   controller_manager/test_controller_failed_init
+[INFO] [1738016554.873094166] [controller_manager]:   controller_manager/test_controller_with_interfaces
+[INFO] [1738016554.873101240] [controller_manager]:   controller_manager/test_chainable_controller
+[INFO] [1738016598.048458508] [rclcpp]: signal_handler(signum=2)

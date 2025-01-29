@@ -1,0 +1,22 @@
+[INFO] [1738161439.410418101] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1738161439.410498797] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1738161439.431665649] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1738161442.543810842] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [1738161442.557000671] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[ERROR] [1738161442.561633285] [rviz2]: PluginlibFactory: The plugin for class 'moveit_visual_tools/RvizVisualToolsGui' failed to load. Error: According to the loaded plugin descriptions the class moveit_visual_tools/RvizVisualToolsGui with base class type rviz_common::Panel does not exist. Declared types are  rviz_visual_tools/RvizVisualToolsGui
+[INFO] [1738161442.645642698] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0535197 seconds
+[INFO] [1738161442.645682985] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1738161442.645692774] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1738161442.688976707] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[INFO] [1738161442.816200289] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1738161442.816743084] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[INFO] [1738161442.878013785] [interactive_marker_display_104696488244528]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[WARN] [1738161442.882556385] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[WARN] [1738161442.882637221] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[INFO] [1738161442.887451674] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+[INFO] [1738161442.887488726] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'spot_arm' in namespace ''
+[INFO] [1738161442.893238689] [move_group_interface]: Ready to take commands for planning group spot_arm.
+[INFO] [1738161442.893932364] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+[INFO] [1738161442.898467280] [interactive_marker_display_104696488244528]: Sending request for interactive markers
+[INFO] [1738161442.932430378] [interactive_marker_display_104696488244528]: Service response received for initialization
+[INFO] [1738161469.744110324] [rclcpp]: signal_handler(signum=2)

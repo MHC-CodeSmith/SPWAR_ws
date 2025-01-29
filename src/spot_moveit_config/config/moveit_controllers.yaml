@@ -26,3 +26,4 @@ moveit_simple_controller_manager:
       - arm0.f1x
     action_ns: gripper_cmd
     default: true
+

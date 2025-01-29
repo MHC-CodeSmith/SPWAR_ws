@@ -1,0 +1,21 @@
+[INFO] [1738160923.243932948] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 1.02578 seconds
+[INFO] [1738160923.243996258] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1738160923.244004966] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1738160923.285058996] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738160923.285120884] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738160923.285134081] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738160923.285146006] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738160923.288665787] [moveit_ros.robot_model_loader]: No kinematics plugins defined. Fill and load kinematics.yaml!
+[INFO] [1738160923.299524871] [move_group_interface]: Ready to take commands for planning group spot_arm.
+[INFO] [1738160923.300355335] [hello_moveit.remote_control]: RemoteControl Ready.
+[INFO] [1738160923.305655580] [hello_moveit.remote_control]: [96mWaiting to continue: Press 'next' in the RvizVisualToolsGui window to plan[0m
+[INFO] [1738160936.657601262] [hello_moveit.remote_control]: [96m... continuing[0m
+[INFO] [1738160936.659681678] [hello_moveit.rviz_visual_tools]: Topic /rviz_visual_tools waiting 5 seconds for subscriber.
+[WARN] [1738160941.660381237] [hello_moveit.rviz_visual_tools]: Topic /rviz_visual_tools unable to connect to any subscribers within 5 sec. It is possible initially published visual messages will be lost.
+[INFO] [1738160941.660435890] [hello_moveit.rviz_visual_tools]: Topic /rviz_visual_tools waiting 5 seconds for subscriber.
+[WARN] [1738160946.663530191] [hello_moveit.rviz_visual_tools]: Topic /rviz_visual_tools unable to connect to any subscribers within 5 sec. It is possible initially published visual messages will be lost.
+[INFO] [1738160946.663781446] [move_group_interface]: MoveGroup action client/server ready
+[INFO] [1738160946.664400705] [move_group_interface]: Planning request accepted
+[INFO] [1738160951.952612289] [move_group_interface]: Planning request aborted
+[ERROR] [1738160951.953661396] [move_group_interface]: MoveGroupInterface::plan() failed or timeout reached
+[ERROR] [1738160951.953723133] [hello_moveit]: Planning failed!

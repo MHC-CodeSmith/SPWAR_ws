@@ -1,0 +1,10 @@
+[INFO] [1738162601.462489287] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1738162601.462580064] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1738162601.479529838] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1738162604.562774779] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [1738162604.572221862] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[ERROR] [1738162604.576306752] [rviz2]: PluginlibFactory: The plugin for class 'moveit_visual_tools/RvizVisualToolsGui' failed to load. Error: According to the loaded plugin descriptions the class moveit_visual_tools/RvizVisualToolsGui with base class type rviz_common::Panel does not exist. Declared types are  rviz_visual_tools/RvizVisualToolsGui
+[ERROR] [1738162614.613419986] [rviz]: Could not find parameter robot_description and did not receive robot_description via std_msgs::msg::String subscription within 10.000000 seconds.
+[INFO] [1738162624.635680457] [moveit_rdf_loader.rdf_loader]: Unable to parse URDF
+[ERROR] [1738162624.639949783] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Robot model not loaded
+[INFO] [1738162632.515301531] [rclcpp]: signal_handler(signum=2)

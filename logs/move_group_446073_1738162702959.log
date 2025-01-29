@@ -1,0 +1,2 @@
+[WARN] [1738162702.967770117] [move_group.move_group]: Falling back to using the the move_group node namespace (deprecated behavior).
+[INFO] [1738162711.242338540] [rclcpp]: signal_handler(signum=2)

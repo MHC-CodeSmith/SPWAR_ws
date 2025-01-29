@@ -1,0 +1,32 @@
+[INFO] [1738172983.207861184] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1738172983.208066020] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1738172983.231616294] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1738172986.345154808] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [1738172986.358126672] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[ERROR] [1738172986.363003557] [rviz2]: PluginlibFactory: The plugin for class 'moveit_visual_tools/RvizVisualToolsGui' failed to load. Error: According to the loaded plugin descriptions the class moveit_visual_tools/RvizVisualToolsGui with base class type rviz_common::Panel does not exist. Declared types are  rviz_visual_tools/RvizVisualToolsGui
+[INFO] [1738172986.460558168] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0659169 seconds
+[INFO] [1738172986.460660150] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1738172986.460681640] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[INFO] [1738172986.649397505] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1738172986.650507192] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[INFO] [1738172986.724157151] [interactive_marker_display_109958735776464]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[INFO] [1738172986.738356054] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+[INFO] [1738172986.738409595] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'spot_arm' in namespace ''
+[INFO] [1738172986.744156777] [move_group_interface]: Ready to take commands for planning group spot_arm.
+[INFO] [1738172986.744985977] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+[INFO] [1738172986.748926741] [interactive_marker_display_109958735776464]: Sending request for interactive markers
+[INFO] [1738172986.781020449] [interactive_marker_display_109958735776464]: Service response received for initialization
+[INFO] [1738174356.301092054] [move_group_interface]: Plan and Execute request accepted
+[INFO] [1738174359.904826012] [move_group_interface]: Plan and Execute request complete!
+[WARN] [1738174360.905322074] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Maybe failed to update robot state, time diff: 0.022s
+[ERROR] [1738174426.327480360] [moveit_ros_visualization.motion_planning_frame_manipulation]: Object recognition action server not responsive
+[INFO] [1738174432.270067451] [moveit_ros_robot_interaction.robot_interaction]: No active joints or end effectors found for group 'spot_gripper'. Make sure that kinematics.yaml is loaded in this node's namespace.
+[INFO] [1738174432.271109580] [moveit_ros_visualization.motion_planning_frame]: group spot_gripper
+[INFO] [1738174432.271137121] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'spot_gripper' in namespace ''
+[INFO] [1738174432.285556359] [move_group_interface]: Ready to take commands for planning group spot_gripper.
+[INFO] [1738174435.474628579] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+[INFO] [1738174435.474663173] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'spot_arm' in namespace ''
+[INFO] [1738174435.479965381] [move_group_interface]: Ready to take commands for planning group spot_arm.
+[INFO] [1738174445.114384004] [move_group_interface]: Plan and Execute request accepted
+[INFO] [1738174447.474761108] [move_group_interface]: Plan and Execute request complete!
+[INFO] [1738174513.975662914] [rclcpp]: signal_handler(signum=2)

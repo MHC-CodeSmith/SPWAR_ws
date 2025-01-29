@@ -1,0 +1,15 @@
+[INFO] [1738123419.509631871] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 1.04992 seconds
+[INFO] [1738123419.509749504] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1738123419.509772718] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1738123419.587458506] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738123419.587592230] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738123419.587614572] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738123419.587635181] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738123419.593872735] [moveit_ros.robot_model_loader]: No kinematics plugins defined. Fill and load kinematics.yaml!
+[INFO] [1738123419.612827094] [move_group_interface]: Ready to take commands for planning group spot_arm.
+[INFO] [1738123419.612985935] [move_group_interface]: MoveGroup action client/server ready
+[INFO] [1738123419.614096370] [move_group_interface]: Planning request accepted
+[INFO] [1738123419.663634352] [move_group_interface]: Planning request complete!
+[INFO] [1738123419.664002029] [move_group_interface]: time taken to generate plan: 0.0325578 seconds
+[INFO] [1738123419.664845077] [move_group_interface]: Execute request accepted
+[INFO] [1738123423.999075682] [move_group_interface]: Execute request success!

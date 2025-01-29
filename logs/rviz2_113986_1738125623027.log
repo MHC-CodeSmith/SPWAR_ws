@@ -1,0 +1,7 @@
+[INFO] [1738125623.364412180] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1738125623.364515982] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1738125623.380361242] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1738125626.453138653] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [1738125626.461518469] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[ERROR] [1738125626.464964151] [rviz2]: PluginlibFactory: The plugin for class 'moveit_visual_tools/RvizVisualToolsGui' failed to load. Error: According to the loaded plugin descriptions the class moveit_visual_tools/RvizVisualToolsGui with base class type rviz_common::Panel does not exist. Declared types are  rviz_visual_tools/RvizVisualToolsGui
+[INFO] [1738125634.251000226] [rclcpp]: signal_handler(signum=2)

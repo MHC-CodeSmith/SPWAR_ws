@@ -1,0 +1,27 @@
+[0.013s] Invoking command in '/home/developer/SPWAR_ws/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/developer/SPWAR_ws/build/hello_moveit -- -j16 -l16
+[0.093s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[7.130s] [01m[K/home/developer/SPWAR_ws/src/hello_moveit/src/hello_moveit.cpp:[m[K In member function ‘[01m[Kvoid MoveItNode::initialize()[m[K’:
+[7.130s] [01m[K/home/developer/SPWAR_ws/src/hello_moveit/src/hello_moveit.cpp:16:28:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[Kshared_from_this[m[K’ is ambiguous
+[7.130s]    16 |         auto node_shared = [01;31m[Kshared_from_this[m[K();  // Agora é seguro chamar
+[7.130s]       |                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[7.130s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[7.130s]                  from [01m[K/opt/ros/humble/include/moveit/macros/declare_ptr.h:37[m[K,
+[7.130s]                  from [01m[K/opt/ros/humble/include/moveit/macros/class_forward.h:39[m[K,
+[7.130s]                  from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:40[m[K,
+[7.130s]                  from [01m[K/home/developer/SPWAR_ws/src/hello_moveit/src/hello_moveit.cpp:1[m[K:
+[7.130s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:811:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::shared_from_this() const [with _Tp = MoveItNode][m[K’
+[7.130s]   811 |       [01;36m[Kshared_from_this[m[K() const
+[7.130s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[7.131s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:807:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::shared_from_this() [with _Tp = MoveItNode][m[K’
+[7.131s]   807 |       [01;36m[Kshared_from_this[m[K()
+[7.131s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[7.131s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:811:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::shared_from_this() const [with _Tp = rclcpp::Node][m[K’
+[7.131s]   811 |       [01;36m[Kshared_from_this[m[K() const
+[7.131s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[7.131s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:807:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::shared_from_this() [with _Tp = rclcpp::Node][m[K’
+[7.131s]   807 |       [01;36m[Kshared_from_this[m[K()
+[7.131s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[9.277s] gmake[2]: *** [CMakeFiles/hello_moveit.dir/build.make:76: CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o] Error 1
+[9.277s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_moveit.dir/all] Error 2
+[9.277s] gmake: *** [Makefile:146: all] Error 2
+[9.280s] Invoked command in '/home/developer/SPWAR_ws/build/hello_moveit' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/developer/SPWAR_ws/build/hello_moveit -- -j16 -l16

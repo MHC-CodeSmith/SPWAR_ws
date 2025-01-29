@@ -1,0 +1,20 @@
+[INFO] [1738124503.845158762] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 1.03835 seconds
+[INFO] [1738124503.845274551] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1738124503.845314727] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1738124503.845817608] [moveit_robot_model.robot_model]: Link arm0.link_sh0 has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738124503.846132583] [moveit_robot_model.robot_model]: Link arm0.link_sh1 has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738124503.846312713] [moveit_robot_model.robot_model]: Link arm0.link_el0 has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738124503.846498675] [moveit_robot_model.robot_model]: Link arm0.link_el1 has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738124503.846621858] [moveit_robot_model.robot_model]: Link arm0.link_wr0 has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738124503.846801177] [moveit_robot_model.robot_model]: Link arm0.link_wr1 has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738124503.846988761] [moveit_robot_model.robot_model]: Link arm0.link_fngr has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738124503.847017505] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738124503.847047722] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738124503.847090093] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738124503.847145487] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738124503.859840401] [moveit_ros.robot_model_loader]: No kinematics plugins defined. Fill and load kinematics.yaml!
+[INFO] [1738124503.888673096] [move_group_interface]: Ready to take commands for planning group spot_arm.
+[INFO] [1738124503.890170736] [hello_moveit.remote_control]: RemoteControl Ready.
+[ERROR] [1738124503.890234587] [moveit_robot_model.robot_model]: Group 'manipulator' not found in model 'spot'
+[INFO] [1738124503.903869147] [hello_moveit.remote_control]: [96mWaiting to continue: Press 'next' in the RvizVisualToolsGui window to plan[0m
+[INFO] [1738124576.105711252] [rclcpp]: signal_handler(signum=2)

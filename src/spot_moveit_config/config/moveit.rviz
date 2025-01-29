@@ -1,6 +1,8 @@
 Panels:
   - Class: rviz_common/Displays
     Name: Displays
+  - Class: moveit_visual_tools/RvizVisualToolsGui
+    Name: RvizVisualToolsGui  # Adiciona o painel do Visual Tools
     Property Tree Widget:
       Expanded:
         - /MotionPlanning1
@@ -8,6 +10,8 @@ Panels:
     Name: Help
   - Class: rviz_common/Views
     Name: Views
+
+
 Visualization Manager:
   Displays:
     - Class: rviz_default_plugins/Grid

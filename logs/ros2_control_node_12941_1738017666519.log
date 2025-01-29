@@ -1,0 +1,18 @@
+[WARN] [1738017666.557844597] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+[INFO] [1738017666.558542594] [resource_manager]: Loading hardware 'FakeSystem' 
+[INFO] [1738017666.559314388] [resource_manager]: Initialize hardware 'FakeSystem' 
+[INFO] [1738017666.559418578] [resource_manager]: Successful initialization of hardware 'FakeSystem'
+[INFO] [1738017666.559515195] [resource_manager]: 'configure' hardware 'FakeSystem' 
+[INFO] [1738017666.559534110] [resource_manager]: Successful 'configure' of hardware 'FakeSystem'
+[INFO] [1738017666.559549618] [resource_manager]: 'activate' hardware 'FakeSystem' 
+[INFO] [1738017666.559560258] [resource_manager]: Successful 'activate' of hardware 'FakeSystem'
+[INFO] [1738017666.568178046] [controller_manager]: update rate is 100 Hz
+[INFO] [1738017666.568231083] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[WARN] [1738017666.568444544] [controller_manager]: No real-time kernel detected on this system. See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[INFO] [1738017666.832472442] [controller_manager]: Loading controller 'spot_gripper_controller'
+[INFO] [1738017666.850884833] [controller_manager]: Loading controller 'spot_arm_controller'
+[ERROR] [1738017666.862834482] [controller_manager]: Could not initialize the controller named 'spot_arm_controller'
+[ERROR] [1738017666.867642875] [controller_manager]: The 'type' param was not defined for 'joint_state_broadcaster'.
+[INFO] [1738017666.880169651] [controller_manager]: Configuring controller 'spot_gripper_controller'
+[INFO] [1738017666.880442290] [spot_gripper_controller]: Action status changes will be monitored at 20Hz.
+[INFO] [1738017696.516297539] [rclcpp]: signal_handler(signum=2)

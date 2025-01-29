@@ -1,0 +1,22 @@
+[WARN] [1738158712.232094714] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[INFO] [1738158712.232314650] [robot_state_publisher]: got segment arm0.link_el0
+[INFO] [1738158712.232380322] [robot_state_publisher]: got segment arm0.link_el1
+[INFO] [1738158712.232391262] [robot_state_publisher]: got segment arm0.link_fngr
+[INFO] [1738158712.232399838] [robot_state_publisher]: got segment arm0.link_sh0
+[INFO] [1738158712.232408053] [robot_state_publisher]: got segment arm0.link_sh1
+[INFO] [1738158712.232416258] [robot_state_publisher]: got segment arm0.link_wr0
+[INFO] [1738158712.232423852] [robot_state_publisher]: got segment arm0.link_wr1
+[INFO] [1738158712.232431867] [robot_state_publisher]: got segment base
+[INFO] [1738158712.232439571] [robot_state_publisher]: got segment fl.hip
+[INFO] [1738158712.232447085] [robot_state_publisher]: got segment fl.lleg
+[INFO] [1738158712.232454269] [robot_state_publisher]: got segment fl.uleg
+[INFO] [1738158712.232475568] [robot_state_publisher]: got segment fr.hip
+[INFO] [1738158712.232494142] [robot_state_publisher]: got segment fr.lleg
+[INFO] [1738158712.232501736] [robot_state_publisher]: got segment fr.uleg
+[INFO] [1738158712.232508519] [robot_state_publisher]: got segment hl.hip
+[INFO] [1738158712.232516123] [robot_state_publisher]: got segment hl.lleg
+[INFO] [1738158712.232522856] [robot_state_publisher]: got segment hl.uleg
+[INFO] [1738158712.232528917] [robot_state_publisher]: got segment hr.hip
+[INFO] [1738158712.232533185] [robot_state_publisher]: got segment hr.lleg
+[INFO] [1738158712.232536982] [robot_state_publisher]: got segment hr.uleg
+[INFO] [1738158889.617691472] [rclcpp]: signal_handler(signum=2)

@@ -1,0 +1,13 @@
+[INFO] [1738124287.549461278] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 1.04175 seconds
+[INFO] [1738124287.549561498] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1738124287.549576176] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1738124287.630341367] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738124287.630419064] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738124287.630441887] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738124287.630468888] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738124287.637566024] [moveit_ros.robot_model_loader]: No kinematics plugins defined. Fill and load kinematics.yaml!
+[INFO] [1738124287.661215993] [move_group_interface]: Ready to take commands for planning group spot_arm.
+[INFO] [1738124287.662712472] [hello_moveit.remote_control]: RemoteControl Ready.
+[ERROR] [1738124287.662765592] [moveit_robot_model.robot_model]: Group 'manipulator' not found in model 'spot'
+[INFO] [1738124287.675478004] [hello_moveit.remote_control]: [96mWaiting to continue: Press 'next' in the RvizVisualToolsGui window to plan[0m
+[INFO] [1738124295.509683375] [rclcpp]: signal_handler(signum=2)

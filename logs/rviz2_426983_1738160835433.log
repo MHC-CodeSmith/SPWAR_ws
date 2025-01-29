@@ -1,0 +1,29 @@
+[INFO] [1738160836.073802544] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1738160836.073884389] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1738160836.098601097] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1738160839.212077566] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [1738160839.227350597] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[ERROR] [1738160839.231862367] [rviz2]: PluginlibFactory: The plugin for class 'moveit_visual_tools/RvizVisualToolsGui' failed to load. Error: According to the loaded plugin descriptions the class moveit_visual_tools/RvizVisualToolsGui with base class type rviz_common::Panel does not exist. Declared types are  rviz_visual_tools/RvizVisualToolsGui
+[INFO] [1738160839.329950695] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0655218 seconds
+[INFO] [1738160839.329985078] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1738160839.329994297] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1738160839.368261922] [moveit_robot_model.robot_model]: Link fl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738160839.368326299] [moveit_robot_model.robot_model]: Link fr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738160839.368340469] [moveit_robot_model.robot_model]: Link hl.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738160839.368353837] [moveit_robot_model.robot_model]: Link hr.hip has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1738160839.374278840] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[INFO] [1738160839.487994743] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1738160839.488487370] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[INFO] [1738160839.556266619] [interactive_marker_display_100970441056592]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[WARN] [1738160839.561552975] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[WARN] [1738160839.561653559] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[INFO] [1738160839.568540226] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+[INFO] [1738160839.568572384] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'spot_arm' in namespace ''
+[INFO] [1738160839.574534847] [move_group_interface]: Ready to take commands for planning group spot_arm.
+[INFO] [1738160839.575456406] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+[INFO] [1738160839.578290289] [interactive_marker_display_100970441056592]: Sending request for interactive markers
+[INFO] [1738160839.611711152] [interactive_marker_display_100970441056592]: Service response received for initialization
+[INFO] [1738160850.312571525] [move_group_interface]: Plan and Execute request accepted
+[INFO] [1738160853.576272129] [move_group_interface]: Plan and Execute request complete!
+[WARN] [1738160854.576839026] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Maybe failed to update robot state, time diff: 0.012s
+[INFO] [1738160892.399541306] [rclcpp]: signal_handler(signum=2)

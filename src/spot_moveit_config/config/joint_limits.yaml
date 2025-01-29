@@ -10,36 +10,36 @@ default_acceleration_scaling_factor: 0.1
 joint_limits:
   arm0.el0:
     has_velocity_limits: true
-    max_velocity: 10.0   # Certifique-se de usar ponto flutuante
+    max_velocity: 10.10   # Certifique-se de usar ponto flutuante
     has_acceleration_limits: true
-    max_acceleration: 5.0
+    max_acceleration: 5.10
   arm0.el1:
     has_velocity_limits: true
-    max_velocity: 10.0   # Certifique-se de usar ponto flutuante
+    max_velocity: 10.10   # Certifique-se de usar ponto flutuante
     has_acceleration_limits: true
-    max_acceleration: 5.0
+    max_acceleration: 5.10
   arm0.f1x:
     has_velocity_limits: true
-    max_velocity: 10.0   # Certifique-se de usar ponto flutuante
+    max_velocity: 10.10  # Certifique-se de usar ponto flutuante
     has_acceleration_limits: true
-    max_acceleration: 5.0
+    max_acceleration: 5.10
   arm0.sh0:
     has_velocity_limits: true
-    max_velocity: 10.0   # Certifique-se de usar ponto flutuante
+    max_velocity: 10.10   # Certifique-se de usar ponto flutuante
     has_acceleration_limits: true
-    max_acceleration: 5.0
+    max_acceleration: 5.10
   arm0.sh1:
     has_velocity_limits: true
-    max_velocity: 10.0   # Certifique-se de usar ponto flutuante
+    max_velocity: 10.10   # Certifique-se de usar ponto flutuante
     has_acceleration_limits: true
-    max_acceleration: 5.0
+    max_acceleration: 5.10
   arm0.wr0:
     has_velocity_limits: true
-    max_velocity: 10.0   # Certifique-se de usar ponto flutuante
+    max_velocity: 10.10   # Certifique-se de usar ponto flutuante
     has_acceleration_limits: true
-    max_acceleration: 5.0
+    max_acceleration: 5.10
   arm0.wr1:
     has_velocity_limits: true
-    max_velocity: 10.0   # Certifique-se de usar ponto flutuante
+    max_velocity: 10.10   # Certifique-se de usar ponto flutuante
     has_acceleration_limits: true
-    max_acceleration: 5.0
+    max_acceleration: 5.10
