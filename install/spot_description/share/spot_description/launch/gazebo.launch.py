@@ -1,1 +1,0 @@
-/home/developer/SPWAR_ws/src/spot_description/launch/gazebo.launch.py

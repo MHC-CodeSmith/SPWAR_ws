@@ -1,6 +1,0 @@
-Invoking command in '/home/developer/SPWAR_ws/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/developer/SPWAR_ws/src/hello_moveit -DCMAKE_INSTALL_PREFIX=/home/developer/SPWAR_ws/install/hello_moveit
-Invoked command in '/home/developer/SPWAR_ws/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/developer/SPWAR_ws/src/hello_moveit -DCMAKE_INSTALL_PREFIX=/home/developer/SPWAR_ws/install/hello_moveit
-Invoking command in '/home/developer/SPWAR_ws/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/developer/SPWAR_ws/build/hello_moveit -- -j16 -l16
-Invoked command in '/home/developer/SPWAR_ws/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/developer/SPWAR_ws/build/hello_moveit -- -j16 -l16
-Invoking command in '/home/developer/SPWAR_ws/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/developer/SPWAR_ws/build/hello_moveit
-Invoked command in '/home/developer/SPWAR_ws/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/developer/SPWAR_ws/build/hello_moveit
