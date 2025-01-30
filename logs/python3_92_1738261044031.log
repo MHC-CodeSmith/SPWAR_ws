@@ -1,0 +1,3 @@
+[INFO] [1738261044.161875838] [spawner_spot_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[INFO] [1738261044.935412112] [spawner_spot_gripper_controller]: [94mLoaded [1mspot_gripper_controller[0m
+[INFO] [1738261044.964960968] [spawner_spot_gripper_controller]: [92mConfigured and activated [1mspot_gripper_controller[0m

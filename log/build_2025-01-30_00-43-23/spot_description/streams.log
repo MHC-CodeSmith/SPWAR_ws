@@ -1,0 +1,42 @@
+[0.041s] Invoking command in '/home/developer/SPWAR_ws/build/spot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/developer/SPWAR_ws/build/spot_description -- -j16 -l16
+[0.251s] Invoked command in '/home/developer/SPWAR_ws/build/spot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/developer/SPWAR_ws/build/spot_description -- -j16 -l16
+[0.319s] Invoking command in '/home/developer/SPWAR_ws/build/spot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/developer/SPWAR_ws/build/spot_description
+[0.333s] -- Install configuration: ""
+[0.335s] -- Execute custom install script
+[0.338s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/urdf/simple_robot.urdf
+[0.338s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/urdf/spot_with_arm.urdf
+[0.340s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/arm0.link_el0.stl
+[0.340s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/arm0.link_el1.stl
+[0.341s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/arm0.link_fngr.stl
+[0.341s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/arm0.link_hr0.stl
+[0.342s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/arm0.link_sh0.stl
+[0.342s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/arm0.link_sh1.stl
+[0.343s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/arm0.link_wr0.stl
+[0.343s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/arm0.link_wr1.stl
+[0.343s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/base_link_0_geom_visual_mesh.stl
+[0.344s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/fl_hip_0_geom_visual_mesh.stl
+[0.344s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/fr_hip_0_geom_visual_mesh.stl
+[0.344s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/hl_hip_0_geom_visual_mesh.stl
+[0.345s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/hr_hip_0_geom_visual_mesh.stl
+[0.345s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/l_uleg_0_geom_visual_mesh.stl
+[0.345s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/lleg_0_geom_visual_mesh.stl
+[0.346s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/meshes/r_uleg_0_geom_visual_mesh.stl
+[0.347s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/launch/display.launch.py
+[0.347s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/launch/gazebo.launch.py
+[0.348s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/launch/spot_moveit_rviz.launch.py
+[0.348s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/ament_index/resource_index/package_run_dependencies/spot_description
+[0.349s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/ament_index/resource_index/parent_prefix_path/spot_description
+[0.350s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/environment/ament_prefix_path.sh
+[0.350s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/environment/ament_prefix_path.dsv
+[0.350s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/environment/path.sh
+[0.351s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/environment/path.dsv
+[0.351s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/local_setup.bash
+[0.352s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/local_setup.sh
+[0.352s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/local_setup.zsh
+[0.353s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/local_setup.dsv
+[0.353s] -- Symlinking: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/package.dsv
+[0.371s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/ament_index/resource_index/packages/spot_description
+[0.371s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/cmake/spot_descriptionConfig.cmake
+[0.372s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/cmake/spot_descriptionConfig-version.cmake
+[0.372s] -- Up-to-date symlink: /home/developer/SPWAR_ws/install/spot_description/share/spot_description/package.xml
+[0.376s] Invoked command in '/home/developer/SPWAR_ws/build/spot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/developer/SPWAR_ws/build/spot_description

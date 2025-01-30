@@ -1,0 +1,19 @@
+[INFO] [1738261044.482162741] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1738261044.482280784] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1738261044.566121911] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1738261047.758031539] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [1738261047.779297404] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[ERROR] [1738261047.787726919] [rviz2]: PluginlibFactory: The plugin for class 'moveit_visual_tools/RvizVisualToolsGui' failed to load. Error: According to the loaded plugin descriptions the class moveit_visual_tools/RvizVisualToolsGui with base class type rviz_common::Panel does not exist. Declared types are  rviz_visual_tools/RvizVisualToolsGui
+[INFO] [1738261047.925005931] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0820043 seconds
+[INFO] [1738261047.925068110] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1738261047.925092424] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[INFO] [1738261048.243652328] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1738261048.244448562] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[INFO] [1738261048.360778991] [interactive_marker_display_108359490142656]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[INFO] [1738261048.381048964] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+[INFO] [1738261048.381076505] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'spot_arm' in namespace ''
+[INFO] [1738261048.392963352] [move_group_interface]: Ready to take commands for planning group spot_arm.
+[INFO] [1738261048.394505399] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+[INFO] [1738261048.401623867] [interactive_marker_display_108359490142656]: Sending request for interactive markers
+[INFO] [1738261048.433996658] [interactive_marker_display_108359490142656]: Service response received for initialization
+[INFO] [1738261113.217350104] [rclcpp]: signal_handler(signum=2)

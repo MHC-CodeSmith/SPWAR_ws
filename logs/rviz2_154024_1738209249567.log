@@ -1,0 +1,26 @@
+[INFO] [1738209250.319280608] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1738209250.319457594] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1738209250.358930768] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1738209253.507160087] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [1738209253.528074646] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[ERROR] [1738209253.537572874] [rviz2]: PluginlibFactory: The plugin for class 'moveit_visual_tools/RvizVisualToolsGui' failed to load. Error: According to the loaded plugin descriptions the class moveit_visual_tools/RvizVisualToolsGui with base class type rviz_common::Panel does not exist. Declared types are  rviz_visual_tools/RvizVisualToolsGui
+[INFO] [1738209253.654212766] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0854347 seconds
+[INFO] [1738209253.654290614] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1738209253.654307335] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[INFO] [1738209253.983932698] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1738209253.984719820] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[INFO] [1738209254.108851198] [interactive_marker_display_99601882382208]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[INFO] [1738209254.127259288] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+[INFO] [1738209254.127305005] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'spot_arm' in namespace ''
+[INFO] [1738209254.141479463] [move_group_interface]: Ready to take commands for planning group spot_arm.
+[INFO] [1738209254.144004618] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+[INFO] [1738209254.148132410] [interactive_marker_display_99601882382208]: Sending request for interactive markers
+[INFO] [1738209254.180870623] [interactive_marker_display_99601882382208]: Service response received for initialization
+[INFO] [1738209258.465697639] [move_group_interface]: MoveGroup action client/server ready
+[INFO] [1738209258.466766505] [move_group_interface]: Planning request accepted
+[INFO] [1738209258.506657453] [move_group_interface]: Planning request complete!
+[INFO] [1738209258.507163662] [move_group_interface]: time taken to generate plan: 0.0231962 seconds
+[INFO] [1738209260.766508714] [move_group_interface]: Plan and Execute request accepted
+[INFO] [1738209263.996860005] [move_group_interface]: Plan and Execute request complete!
+[WARN] [1738209264.997389455] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Maybe failed to update robot state, time diff: 0.072s
+[INFO] [1738209320.922110225] [rclcpp]: signal_handler(signum=2)

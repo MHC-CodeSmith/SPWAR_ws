@@ -1,0 +1,5 @@
+1738207844.5443618 [INFO] [launch]: All log files can be found below /home/developer/SPWAR_ws/logs/2025-01-30-00-30-44-542134-9ef4994ef6ac-139393
+1738207844.5446744 [INFO] [launch]: Default logging verbosity is set to INFO
+1738207844.6652195 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+ - TypeError: Failed to normalize given item of type '<class 'dict'>', when only 'str' or 'launch.Substitution' were expected.
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown

@@ -1,0 +1,5 @@
+1738246500.6971679 [INFO] [launch]: All log files can be found below /home/developer/SPWAR_ws/logs/2025-01-30-11-15-00-696002-9ef4994ef6ac-483398
+1738246500.6973443 [INFO] [launch]: Default logging verbosity is set to INFO
+1738246500.8227098 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+ - NameError: name 'move_group_demo' is not defined
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown

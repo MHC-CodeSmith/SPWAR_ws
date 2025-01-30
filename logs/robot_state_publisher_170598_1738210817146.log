@@ -1,0 +1,21 @@
+[INFO] [1738210817.225083063] [robot_state_publisher]: got segment arm0.link_el0
+[INFO] [1738210817.225267726] [robot_state_publisher]: got segment arm0.link_el1
+[INFO] [1738210817.225276433] [robot_state_publisher]: got segment arm0.link_fngr
+[INFO] [1738210817.225283205] [robot_state_publisher]: got segment arm0.link_sh0
+[INFO] [1738210817.225289337] [robot_state_publisher]: got segment arm0.link_sh1
+[INFO] [1738210817.225295458] [robot_state_publisher]: got segment arm0.link_wr0
+[INFO] [1738210817.225302401] [robot_state_publisher]: got segment arm0.link_wr1
+[INFO] [1738210817.225308352] [robot_state_publisher]: got segment base
+[INFO] [1738210817.225314604] [robot_state_publisher]: got segment fl.hip
+[INFO] [1738210817.225320134] [robot_state_publisher]: got segment fl.lleg
+[INFO] [1738210817.225326886] [robot_state_publisher]: got segment fl.uleg
+[INFO] [1738210817.225332747] [robot_state_publisher]: got segment fr.hip
+[INFO] [1738210817.225338127] [robot_state_publisher]: got segment fr.lleg
+[INFO] [1738210817.225344199] [robot_state_publisher]: got segment fr.uleg
+[INFO] [1738210817.225349929] [robot_state_publisher]: got segment hl.hip
+[INFO] [1738210817.225356902] [robot_state_publisher]: got segment hl.lleg
+[INFO] [1738210817.225365067] [robot_state_publisher]: got segment hl.uleg
+[INFO] [1738210817.225373533] [robot_state_publisher]: got segment hr.hip
+[INFO] [1738210817.225381869] [robot_state_publisher]: got segment hr.lleg
+[INFO] [1738210817.225390394] [robot_state_publisher]: got segment hr.uleg
+[INFO] [1738241102.383139678] [rclcpp]: signal_handler(signum=2)

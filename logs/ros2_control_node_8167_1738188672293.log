@@ -1,0 +1,29 @@
+[WARN] [1738188672.339507632] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+[INFO] [1738188672.339998575] [resource_manager]: Loading hardware 'FakeSystem' 
+[INFO] [1738188672.340684149] [resource_manager]: Initialize hardware 'FakeSystem' 
+[INFO] [1738188672.340743085] [resource_manager]: Successful initialization of hardware 'FakeSystem'
+[INFO] [1738188672.340840435] [resource_manager]: 'configure' hardware 'FakeSystem' 
+[INFO] [1738188672.341359032] [resource_manager]: Successful 'configure' of hardware 'FakeSystem'
+[INFO] [1738188672.341381396] [resource_manager]: 'activate' hardware 'FakeSystem' 
+[INFO] [1738188672.341389532] [resource_manager]: Successful 'activate' of hardware 'FakeSystem'
+[INFO] [1738188672.347331663] [controller_manager]: update rate is 100 Hz
+[INFO] [1738188672.347399586] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[WARN] [1738188672.347537807] [controller_manager]: No real-time kernel detected on this system. See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[INFO] [1738188672.664687968] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[INFO] [1738188672.678100876] [controller_manager]: Loading controller 'spot_arm_controller'
+[WARN] [1738188672.692179771] [spot_arm_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[INFO] [1738188672.698010232] [controller_manager]: Loading controller 'spot_gripper_controller'
+[INFO] [1738188672.708135445] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[INFO] [1738188672.708340747] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[INFO] [1738188672.721055266] [controller_manager]: Configuring controller 'spot_arm_controller'
+[INFO] [1738188672.721384171] [spot_arm_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1738188672.721438267] [spot_arm_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[INFO] [1738188672.721535468] [spot_arm_controller]: Using 'splines' interpolation method.
+[INFO] [1738188672.722802582] [spot_arm_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1738188672.725104766] [spot_arm_controller]: Action status changes will be monitored at 20.00 Hz.
+[INFO] [1738188672.737953388] [controller_manager]: Configuring controller 'spot_gripper_controller'
+[INFO] [1738188672.738060027] [spot_gripper_controller]: Action status changes will be monitored at 20Hz.
+[INFO] [1738188681.619007900] [spot_arm_controller]: Received new action goal
+[INFO] [1738188681.619078184] [spot_arm_controller]: Accepted new action goal
+[INFO] [1738188684.587668701] [spot_arm_controller]: Goal reached, success!
+[INFO] [1738188812.935703389] [rclcpp]: signal_handler(signum=2)

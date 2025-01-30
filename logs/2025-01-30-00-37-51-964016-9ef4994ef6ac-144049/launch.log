@@ -1,0 +1,3 @@
+1738208271.9655833 [INFO] [launch]: All log files can be found below /home/developer/SPWAR_ws/logs/2025-01-30-00-37-51-964016-9ef4994ef6ac-144049
+1738208271.9657979 [INFO] [launch]: Default logging verbosity is set to INFO
+1738208272.1410491 [ERROR] [launch]: Caught exception in launch (see debug for traceback): package 'moveit_ros_planning_interface' found at '/opt/ros/humble', but libexec directory '/opt/ros/humble/lib/moveit_ros_planning_interface' does not exist

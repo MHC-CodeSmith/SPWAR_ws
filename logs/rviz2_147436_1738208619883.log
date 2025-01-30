@@ -1,0 +1,23 @@
+[INFO] [1738208620.768767542] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1738208620.768924247] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1738208620.814043723] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1738208624.046772303] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [1738208624.067534631] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[ERROR] [1738208624.077351932] [rviz2]: PluginlibFactory: The plugin for class 'moveit_visual_tools/RvizVisualToolsGui' failed to load. Error: According to the loaded plugin descriptions the class moveit_visual_tools/RvizVisualToolsGui with base class type rviz_common::Panel does not exist. Declared types are  rviz_visual_tools/RvizVisualToolsGui
+[INFO] [1738208624.191778177] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0847798 seconds
+[INFO] [1738208624.191855673] [moveit_robot_model.robot_model]: Loading robot model 'spot'...
+[INFO] [1738208624.191871193] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[ERROR] [1738208624.283198496] [kinematics_plugin_loader]: The kinematics plugin (spot_arm) failed to load. Error: According to the loaded plugin descriptions the class trac_ik_kinematics_plugin/TRAC_IKKinematicsPlugin with base class type kinematics::KinematicsBase does not exist. Declared types are  cached_ik_kinematics_plugin/CachedKDLKinematicsPlugin cached_ik_kinematics_plugin/CachedSrvKinematicsPlugin kdl_kinematics_plugin/KDLKinematicsPlugin lma_kinematics_plugin/LMAKinematicsPlugin prbt_manipulator/IKFastKinematicsPlugin srv_kinematics_plugin/SrvKinematicsPlugin
+[ERROR] [1738208624.283284748] [moveit_ros.robot_model_loader]: Kinematics solver could not be instantiated for joint group spot_arm.
+[INFO] [1738208624.492703865] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1738208624.493623117] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[INFO] [1738208624.620654357] [interactive_marker_display_95864685850160]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[INFO] [1738208624.630510361] [moveit_ros_robot_interaction.robot_interaction]: No active joints or end effectors found for group 'spot_arm'. Make sure that kinematics.yaml is loaded in this node's namespace.
+[INFO] [1738208624.632185268] [moveit_ros_robot_interaction.robot_interaction]: No active joints or end effectors found for group 'spot_arm'. Make sure that kinematics.yaml is loaded in this node's namespace.
+[INFO] [1738208624.644877888] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+[INFO] [1738208624.644907393] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'spot_arm' in namespace ''
+[INFO] [1738208624.656067486] [move_group_interface]: Ready to take commands for planning group spot_arm.
+[INFO] [1738208624.656863556] [moveit_ros_visualization.motion_planning_frame]: group spot_arm
+[INFO] [1738208624.662426981] [interactive_marker_display_95864685850160]: Sending request for interactive markers
+[INFO] [1738208624.694565999] [interactive_marker_display_95864685850160]: Service response received for initialization
+[INFO] [1738208649.582699359] [rclcpp]: signal_handler(signum=2)
