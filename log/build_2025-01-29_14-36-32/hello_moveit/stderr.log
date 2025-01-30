@@ -1,4 +1,0 @@
-[01m[K/home/developer/SPWAR_ws/src/hello_moveit/src/hello_moveit.cpp:[m[K In member function ‘[01m[Kbool MoveItNode::isColliding(const Pose&)[m[K’:
-[01m[K/home/developer/SPWAR_ws/src/hello_moveit/src/hello_moveit.cpp:40:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktarget_pose[m[K’ [[01;35m[K-Wunused-parameter[m[K]
-   40 |     bool isColliding([01;35m[Kconst geometry_msgs::msg::Pose& target_pose[m[K) {
-      |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K

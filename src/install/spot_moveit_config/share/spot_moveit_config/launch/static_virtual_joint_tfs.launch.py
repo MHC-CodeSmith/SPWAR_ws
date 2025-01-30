@@ -1,1 +1,0 @@
-/home/developer/SPWAR_ws/src/spot_moveit_config/launch/static_virtual_joint_tfs.launch.py

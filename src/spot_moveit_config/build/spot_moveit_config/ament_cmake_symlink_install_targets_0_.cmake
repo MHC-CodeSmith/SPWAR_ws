@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/developer/SPWAR_ws/src/spot_moveit_config/build/spot_moveit_config/move_to_target" "TARGETS" "move_to_target" "DESTINATION" "lib/spot_moveit_config")

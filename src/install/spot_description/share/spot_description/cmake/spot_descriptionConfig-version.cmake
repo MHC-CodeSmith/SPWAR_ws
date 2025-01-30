@@ -1,1 +1,0 @@
-/home/developer/SPWAR_ws/src/build/spot_description/ament_cmake_core/spot_descriptionConfig-version.cmake
