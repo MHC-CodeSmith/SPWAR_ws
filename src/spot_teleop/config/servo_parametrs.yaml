@@ -1,0 +1,10 @@
+moveit_servo:
+  servo_rate: 100
+  command_in_type: "pose"
+  cartesian_command_in_topic: "/servo_server/pose_cmds"
+  joint_command_out_topic: "/servo_server/joint_cmds"
+  robot_link_command_frame: "base"
+  publish_period: 0.01
+  check_collisions: true
+  use_smoothing: true
+  low_pass_filter_coeff: 1.5

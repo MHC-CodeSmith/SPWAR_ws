@@ -15,8 +15,8 @@ def generate_launch_description():
         )
 
         move_group_demo = Node(
-            package="hello_moveit",
-            executable="hello_moveit",
+            package="spot_teleop",
+            executable="spot_teleop",
             output="screen",
             parameters=[
                 moveit_config.to_dict()  # Garante que os parâmetros sejam passados corretamente
